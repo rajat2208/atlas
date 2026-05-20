@@ -1,12 +1,14 @@
-"""Run the Signal Agent's Hidden Churn detector against one or more accounts.
+"""Run the Signal Agent's per-account detectors against one or more accounts.
 
 Safety: this script MAKES API CALLS that consume Anthropic credits.
 You must explicitly name accounts or pass --all. There is no implicit default.
+You must specify which pattern to detect via --pattern.
 
 Examples:
     uv run python scripts/run_signal.py --list
-    uv run python scripts/run_signal.py acc_001 acc_005 acc_010
-    uv run python scripts/run_signal.py --all
+    uv run python scripts/run_signal.py --pattern hidden_churn_risk acc_001 acc_005
+    uv run python scripts/run_signal.py --pattern expansion_ready --all
+    uv run python scripts/run_signal.py --pattern executive_friction --all
 """
 
 from __future__ import annotations
@@ -24,7 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from agents.common.data_loader import all_account_ids  # noqa: E402
 from agents.common.env import DEFAULT_MODEL  # noqa: E402
-from agents.signal.hidden_churn import detect  # noqa: E402
+from agents.signal.detector import PER_ACCOUNT_PATTERNS, detect  # noqa: E402
 
 OUT_DIR = Path(__file__).resolve().parents[1] / "agent_outputs"
 
@@ -33,6 +35,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "accounts", nargs="*", help="account_ids to score (e.g. acc_001 acc_002)"
+    )
+    parser.add_argument(
+        "--pattern",
+        choices=sorted(PER_ACCOUNT_PATTERNS),
+        required=False,
+        help="which pattern to detect (required unless --list)",
     )
     parser.add_argument(
         "--all", action="store_true", help="score every account (25 API calls)"
@@ -56,6 +64,14 @@ def main() -> int:
             print(a)
         return 0
 
+    if not args.pattern:
+        parser.print_help()
+        print(
+            "\nError: --pattern is required. "
+            f"Choose one of: {sorted(PER_ACCOUNT_PATTERNS)}"
+        )
+        return 2
+
     if args.all:
         targets = all_account_ids()
     elif args.accounts:
@@ -66,11 +82,11 @@ def main() -> int:
         return 2
 
     OUT_DIR.mkdir(exist_ok=True)
-    out_name = args.out or f"signal_hidden_churn_{int(time.time())}.json"
+    out_name = args.out or f"signal_{args.pattern}_{int(time.time())}.json"
     out_path = OUT_DIR / out_name
 
     model = args.model or DEFAULT_MODEL
-    print(f"Running Hidden Churn detector on {len(targets)} account(s) with {model}")
+    print(f"Running [{args.pattern}] detector on {len(targets)} account(s) with {model}")
     print(f"Output -> {out_path}")
     print()
 
@@ -79,7 +95,7 @@ def main() -> int:
     for i, account_id in enumerate(targets, 1):
         print(f"[{i}/{len(targets)}] {account_id} ... ", end="", flush=True)
         try:
-            r = detect(account_id, model=model)
+            r = detect(args.pattern, account_id, model=model)
         except Exception as e:
             print(f"ERROR: {e}")
             results.append({"account_id": account_id, "error": str(e)})

@@ -1,8 +1,8 @@
 """CLI entry point for scoring Signal Agent output.
 
 Usage:
-    uv run python eval/run_eval.py agent_outputs/smoke_test.json
-    uv run python eval/run_eval.py agent_outputs/*.json   # merges multiple files
+    uv run python eval/run_eval.py --pattern hidden_churn_risk agent_outputs/smoke_test.json
+    uv run python eval/run_eval.py --pattern expansion_ready agent_outputs/*.json
 """
 
 from __future__ import annotations
@@ -15,7 +15,14 @@ from pathlib import Path
 # uv workspace mode — make sibling packages importable from this script.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from eval.score_signal import score_hidden_churn  # noqa: E402
+from eval.score_signal import score_pattern  # noqa: E402
+
+_KNOWN_PATTERNS = [
+    "hidden_churn_risk",
+    "expansion_ready",
+    "executive_friction",
+    "cross_functional_blind_spot",
+]
 
 
 def _merge(files: list[Path]) -> list[dict]:
@@ -39,6 +46,12 @@ def _merge(files: list[Path]) -> list[dict]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
+        "--pattern",
+        choices=_KNOWN_PATTERNS,
+        required=True,
+        help="which pattern to score against ground truth",
+    )
+    parser.add_argument(
         "files", nargs="+", type=Path, help="one or more agent output JSON files"
     )
     args = parser.parse_args()
@@ -49,7 +62,7 @@ def main() -> int:
             return 2
 
     merged = _merge(args.files)
-    report = score_hidden_churn(merged)
+    report = score_pattern(args.pattern, merged)
 
     print(json.dumps(report, indent=2))
 
