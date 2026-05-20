@@ -1,0 +1,184 @@
+{
+  "briefing_date": "2026-05-19",
+  "card_count": 4,
+  "cards": [
+    {
+      "rank": 1,
+      "card_id": "hidden_churn_risk_acc_018",
+      "title": "Hidden Churn Risk at Lyra Aerospace",
+      "pattern": "hidden_churn_risk",
+      "tier": 1,
+      "account_id": "acc_018",
+      "account_name": "Lyra Aerospace",
+      "affected_accounts": [
+        { "id": "acc_018", "name": "Lyra Aerospace", "arr": 979000 }
+      ],
+      "urgency": "high",
+      "confidence": 0.81,
+      "synthesis": "Lyra Aerospace looks stable on paper — no open escalations, contract not due until October. But I'm seeing a convergence of quiet signals that together suggest real churn risk: core docs usage is down 48% over the last 60 days, support tickets shifted from how-to questions to a string of frustrated bug reports, and the executive sponsor's last login was six weeks ago. The renewal is five months out. If these signals aren't addressed now, the Q3 renewal conversation will be much harder than it needs to be.",
+      "recommended_action": {
+        "what": "Schedule an executive sponsor re-engagement call within the next two weeks — bring the CSM and AE together so this isn't read as a firefighting visit.",
+        "owner": "CSM",
+        "when": "this_week"
+      },
+      "evidence": [
+        {
+          "source": "usage_events",
+          "claim": "docs usage dropped 48% in the last 60 days vs. the prior 60-day window",
+          "support_refs": ["docs"]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "Last 4 tickets are bug reports with negative sentiment (avg score -0.3), versus exploratory how-to questions 90 days prior",
+          "support_refs": ["tkt_00287", "tkt_00291", "tkt_00304", "tkt_00318"]
+        },
+        {
+          "source": "account",
+          "claim": "Executive sponsor last_login_at was 2026-04-01 — 48 days ago",
+          "support_refs": ["acc_018"]
+        },
+        {
+          "source": "cs_notes",
+          "claim": "CS note from 2026-04-28 categorised as 'risk': sponsor mentioned feeling less engaged since their team reorg",
+          "support_refs": ["csn_00142"]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "card_id": "systemic_product_signal_portfolio",
+      "title": "Systemic Admin Console Issue Across 6 Accounts",
+      "pattern": "systemic_product_signal",
+      "tier": 2,
+      "account_id": null,
+      "account_name": null,
+      "affected_accounts": [
+        { "id": "acc_003", "name": "Helios Robotics", "arr": 1040000 },
+        { "id": "acc_007", "name": "Apex Foods", "arr": 1519000 },
+        { "id": "acc_014", "name": "Horizon Travel", "arr": 907000 },
+        { "id": "acc_019", "name": "Meridian Banking", "arr": 1807000 },
+        { "id": "acc_021", "name": "Onyx Mining", "arr": 654000 },
+        { "id": "acc_022", "name": "Pinnacle Consulting", "arr": 554000 }
+      ],
+      "urgency": "high",
+      "confidence": 0.87,
+      "synthesis": "Six accounts have independently logged support tickets about admin console role propagation delays and reporting discrepancies in the last 45 days. Viewed in isolation each looked minor — one or two tickets per account. Viewed together, this is a systemic product issue touching $6.5M ARR and 24% of the portfolio. Admin console usage is down an average of 31% across these accounts, suggesting users are hitting the issue and withdrawing from the feature rather than filing more tickets. Your product team needs to see this before the next sprint.",
+      "recommended_action": {
+        "what": "Escalate to the Product team with the attached account list and affected ARR figure — request acknowledgment and a fix timeline within 48 hours.",
+        "owner": "Sarah",
+        "when": "this_week"
+      },
+      "evidence": [
+        {
+          "source": "support_tickets",
+          "claim": "18 tickets across 6 accounts referencing admin console role updates or reporting accuracy in the last 45 days",
+          "support_refs": ["tkt_00271", "tkt_00283", "tkt_00295", "tkt_00301", "tkt_00312", "tkt_00327"]
+        },
+        {
+          "source": "usage_events",
+          "claim": "admin_console usage down an average of 31% across the 6 affected accounts in the last 60 days",
+          "support_refs": ["admin_console"]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "card_id": "expansion_ready_acc_010",
+      "title": "Expansion Window Opening at Delta Pharma",
+      "pattern": "expansion_ready",
+      "tier": 1,
+      "account_id": "acc_010",
+      "account_name": "Delta Pharma",
+      "affected_accounts": [
+        { "id": "acc_010", "name": "Delta Pharma", "arr": 910000 }
+      ],
+      "urgency": "medium",
+      "confidence": 0.74,
+      "synthesis": "Delta Pharma has been a steady mid-tier account for over two years. In the last 45 days something has changed: usage across workflows and integrations is up 67%, their last two support tickets are advanced questions about API rate limits and bulk user provisioning, and a recent call noted that their Finance and Legal teams have started onboarding. No expansion conversation has been initiated. This is a window that typically stays open 60–90 days before the new teams either self-organise or look for a better fit.",
+      "recommended_action": {
+        "what": "AE to reach out to the Delta Pharma sponsor this week to schedule an expansion scoping call — frame it around the Finance and Legal team adoption they've already started.",
+        "owner": "AE",
+        "when": "this_week"
+      },
+      "evidence": [
+        {
+          "source": "usage_events",
+          "claim": "workflows usage up 67% and integrations up 52% in the last 60 days vs. prior period",
+          "support_refs": ["workflows", "integrations"]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "Two recent tickets are advanced-use questions: API rate limits (tkt_00198) and bulk user provisioning (tkt_00203)",
+          "support_refs": ["tkt_00198", "tkt_00203"]
+        },
+        {
+          "source": "call_summaries",
+          "claim": "Call on 2026-04-15 noted Finance and Legal teams beginning onboarding; no expansion proposal discussed",
+          "support_refs": ["call_00087"]
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "card_id": "win_reference_opportunity_portfolio",
+      "title": "Reference Opportunity: Borealis Energy and Vertex Capital",
+      "pattern": "win_reference_opportunity",
+      "tier": 2,
+      "account_id": null,
+      "account_name": null,
+      "affected_accounts": [
+        { "id": "acc_008", "name": "Borealis Energy", "arr": 799000 },
+        { "id": "acc_006", "name": "Vertex Capital", "arr": 2322000 }
+      ],
+      "urgency": "low",
+      "confidence": 0.79,
+      "synthesis": "Borealis Energy and Vertex Capital are your two strongest reference candidates right now. Borealis has sustained top-decile usage for eight months, their sponsor logged in three days ago, and the last QBR call summary included explicit advocacy language. Vertex Capital is your highest-ARR account at $2.3M, has expanded twice in the last 12 months, and their CS notes are consistently relationship-positive. Neither has been asked to participate in a case study or reference programme.",
+      "recommended_action": {
+        "what": "Marketing to initiate case study conversations with both accounts — Borealis for a usage-depth story, Vertex for an enterprise expansion story.",
+        "owner": "Marketing",
+        "when": "this_month"
+      },
+      "evidence": [
+        {
+          "source": "call_summaries",
+          "claim": "Borealis Energy QBR call (2026-05-02) included sponsor advocacy language and public praise of the product",
+          "support_refs": ["call_00112"]
+        },
+        {
+          "source": "cs_notes",
+          "claim": "Vertex Capital CS notes over the last 180 days are consistently categorised as 'relationship' with no risk flags",
+          "support_refs": ["csn_00089", "csn_00104", "csn_00118"]
+        },
+        {
+          "source": "usage_events",
+          "claim": "Borealis Energy usage trend is +22% across core features in the last 60 days",
+          "support_refs": ["docs", "workflows"]
+        }
+      ]
+    }
+  ],
+  "portfolio_pulse": {
+    "total_accounts": 25,
+    "accounts_with_patterns": 8,
+    "healthy_accounts": 17,
+    "per_pattern_counts": {
+      "hidden_churn_risk": 2,
+      "expansion_ready": 2,
+      "executive_friction": 1,
+      "cross_functional_blind_spot": 1
+    },
+    "portfolio_patterns_detected": [
+      "systemic_product_signal",
+      "support_load_concentration",
+      "feedback_to_roadmap_disconnect",
+      "win_reference_opportunity"
+    ]
+  },
+  "_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "model": "fixture"
+  }
+}

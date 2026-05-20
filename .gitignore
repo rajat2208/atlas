@@ -69,6 +69,8 @@ desktop.ini
 
 # Agent runs (timestamped, iteration-heavy, no need to track each one)
 agent_outputs/
+# But track the fixture briefing for frontend development
+!agent_outputs/briefing_fixture.json
 
 # Claude Code session artifacts
 .claude/
