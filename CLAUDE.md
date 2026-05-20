@@ -38,6 +38,11 @@ defensible, working demo — not production hardening.
 - **The agent must never see `data/ground_truth.json`.** It is the sealed answer key for
   evaluation. Only the eval harness in `eval/` may read it. Never import it, reference it,
   or expose it anywhere in `agents/` or `backend/`. This integrity boundary is essential.
+- **Agent sessions must never read `scripts/generate_data.py`.** It contains explicit
+  pattern-placement logic (which accounts carry which patterns, deterministic seed,
+  per-pattern modifiers) and is the equivalent of a second answer key. The structural
+  validator `scripts/validate_data.py` is safe to read. This integrity boundary is
+  essential.
 - **Generate synthetic data in a separate session** from agent development. Agent code
   must be written without knowledge of which accounts carry which patterns.
 - **Decision points exist** — see PRD Appendix. When you hit one (agent framework,

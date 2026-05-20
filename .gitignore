@@ -5,8 +5,17 @@
 # Only the eval harness (eval/) may read it. Keeping it out of git ensures it
 # cannot be accidentally surfaced through repo search, IDE indexing, or a stray
 # import. Do not remove this line. See docs/atlas-prd.md §7 and CLAUDE.md.
+#
+# scripts/generate_data.py is the equivalent of a second answer key. It contains
+# the explicit pattern-placement logic — HIDDEN_CHURN_IDS, EXPANSION_IDS, the
+# deterministic seed (SEED = 20260519), per-pattern weekly modifiers, and the
+# random shuffle that decides which accounts carry which patterns. Anyone who
+# reads it (or re-runs it) can reconstruct the answer key, so it must not be
+# tracked in git. The structural validator scripts/validate_data.py is safe to
+# read and IS committed. Do not remove these lines. See CLAUDE.md.
 # =============================================================================
 data/ground_truth.json
+scripts/generate_data.py
 
 # Python
 __pycache__/
