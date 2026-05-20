@@ -67,5 +67,8 @@ yarn-error.log*
 Thumbs.db
 desktop.ini
 
+# Agent runs (timestamped, iteration-heavy, no need to track each one)
+agent_outputs/
+
 # Claude Code session artifacts
 .claude/
