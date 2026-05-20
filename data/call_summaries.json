@@ -1,0 +1,4523 @@
+[
+  {
+    "call_id": "call_00001",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Mark Park",
+      "Joon Singh"
+    ],
+    "date": "2025-11-10",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00002",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Naomi Khan",
+      "Rajiv Brennan"
+    ],
+    "date": "2025-08-26",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00003",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Liam Vargas",
+      "Mark Park"
+    ],
+    "date": "2026-02-12",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00004",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Priya Pereira",
+      "Priya Kowalski"
+    ],
+    "date": "2025-09-07",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00005",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Priya Kowalski",
+      "Ravi Lehmann"
+    ],
+    "date": "2025-12-07",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00006",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Tomas Park",
+      "Joon Singh"
+    ],
+    "date": "2025-06-13",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00007",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Naomi Khan",
+      "Ravi Lehmann"
+    ],
+    "date": "2026-03-17",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00008",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Kai Rossi",
+      "Tomas Singh"
+    ],
+    "date": "2025-12-29",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Acme Industries team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00009",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Joon Singh",
+      "Liam Vargas"
+    ],
+    "date": "2026-01-02",
+    "duration_minutes": 45,
+    "summary": "Sponsor at Acme Industries expressed strong satisfaction and indicated openness to acting as a reference customer. Discussed a potential case study and a speaking slot at the upcoming customer summit.",
+    "sentiment": "positive",
+    "key_topics": [
+      "reference",
+      "case study",
+      "expansion",
+      "sponsor advocacy"
+    ],
+    "action_items": [
+      "draft case study outline",
+      "loop in marketing on case study",
+      "explore expansion opportunity"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00010",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Aanya Ferreira",
+      "Idris Pereira"
+    ],
+    "date": "2026-03-17",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00011",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Felix Pereira",
+      "Aanya Ferreira"
+    ],
+    "date": "2025-09-16",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00012",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Elena Lindqvist",
+      "Theo Menon"
+    ],
+    "date": "2026-04-12",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00013",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Sara Brennan",
+      "Kai Kowalski"
+    ],
+    "date": "2025-10-30",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00014",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Theo Menon",
+      "Elena Lindqvist"
+    ],
+    "date": "2026-02-23",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00015",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Kai Kowalski",
+      "Idris Pereira"
+    ],
+    "date": "2026-04-22",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00016",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Aanya Lehmann",
+      "Idris Pereira"
+    ],
+    "date": "2025-10-28",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00017",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Sara Brennan",
+      "Kai Kowalski"
+    ],
+    "date": "2025-11-15",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Beta Analytics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00018",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Theo Menon",
+      "Kai Kowalski"
+    ],
+    "date": "2026-05-04",
+    "duration_minutes": 45,
+    "summary": "Intro call with the new VP Engineering at Beta Analytics, Aanya Ferreira, who recently joined and is reviewing the productivity tooling stack. They mentioned having used a competing product at their previous company and wanting to evaluate options before the upcoming renewal.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new sponsor intro",
+      "renewal",
+      "vendor consolidation review"
+    ],
+    "action_items": [
+      "send technical overview to new sponsor",
+      "schedule competitive positioning session"
+    ],
+    "competitor_mentions": [
+      "Google Workspace"
+    ]
+  },
+  {
+    "call_id": "call_00019",
+    "account_id": "acc_003",
+    "attendees": [
+      "Priya Iyer",
+      "Carlos Pereira",
+      "Yara Brennan",
+      "Joon Singh"
+    ],
+    "date": "2026-01-30",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Helios Robotics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00020",
+    "account_id": "acc_003",
+    "attendees": [
+      "Priya Iyer",
+      "Carlos Pereira",
+      "Elena Lindqvist",
+      "Nora Vargas"
+    ],
+    "date": "2025-06-16",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Helios Robotics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00021",
+    "account_id": "acc_003",
+    "attendees": [
+      "Priya Iyer",
+      "Carlos Pereira",
+      "Jin Holloway",
+      "Mei Chen"
+    ],
+    "date": "2025-11-21",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Helios Robotics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00022",
+    "account_id": "acc_003",
+    "attendees": [
+      "Priya Iyer",
+      "Carlos Pereira",
+      "Mei Iyer",
+      "Selma Andersson"
+    ],
+    "date": "2025-11-27",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Helios Robotics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00023",
+    "account_id": "acc_003",
+    "attendees": [
+      "Priya Iyer",
+      "Carlos Pereira",
+      "Elena Lindqvist",
+      "Joon Nakamura"
+    ],
+    "date": "2025-07-03",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Helios Robotics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00024",
+    "account_id": "acc_003",
+    "attendees": [
+      "Priya Iyer",
+      "Carlos Pereira",
+      "Mei Chen",
+      "Carlos Reyes"
+    ],
+    "date": "2025-07-26",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Helios Robotics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00025",
+    "account_id": "acc_003",
+    "attendees": [
+      "Priya Iyer",
+      "Carlos Pereira",
+      "Carlos Reyes",
+      "Mei Iyer"
+    ],
+    "date": "2026-05-05",
+    "duration_minutes": 30,
+    "summary": "Intro call with the new VP Engineering at Helios Robotics, Lena Ferreira, who recently joined and is reviewing the productivity tooling stack. They mentioned having used a competing product at their previous company and wanting to evaluate options before the upcoming renewal.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new sponsor intro",
+      "renewal",
+      "vendor consolidation review"
+    ],
+    "action_items": [
+      "send technical overview to new sponsor",
+      "schedule competitive positioning session"
+    ],
+    "competitor_mentions": [
+      "Slack"
+    ]
+  },
+  {
+    "call_id": "call_00026",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Sofia Ferreira",
+      "Priya Mwangi"
+    ],
+    "date": "2026-04-22",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Nimbus Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00027",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Priya Mwangi",
+      "Priya Mwangi"
+    ],
+    "date": "2026-03-30",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Nimbus Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00028",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Tomas Lindqvist",
+      "Priya Mwangi"
+    ],
+    "date": "2026-03-29",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Nimbus Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00029",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Priya Mwangi",
+      "Priya Mwangi"
+    ],
+    "date": "2026-03-27",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Nimbus Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00030",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Diego Andersson",
+      "Yara Pereira"
+    ],
+    "date": "2026-03-13",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Nimbus Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00031",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Ravi Mwangi",
+      "Felix Lehmann"
+    ],
+    "date": "2025-07-27",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Nimbus Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00032",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Ravi Mwangi",
+      "Priya Mwangi"
+    ],
+    "date": "2026-01-02",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Nimbus Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00033",
+    "account_id": "acc_004",
+    "attendees": [
+      "Owen Brennan",
+      "Mark Holloway",
+      "Diego Andersson",
+      "Priya Zhang"
+    ],
+    "date": "2026-04-25",
+    "duration_minutes": 60,
+    "summary": "Usage review with Nimbus Logistics. Finance, Legal, and Ops have started using the platform in the last quarter. Conversation focused on advanced configuration and API limits. Customer is enthusiastic but has not yet raised commercial expansion.",
+    "sentiment": "positive",
+    "key_topics": [
+      "multi-department adoption",
+      "API limits",
+      "advanced configuration"
+    ],
+    "action_items": [
+      "share API best practices",
+      "draft proposal for Finance/Legal/Ops expansion"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00034",
+    "account_id": "acc_005",
+    "attendees": [
+      "Mei Zhang",
+      "Mark Holloway",
+      "Mateo Hassan",
+      "Owen Lopez"
+    ],
+    "date": "2026-04-22",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Orbit Health team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00035",
+    "account_id": "acc_005",
+    "attendees": [
+      "Mei Zhang",
+      "Mark Holloway",
+      "Lena Kowalski",
+      "Naomi Lehmann"
+    ],
+    "date": "2026-02-16",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Orbit Health team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00036",
+    "account_id": "acc_005",
+    "attendees": [
+      "Mei Zhang",
+      "Mark Holloway",
+      "Maya Zhang",
+      "Mateo Hassan"
+    ],
+    "date": "2026-01-25",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Orbit Health team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00037",
+    "account_id": "acc_005",
+    "attendees": [
+      "Mei Zhang",
+      "Mark Holloway",
+      "Owen Lopez",
+      "Naomi Lehmann"
+    ],
+    "date": "2026-03-16",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Orbit Health team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00038",
+    "account_id": "acc_005",
+    "attendees": [
+      "Mei Zhang",
+      "Mark Holloway",
+      "Kai Ferreira",
+      "Naomi Lehmann"
+    ],
+    "date": "2026-02-11",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Orbit Health team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00039",
+    "account_id": "acc_005",
+    "attendees": [
+      "Mei Zhang",
+      "Mark Holloway",
+      "Kai Ferreira",
+      "Naomi Lehmann"
+    ],
+    "date": "2026-04-09",
+    "duration_minutes": 45,
+    "summary": "Customer flagged ongoing pain with the admin console — reports do not match usage and exports are unreliable. Asked when this will be addressed.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "admin console issues",
+      "reporting reliability"
+    ],
+    "action_items": [
+      "escalate admin console issues internally",
+      "follow up with product"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00040",
+    "account_id": "acc_006",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Naomi Bello",
+      "Idris Schmidt"
+    ],
+    "date": "2025-09-01",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Vertex Capital team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00041",
+    "account_id": "acc_006",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Mei Ferreira",
+      "Idris Schmidt"
+    ],
+    "date": "2025-09-09",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Vertex Capital team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00042",
+    "account_id": "acc_006",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Jordan Lindqvist",
+      "Sara Nakamura"
+    ],
+    "date": "2025-12-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Vertex Capital team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00043",
+    "account_id": "acc_006",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Sara Nakamura",
+      "Theo Ferreira"
+    ],
+    "date": "2025-08-18",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Vertex Capital team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00044",
+    "account_id": "acc_006",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Lena Bergstrom",
+      "Mei Ferreira"
+    ],
+    "date": "2025-07-01",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Vertex Capital team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00045",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Alex Iyer",
+      "Felix Zhang"
+    ],
+    "date": "2025-12-03",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00046",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Aisha Brennan",
+      "Liam Holloway"
+    ],
+    "date": "2026-05-01",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00047",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Yara Okafor",
+      "Lena Singh"
+    ],
+    "date": "2025-10-06",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00048",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Aisha Bello",
+      "Mark Park"
+    ],
+    "date": "2026-02-08",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00049",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Sofia Menon",
+      "Mateo Lopez"
+    ],
+    "date": "2026-01-03",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00050",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Alex Iyer",
+      "Felix Lopez"
+    ],
+    "date": "2025-12-22",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00051",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Bram Vargas",
+      "Joon Okafor"
+    ],
+    "date": "2025-11-18",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00052",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Lena Okafor",
+      "Felix Zhang"
+    ],
+    "date": "2026-04-28",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Apex Foods team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00053",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Naomi Iyer",
+      "Bram Vargas"
+    ],
+    "date": "2026-04-21",
+    "duration_minutes": 30,
+    "summary": "Strategic review with Apex Foods. Conversation was upbeat; sponsor emphasized strategic value of the platform and discussed expansion. No major concerns raised.",
+    "sentiment": "positive",
+    "key_topics": [
+      "strategic value",
+      "expansion conversation",
+      "executive alignment"
+    ],
+    "action_items": [
+      "draft expansion proposal",
+      "share strategic roadmap"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00054",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Felix Lopez",
+      "Mateo Lopez"
+    ],
+    "date": "2026-04-23",
+    "duration_minutes": 30,
+    "summary": "Strategic review with Apex Foods. Conversation was upbeat; sponsor emphasized strategic value of the platform and discussed expansion. No major concerns raised.",
+    "sentiment": "positive",
+    "key_topics": [
+      "strategic value",
+      "expansion conversation",
+      "executive alignment"
+    ],
+    "action_items": [
+      "draft expansion proposal",
+      "share strategic roadmap"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00055",
+    "account_id": "acc_008",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Alex Park",
+      "Mateo Vargas"
+    ],
+    "date": "2025-10-02",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Borealis Energy team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00056",
+    "account_id": "acc_008",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Mateo Vargas",
+      "Jordan Petrov"
+    ],
+    "date": "2026-04-25",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Borealis Energy team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00057",
+    "account_id": "acc_008",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Jordan Petrov",
+      "Henrik Khan"
+    ],
+    "date": "2025-07-13",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Borealis Energy team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00058",
+    "account_id": "acc_008",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Owen Iyer",
+      "Sara Bergstrom"
+    ],
+    "date": "2025-10-08",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Borealis Energy team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00059",
+    "account_id": "acc_008",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Jordan Petrov",
+      "Henrik Iyer"
+    ],
+    "date": "2026-02-23",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Borealis Energy team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00060",
+    "account_id": "acc_009",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Carlos Andersson",
+      "Yara Lindqvist"
+    ],
+    "date": "2026-02-14",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Cinder Media team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00061",
+    "account_id": "acc_009",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Owen Ferreira",
+      "Yara Lindqvist"
+    ],
+    "date": "2026-03-26",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Cinder Media team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00062",
+    "account_id": "acc_009",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Mei Holloway",
+      "Carlos Pereira"
+    ],
+    "date": "2026-01-26",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Cinder Media team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00063",
+    "account_id": "acc_009",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Yara Lindqvist",
+      "Owen Ferreira"
+    ],
+    "date": "2026-01-26",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Cinder Media team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00064",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Liam Petrov",
+      "Mei Nakamura"
+    ],
+    "date": "2026-02-05",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00065",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Aisha Bergstrom",
+      "Cleo Singh"
+    ],
+    "date": "2026-02-19",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00066",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Mei Nakamura",
+      "Yara Kowalski"
+    ],
+    "date": "2025-07-28",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00067",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Iris Lehmann",
+      "Aisha Bergstrom"
+    ],
+    "date": "2025-08-28",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00068",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Alex Nakamura",
+      "Yara Bergstrom"
+    ],
+    "date": "2025-11-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00069",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Carlos Holloway",
+      "Cleo Singh"
+    ],
+    "date": "2025-06-28",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00070",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Henrik Zhang",
+      "Elena Chen"
+    ],
+    "date": "2025-09-12",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00071",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Carlos Holloway",
+      "Alex Nakamura"
+    ],
+    "date": "2026-01-23",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00072",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Jin Okafor",
+      "Hannah Menon"
+    ],
+    "date": "2025-06-19",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00073",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Cleo Singh",
+      "Aisha Zhang"
+    ],
+    "date": "2026-03-03",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Delta Pharma team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00074",
+    "account_id": "acc_010",
+    "attendees": [
+      "Hannah Okafor",
+      "Sara Lindqvist",
+      "Henrik Alvarez",
+      "Carlos Holloway"
+    ],
+    "date": "2026-04-09",
+    "duration_minutes": 60,
+    "summary": "Sponsor at Delta Pharma expressed strong satisfaction and indicated openness to acting as a reference customer. Discussed a potential case study and a speaking slot at the upcoming customer summit.",
+    "sentiment": "positive",
+    "key_topics": [
+      "reference",
+      "case study",
+      "expansion",
+      "sponsor advocacy"
+    ],
+    "action_items": [
+      "draft case study outline",
+      "loop in marketing on case study",
+      "explore expansion opportunity"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00075",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Owen Patel",
+      "Selma Mwangi"
+    ],
+    "date": "2025-09-10",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00076",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Priya Kowalski",
+      "Liam Mwangi"
+    ],
+    "date": "2026-02-24",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00077",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Felix Mwangi",
+      "Priya Kowalski"
+    ],
+    "date": "2025-10-18",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00078",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Iris Iyer",
+      "Sofia Iyer"
+    ],
+    "date": "2025-07-26",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00079",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Felix Mwangi",
+      "Owen Okafor"
+    ],
+    "date": "2026-04-01",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00080",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Aisha Khan",
+      "Felix Mwangi"
+    ],
+    "date": "2026-05-06",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00081",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Sara Vargas",
+      "Liam Mwangi"
+    ],
+    "date": "2026-03-30",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00082",
+    "account_id": "acc_011",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Mei Bello",
+      "Aisha Khan"
+    ],
+    "date": "2025-10-03",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Ember Telecom team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00083",
+    "account_id": "acc_012",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Alex Iyer",
+      "Liam Brennan"
+    ],
+    "date": "2026-04-11",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Fjord Insurance team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00084",
+    "account_id": "acc_012",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Idris Iyer",
+      "Sara Bello"
+    ],
+    "date": "2026-04-22",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Fjord Insurance team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00085",
+    "account_id": "acc_012",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Sara Bello",
+      "Selma Okafor"
+    ],
+    "date": "2026-05-01",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Fjord Insurance team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00086",
+    "account_id": "acc_012",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Sara Bello",
+      "Lena Bello"
+    ],
+    "date": "2026-04-22",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Fjord Insurance team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00087",
+    "account_id": "acc_012",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Lena Bello",
+      "Aanya Bello"
+    ],
+    "date": "2026-05-05",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Fjord Insurance team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00088",
+    "account_id": "acc_012",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Lena Bello",
+      "Sara Bello"
+    ],
+    "date": "2026-04-15",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Fjord Insurance team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00089",
+    "account_id": "acc_013",
+    "attendees": [
+      "Hannah Okafor",
+      "Naomi Patel",
+      "Owen Rossi",
+      "Kai Alvarez"
+    ],
+    "date": "2026-03-27",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Granite Manufacturing team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00090",
+    "account_id": "acc_013",
+    "attendees": [
+      "Hannah Okafor",
+      "Naomi Patel",
+      "Kai Alvarez",
+      "Sara Iyer"
+    ],
+    "date": "2026-05-08",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Granite Manufacturing team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00091",
+    "account_id": "acc_013",
+    "attendees": [
+      "Hannah Okafor",
+      "Naomi Patel",
+      "Sara Iyer",
+      "Mei Bello"
+    ],
+    "date": "2026-05-16",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Granite Manufacturing team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00092",
+    "account_id": "acc_013",
+    "attendees": [
+      "Hannah Okafor",
+      "Naomi Patel",
+      "Elena Lehmann",
+      "Owen Rossi"
+    ],
+    "date": "2026-03-01",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Granite Manufacturing team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00093",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Bram Iyer",
+      "Jin Ferreira"
+    ],
+    "date": "2025-08-09",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Horizon Travel team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00094",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Henrik Andersson",
+      "Felix Nakamura"
+    ],
+    "date": "2025-11-25",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Horizon Travel team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00095",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Kai Andersson",
+      "Henrik Khan"
+    ],
+    "date": "2025-07-20",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Horizon Travel team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00096",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Liam Schmidt",
+      "Henrik Khan"
+    ],
+    "date": "2026-02-27",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Horizon Travel team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00097",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Felix Ferreira",
+      "Selma Park"
+    ],
+    "date": "2025-08-22",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Horizon Travel team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00098",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Felix Park",
+      "Henrik Khan"
+    ],
+    "date": "2025-08-29",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Horizon Travel team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00099",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Liam Schmidt",
+      "Bram Lehmann"
+    ],
+    "date": "2026-03-04",
+    "duration_minutes": 45,
+    "summary": "QBR was scheduled but the executive sponsor at Horizon Travel did not attend; their replacement on the call (an Ops Manager) said the sponsor had been pulled into a recent reorg and was unavailable. Team noted that engagement from leadership has dropped.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR",
+      "sponsor engagement",
+      "reorganization impact"
+    ],
+    "action_items": [
+      "re-engage executive sponsor",
+      "schedule make-up QBR"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00100",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Maya Chen",
+      "Henrik Andersson"
+    ],
+    "date": "2026-02-18",
+    "duration_minutes": 60,
+    "summary": "Customer flagged ongoing pain with the admin console — reports do not match usage and exports are unreliable. Asked when this will be addressed.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "admin console issues",
+      "reporting reliability"
+    ],
+    "action_items": [
+      "escalate admin console issues internally",
+      "follow up with product"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00101",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Priya Hassan",
+      "Felix Menon"
+    ],
+    "date": "2026-04-23",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Indigo Retail team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00102",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Priya Hassan",
+      "Ravi Brennan"
+    ],
+    "date": "2025-06-29",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Indigo Retail team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00103",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Felix Menon",
+      "Kai Singh"
+    ],
+    "date": "2025-07-25",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Indigo Retail team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00104",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Ravi Patel",
+      "Mark Zhang"
+    ],
+    "date": "2025-11-17",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Indigo Retail team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00105",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Selma Schmidt",
+      "Priya Hassan"
+    ],
+    "date": "2025-06-03",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Indigo Retail team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00106",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Carlos Hassan",
+      "Aisha Alvarez"
+    ],
+    "date": "2026-05-12",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Indigo Retail team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00107",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Ravi Patel",
+      "Mateo Zhang"
+    ],
+    "date": "2025-06-16",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Indigo Retail team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00108",
+    "account_id": "acc_015",
+    "attendees": [
+      "Lucas Reyes",
+      "Jin Park",
+      "Ravi Brennan",
+      "Ravi Patel"
+    ],
+    "date": "2026-04-07",
+    "duration_minutes": 45,
+    "summary": "Customer flagged ongoing pain with the admin console — reports do not match usage and exports are unreliable. Asked when this will be addressed.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "admin console issues",
+      "reporting reliability"
+    ],
+    "action_items": [
+      "escalate admin console issues internally",
+      "follow up with product"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00109",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Sofia Vargas",
+      "Aisha Nakamura"
+    ],
+    "date": "2025-09-04",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00110",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Sara Brennan",
+      "Felix Iyer"
+    ],
+    "date": "2025-10-02",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00111",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Aisha Nakamura",
+      "Mark Singh"
+    ],
+    "date": "2025-10-17",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00112",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Yara Andersson",
+      "Felix Bergstrom"
+    ],
+    "date": "2026-04-24",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00113",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Cleo Nakamura",
+      "Sofia Vargas"
+    ],
+    "date": "2025-08-16",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00114",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Cleo Nakamura",
+      "Yara Chen"
+    ],
+    "date": "2025-07-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00115",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Yara Kowalski",
+      "Yara Chen"
+    ],
+    "date": "2026-05-13",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00116",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Sofia Vargas",
+      "Aisha Nakamura"
+    ],
+    "date": "2025-06-03",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Juniper Biotech team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00117",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Mark Singh",
+      "Rajiv Rossi"
+    ],
+    "date": "2026-02-09",
+    "duration_minutes": 60,
+    "summary": "Sponsor at Juniper Biotech expressed strong satisfaction and indicated openness to acting as a reference customer. Discussed a potential case study and a speaking slot at the upcoming customer summit.",
+    "sentiment": "positive",
+    "key_topics": [
+      "reference",
+      "case study",
+      "expansion",
+      "sponsor advocacy"
+    ],
+    "action_items": [
+      "draft case study outline",
+      "loop in marketing on case study",
+      "explore expansion opportunity"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00118",
+    "account_id": "acc_017",
+    "attendees": [
+      "Owen Brennan",
+      "Jin Park",
+      "Hannah Lehmann",
+      "Alex Kowalski"
+    ],
+    "date": "2026-02-02",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Keystone Construction team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00119",
+    "account_id": "acc_017",
+    "attendees": [
+      "Owen Brennan",
+      "Jin Park",
+      "Alex Kowalski",
+      "Hannah Lehmann"
+    ],
+    "date": "2026-01-09",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Keystone Construction team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00120",
+    "account_id": "acc_017",
+    "attendees": [
+      "Owen Brennan",
+      "Jin Park",
+      "Liam Alvarez",
+      "Hannah Lehmann"
+    ],
+    "date": "2026-01-23",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Keystone Construction team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00121",
+    "account_id": "acc_017",
+    "attendees": [
+      "Owen Brennan",
+      "Jin Park",
+      "Nora Bergstrom",
+      "Liam Alvarez"
+    ],
+    "date": "2026-02-13",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Keystone Construction team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00122",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Aisha Schmidt",
+      "Aanya Menon"
+    ],
+    "date": "2025-09-30",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00123",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Alex Alvarez",
+      "Jordan Zhang"
+    ],
+    "date": "2026-05-06",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00124",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Aanya Menon",
+      "Sara Rossi"
+    ],
+    "date": "2026-01-24",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00125",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Jordan Lopez",
+      "Rajiv Kowalski"
+    ],
+    "date": "2025-07-15",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00126",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Naomi Lopez",
+      "Mateo Rossi"
+    ],
+    "date": "2025-12-24",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00127",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Sara Hassan",
+      "Aanya Menon"
+    ],
+    "date": "2026-05-02",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00128",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Mateo Nakamura",
+      "Rajiv Brennan"
+    ],
+    "date": "2026-03-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00129",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Jordan Lopez",
+      "Iris Bello"
+    ],
+    "date": "2026-01-20",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00130",
+    "account_id": "acc_018",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Jordan Zhang",
+      "Yara Patel"
+    ],
+    "date": "2026-02-20",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Lyra Aerospace team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00131",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Lena Menon",
+      "Theo Lehmann"
+    ],
+    "date": "2025-08-15",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Meridian Banking team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00132",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Lena Nakamura",
+      "Elena Ferreira"
+    ],
+    "date": "2026-03-12",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Meridian Banking team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00133",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Hannah Holloway",
+      "Lena Menon"
+    ],
+    "date": "2026-02-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Meridian Banking team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00134",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Kai Holloway",
+      "Elena Ferreira"
+    ],
+    "date": "2025-11-25",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Meridian Banking team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00135",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Iris Hassan",
+      "Iris Lopez"
+    ],
+    "date": "2025-10-18",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Meridian Banking team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00136",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Maya Rossi",
+      "Idris Petrov"
+    ],
+    "date": "2025-07-30",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Meridian Banking team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00137",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Theo Lehmann",
+      "Iris Lopez"
+    ],
+    "date": "2026-04-26",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Meridian Banking team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00138",
+    "account_id": "acc_020",
+    "attendees": [
+      "Owen Brennan",
+      "Naomi Patel",
+      "Ravi Mwangi",
+      "Kai Lindqvist"
+    ],
+    "date": "2025-06-11",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Northstar Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00139",
+    "account_id": "acc_020",
+    "attendees": [
+      "Owen Brennan",
+      "Naomi Patel",
+      "Mateo Alvarez",
+      "Lena Okafor"
+    ],
+    "date": "2026-01-31",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Northstar Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00140",
+    "account_id": "acc_020",
+    "attendees": [
+      "Owen Brennan",
+      "Naomi Patel",
+      "Kai Lindqvist",
+      "Mark Park"
+    ],
+    "date": "2026-04-21",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Northstar Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00141",
+    "account_id": "acc_020",
+    "attendees": [
+      "Owen Brennan",
+      "Naomi Patel",
+      "Mark Park",
+      "Ravi Mwangi"
+    ],
+    "date": "2025-08-05",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Northstar Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00142",
+    "account_id": "acc_020",
+    "attendees": [
+      "Owen Brennan",
+      "Naomi Patel",
+      "Mark Park",
+      "Owen Schmidt"
+    ],
+    "date": "2025-08-08",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Northstar Logistics team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00143",
+    "account_id": "acc_021",
+    "attendees": [
+      "Lucas Reyes",
+      "Rajiv Menon",
+      "Aisha Singh",
+      "Felix Rossi"
+    ],
+    "date": "2026-02-26",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Onyx Mining team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00144",
+    "account_id": "acc_021",
+    "attendees": [
+      "Lucas Reyes",
+      "Rajiv Menon",
+      "Cleo Petrov",
+      "Aisha Singh"
+    ],
+    "date": "2026-03-01",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Onyx Mining team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00145",
+    "account_id": "acc_021",
+    "attendees": [
+      "Lucas Reyes",
+      "Rajiv Menon",
+      "Bram Bello",
+      "Lena Singh"
+    ],
+    "date": "2025-10-27",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Onyx Mining team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00146",
+    "account_id": "acc_021",
+    "attendees": [
+      "Lucas Reyes",
+      "Rajiv Menon",
+      "Alex Brennan",
+      "Jordan Patel"
+    ],
+    "date": "2025-11-12",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Onyx Mining team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00147",
+    "account_id": "acc_021",
+    "attendees": [
+      "Lucas Reyes",
+      "Rajiv Menon",
+      "Jordan Patel",
+      "Theo Bello"
+    ],
+    "date": "2025-11-27",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Onyx Mining team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00148",
+    "account_id": "acc_021",
+    "attendees": [
+      "Lucas Reyes",
+      "Rajiv Menon",
+      "Owen Chen",
+      "Jordan Patel"
+    ],
+    "date": "2026-03-16",
+    "duration_minutes": 45,
+    "summary": "QBR was scheduled but the executive sponsor at Onyx Mining did not attend; their replacement on the call (an Ops Manager) said the sponsor had been pulled into a recent reorg and was unavailable. Team noted that engagement from leadership has dropped.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR",
+      "sponsor engagement",
+      "reorganization impact"
+    ],
+    "action_items": [
+      "re-engage executive sponsor",
+      "schedule make-up QBR"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00149",
+    "account_id": "acc_022",
+    "attendees": [
+      "Diego Alvarez",
+      "Sara Lindqvist",
+      "Hannah Rossi",
+      "Alex Brennan"
+    ],
+    "date": "2026-03-18",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Pinnacle Consulting team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00150",
+    "account_id": "acc_022",
+    "attendees": [
+      "Diego Alvarez",
+      "Sara Lindqvist",
+      "Alex Brennan",
+      "Mateo Chen"
+    ],
+    "date": "2025-09-13",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Pinnacle Consulting team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00151",
+    "account_id": "acc_022",
+    "attendees": [
+      "Diego Alvarez",
+      "Sara Lindqvist",
+      "Mateo Chen",
+      "Diego Lindqvist"
+    ],
+    "date": "2025-11-12",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Pinnacle Consulting team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00152",
+    "account_id": "acc_022",
+    "attendees": [
+      "Diego Alvarez",
+      "Sara Lindqvist",
+      "Naomi Petrov",
+      "Idris Rossi"
+    ],
+    "date": "2025-05-22",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Pinnacle Consulting team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00153",
+    "account_id": "acc_022",
+    "attendees": [
+      "Diego Alvarez",
+      "Sara Lindqvist",
+      "Diego Lindqvist",
+      "Elena Zhang"
+    ],
+    "date": "2025-06-18",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Pinnacle Consulting team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00154",
+    "account_id": "acc_022",
+    "attendees": [
+      "Diego Alvarez",
+      "Sara Lindqvist",
+      "Diego Lindqvist",
+      "Nora Brennan"
+    ],
+    "date": "2025-08-21",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Pinnacle Consulting team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00155",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Mateo Iyer",
+      "Theo Rossi"
+    ],
+    "date": "2025-06-21",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Quartz Semiconductors team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00156",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Sara Rossi",
+      "Sofia Hassan"
+    ],
+    "date": "2025-08-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Quartz Semiconductors team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00157",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Mateo Iyer",
+      "Selma Pereira"
+    ],
+    "date": "2025-09-12",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Quartz Semiconductors team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00158",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Rajiv Okafor",
+      "Aanya Schmidt"
+    ],
+    "date": "2025-06-13",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Quartz Semiconductors team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "new use case exploration",
+      "internal champions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00159",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Mateo Iyer",
+      "Rajiv Okafor"
+    ],
+    "date": "2026-05-17",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Quartz Semiconductors team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00160",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Felix Andersson",
+      "Carlos Petrov"
+    ],
+    "date": "2026-02-22",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Quartz Semiconductors team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00161",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Theo Rossi",
+      "Sara Rossi"
+    ],
+    "date": "2025-08-20",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Quartz Semiconductors team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00162",
+    "account_id": "acc_023",
+    "attendees": [
+      "Maya Chen",
+      "Jin Park",
+      "Aanya Schmidt",
+      "Carlos Petrov"
+    ],
+    "date": "2026-04-07",
+    "duration_minutes": 30,
+    "summary": "Usage review with Quartz Semiconductors. Finance, Legal, and Ops have started using the platform in the last quarter. Conversation focused on advanced configuration and API limits. Customer is enthusiastic but has not yet raised commercial expansion.",
+    "sentiment": "positive",
+    "key_topics": [
+      "multi-department adoption",
+      "API limits",
+      "advanced configuration"
+    ],
+    "action_items": [
+      "share API best practices",
+      "draft proposal for Finance/Legal/Ops expansion"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00163",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Lena Nakamura",
+      "Selma Lindqvist"
+    ],
+    "date": "2025-06-21",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "integration scoping",
+      "API usage"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00164",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Hannah Singh",
+      "Rajiv Lindqvist"
+    ],
+    "date": "2025-10-08",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00165",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Rajiv Lindqvist",
+      "Mei Menon"
+    ],
+    "date": "2026-05-17",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "adoption review",
+      "training plan"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00166",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Lena Khan",
+      "Hannah Singh"
+    ],
+    "date": "2025-06-28",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00167",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Cleo Patel",
+      "Rajiv Mwangi"
+    ],
+    "date": "2025-09-12",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00168",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Yara Ferreira",
+      "Hannah Mwangi"
+    ],
+    "date": "2025-08-08",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00169",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Rajiv Lindqvist",
+      "Carlos Bergstrom"
+    ],
+    "date": "2026-04-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00170",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Lena Khan",
+      "Selma Lindqvist"
+    ],
+    "date": "2026-03-21",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00171",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Mei Menon",
+      "Lena Khan"
+    ],
+    "date": "2025-09-01",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00172",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Carlos Bergstrom",
+      "Yara Ferreira"
+    ],
+    "date": "2026-04-16",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Rhea Education team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00173",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Mei Menon",
+      "Lena Khan"
+    ],
+    "date": "2026-03-16",
+    "duration_minutes": 60,
+    "summary": "Strategic review with Rhea Education. Conversation was upbeat; sponsor emphasized strategic value of the platform and discussed expansion. No major concerns raised.",
+    "sentiment": "positive",
+    "key_topics": [
+      "strategic value",
+      "expansion conversation",
+      "executive alignment"
+    ],
+    "action_items": [
+      "draft expansion proposal",
+      "share strategic roadmap"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00174",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Selma Lindqvist",
+      "Lena Nakamura"
+    ],
+    "date": "2026-03-25",
+    "duration_minutes": 45,
+    "summary": "Strategic review with Rhea Education. Conversation was upbeat; sponsor emphasized strategic value of the platform and discussed expansion. No major concerns raised.",
+    "sentiment": "positive",
+    "key_topics": [
+      "strategic value",
+      "expansion conversation",
+      "executive alignment"
+    ],
+    "action_items": [
+      "draft expansion proposal",
+      "share strategic roadmap"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00175",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Rajiv Bello",
+      "Idris Lehmann"
+    ],
+    "date": "2026-03-04",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Solstice Hospitality team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00176",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Bram Patel",
+      "Yara Singh"
+    ],
+    "date": "2025-07-24",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Solstice Hospitality team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00177",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Felix Alvarez",
+      "Nora Andersson"
+    ],
+    "date": "2025-07-17",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Solstice Hospitality team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "security review",
+      "SSO configuration"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00178",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Maya Menon",
+      "Owen Chen"
+    ],
+    "date": "2025-12-15",
+    "duration_minutes": 30,
+    "summary": "Routine check-in with the Solstice Hospitality team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "QBR prep",
+      "value realization"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00179",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Sara Vargas",
+      "Aanya Vargas"
+    ],
+    "date": "2025-08-20",
+    "duration_minutes": 45,
+    "summary": "Routine check-in with the Solstice Hospitality team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00180",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Aanya Vargas",
+      "Alex Zhang"
+    ],
+    "date": "2025-11-01",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Solstice Hospitality team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "renewal planning",
+      "pricing"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00181",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Rajiv Bello",
+      "Idris Lehmann"
+    ],
+    "date": "2025-09-02",
+    "duration_minutes": 60,
+    "summary": "Routine check-in with the Solstice Hospitality team. Covered usage trends, open tickets, and upcoming priorities. Team reported steady adoption.",
+    "sentiment": "positive",
+    "key_topics": [
+      "roadmap update",
+      "feature request: granular permissions"
+    ],
+    "action_items": [
+      "follow up on open tickets",
+      "share latest release notes"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00182",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Aanya Vargas",
+      "Maya Menon"
+    ],
+    "date": "2026-03-02",
+    "duration_minutes": 45,
+    "summary": "QBR was scheduled but the executive sponsor at Solstice Hospitality did not attend; their replacement on the call (an Ops Manager) said the sponsor had been pulled into a recent reorg and was unavailable. Team noted that engagement from leadership has dropped.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "QBR",
+      "sponsor engagement",
+      "reorganization impact"
+    ],
+    "action_items": [
+      "re-engage executive sponsor",
+      "schedule make-up QBR"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00183",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Alex Bello",
+      "Idris Lehmann"
+    ],
+    "date": "2026-02-28",
+    "duration_minutes": 45,
+    "summary": "Customer flagged ongoing pain with the admin console — reports do not match usage and exports are unreliable. Asked when this will be addressed.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "admin console issues",
+      "reporting reliability"
+    ],
+    "action_items": [
+      "escalate admin console issues internally",
+      "follow up with product"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00184",
+    "account_id": "acc_016",
+    "attendees": [
+      "Tomas Bergstrom",
+      "Carlos Pereira",
+      "Aisha Nakamura",
+      "Yara Kowalski"
+    ],
+    "date": "2026-02-06",
+    "duration_minutes": 45,
+    "summary": "Customer at Juniper Biotech raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00185",
+    "account_id": "acc_002",
+    "attendees": [
+      "Diego Alvarez",
+      "Naomi Patel",
+      "Elena Lindqvist",
+      "Aanya Ferreira"
+    ],
+    "date": "2026-01-02",
+    "duration_minutes": 45,
+    "summary": "Customer at Beta Analytics raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00186",
+    "account_id": "acc_025",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Alex Bello",
+      "Sara Vargas"
+    ],
+    "date": "2026-02-06",
+    "duration_minutes": 60,
+    "summary": "Customer at Solstice Hospitality raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00187",
+    "account_id": "acc_024",
+    "attendees": [
+      "Lucas Reyes",
+      "Carlos Pereira",
+      "Hannah Mwangi",
+      "Mei Menon"
+    ],
+    "date": "2026-02-17",
+    "duration_minutes": 60,
+    "summary": "Customer at Rhea Education raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00188",
+    "account_id": "acc_014",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Felix Nakamura",
+      "Ravi Park"
+    ],
+    "date": "2026-01-10",
+    "duration_minutes": 30,
+    "summary": "Customer at Horizon Travel raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00189",
+    "account_id": "acc_022",
+    "attendees": [
+      "Diego Alvarez",
+      "Sara Lindqvist",
+      "Cleo Schmidt",
+      "Idris Rossi"
+    ],
+    "date": "2026-02-17",
+    "duration_minutes": 45,
+    "summary": "Customer at Pinnacle Consulting raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00190",
+    "account_id": "acc_007",
+    "attendees": [
+      "Lucas Reyes",
+      "Sara Lindqvist",
+      "Aisha Bello",
+      "Bram Vargas"
+    ],
+    "date": "2025-08-31",
+    "duration_minutes": 30,
+    "summary": "Customer at Apex Foods raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00191",
+    "account_id": "acc_001",
+    "attendees": [
+      "Maya Chen",
+      "Mark Holloway",
+      "Tomas Singh",
+      "Tomas Park"
+    ],
+    "date": "2026-04-29",
+    "duration_minutes": 60,
+    "summary": "Customer at Acme Industries raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00192",
+    "account_id": "acc_020",
+    "attendees": [
+      "Owen Brennan",
+      "Naomi Patel",
+      "Hannah Mwangi",
+      "Tomas Menon"
+    ],
+    "date": "2025-10-02",
+    "duration_minutes": 30,
+    "summary": "Customer at Northstar Logistics raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00193",
+    "account_id": "acc_008",
+    "attendees": [
+      "Diego Alvarez",
+      "Aisha Bello",
+      "Sara Bergstrom",
+      "Joon Pereira"
+    ],
+    "date": "2025-09-28",
+    "duration_minutes": 45,
+    "summary": "Customer at Borealis Energy raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00194",
+    "account_id": "acc_006",
+    "attendees": [
+      "Lucas Reyes",
+      "Naomi Patel",
+      "Elena Schmidt",
+      "Nora Reyes"
+    ],
+    "date": "2025-08-27",
+    "duration_minutes": 60,
+    "summary": "Customer at Vertex Capital raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "neutral",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "call_id": "call_00195",
+    "account_id": "acc_019",
+    "attendees": [
+      "Owen Brennan",
+      "Sara Lindqvist",
+      "Aanya Chen",
+      "Ravi Mwangi"
+    ],
+    "date": "2026-01-02",
+    "duration_minutes": 60,
+    "summary": "Customer at Meridian Banking raised the need for granular permissions on shared workspaces and document libraries — described it as a gap vs. their previous tooling.",
+    "sentiment": "mixed",
+    "key_topics": [
+      "feature request",
+      "granular permissions",
+      "permissions model"
+    ],
+    "action_items": [
+      "log granular permissions feature request",
+      "follow up with product team"
+    ],
+    "competitor_mentions": []
+  }
+]

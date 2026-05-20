@@ -1,0 +1,122 @@
+[
+  {
+    "item_id": "rm_001",
+    "feature_name": "AI meeting summaries",
+    "status": "in_progress",
+    "target_quarter": "Q3-2026",
+    "investment_level": "high",
+    "description": "Auto-generated highlight reels and action items from recorded meetings, with sentiment tagging."
+  },
+  {
+    "item_id": "rm_002",
+    "feature_name": "Workflow templates v2",
+    "status": "planned",
+    "target_quarter": "Q4-2026",
+    "investment_level": "medium",
+    "description": "Second-generation workflow templates with branching and conditional triggers."
+  },
+  {
+    "item_id": "rm_003",
+    "feature_name": "Mobile redesign",
+    "status": "in_progress",
+    "target_quarter": "Q3-2026",
+    "investment_level": "medium",
+    "description": "Refresh of mobile app navigation and offline-first document editing."
+  },
+  {
+    "item_id": "rm_004",
+    "feature_name": "SSO with custom IdPs",
+    "status": "shipped",
+    "target_quarter": "Q1-2026",
+    "investment_level": "medium",
+    "description": "Support for SAML and OIDC connections to customer-managed IdPs."
+  },
+  {
+    "item_id": "rm_005",
+    "feature_name": "Improved search ranking",
+    "status": "in_progress",
+    "target_quarter": "Q3-2026",
+    "investment_level": "low",
+    "description": "Better relevance for cross-workspace document search."
+  },
+  {
+    "item_id": "rm_006",
+    "feature_name": "Calendar federation",
+    "status": "planned",
+    "target_quarter": "Q4-2026",
+    "investment_level": "low",
+    "description": "Federated calendar across external organisations."
+  },
+  {
+    "item_id": "rm_007",
+    "feature_name": "Public API rate-limit increase",
+    "status": "shipped",
+    "target_quarter": "Q1-2026",
+    "investment_level": "low",
+    "description": "Higher default rate limits and configurable per-tenant quotas."
+  },
+  {
+    "item_id": "rm_008",
+    "feature_name": "Activity-log retention controls",
+    "status": "backlog",
+    "target_quarter": "Q1-2027",
+    "investment_level": "low",
+    "description": "Customer-configurable retention windows for activity logs."
+  },
+  {
+    "item_id": "rm_009",
+    "feature_name": "Workspace analytics dashboards",
+    "status": "planned",
+    "target_quarter": "Q4-2026",
+    "investment_level": "medium",
+    "description": "Self-serve admin dashboards on workspace adoption and engagement."
+  },
+  {
+    "item_id": "rm_010",
+    "feature_name": "Cross-tenant guest collaboration",
+    "status": "in_progress",
+    "target_quarter": "Q3-2026",
+    "investment_level": "medium",
+    "description": "Improved external-collaborator flows including guest identity binding."
+  },
+  {
+    "item_id": "rm_011",
+    "feature_name": "Comment threading redesign",
+    "status": "shipped",
+    "target_quarter": "Q1-2026",
+    "investment_level": "low",
+    "description": "Threaded comments with mentions and resolution states."
+  },
+  {
+    "item_id": "rm_012",
+    "feature_name": "Document version graph",
+    "status": "backlog",
+    "target_quarter": "Q2-2027",
+    "investment_level": "low",
+    "description": "Branchable document history visualisation."
+  },
+  {
+    "item_id": "rm_013",
+    "feature_name": "Localized number/date formats",
+    "status": "shipped",
+    "target_quarter": "Q4-2025",
+    "investment_level": "low",
+    "description": "Improved i18n for spreadsheet and document formats."
+  },
+  {
+    "item_id": "rm_014",
+    "feature_name": "Smart notifications digest",
+    "status": "in_progress",
+    "target_quarter": "Q3-2026",
+    "investment_level": "medium",
+    "description": "ML-prioritised daily notification digest."
+  },
+  {
+    "item_id": "rm_015",
+    "feature_name": "Connectors marketplace",
+    "status": "planned",
+    "target_quarter": "Q1-2027",
+    "investment_level": "medium",
+    "description": "Self-serve marketplace for third-party integrations."
+  }
+]

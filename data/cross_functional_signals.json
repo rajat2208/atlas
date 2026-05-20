@@ -1,0 +1,599 @@
+[
+  {
+    "signal_id": "sig_00001",
+    "account_id": "acc_001",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2025-07-29T10:37:05",
+    "signal_type": "opportunity",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00002",
+    "account_id": "acc_001",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2026-05-03T13:26:03",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00003",
+    "account_id": "acc_002",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2026-02-01T12:33:42",
+    "signal_type": "opportunity",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00004",
+    "account_id": "acc_003",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2026-04-12T17:37:21",
+    "signal_type": "opportunity",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00005",
+    "account_id": "acc_003",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-03-26T14:15:56",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00006",
+    "account_id": "acc_003",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2026-02-17T18:33:21",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00007",
+    "account_id": "acc_004",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2025-11-04T09:47:46",
+    "signal_type": "opportunity",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00008",
+    "account_id": "acc_004",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-04-08T17:34:51",
+    "signal_type": "opportunity",
+    "content": "New activations from Finance/Legal/Ops in last 8 weeks — clear cross-departmental expansion in motion.",
+    "evidence_links": [
+      "users:new_recent"
+    ]
+  },
+  {
+    "signal_id": "sig_00009",
+    "account_id": "acc_005",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2025-05-27T14:53:30",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00010",
+    "account_id": "acc_005",
+    "contributor_id": "Product Manager - Diego Alvarez",
+    "created_at": "2025-08-09T19:06:08",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00011",
+    "account_id": "acc_005",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-25T11:33:44",
+    "signal_type": "risk",
+    "content": "Admin console exports/reports unreliable for this customer; we're starting to hear this from other accounts too.",
+    "evidence_links": [
+      "support_tickets:admin_console"
+    ]
+  },
+  {
+    "signal_id": "sig_00012",
+    "account_id": "acc_006",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-01-25T17:33:22",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00013",
+    "account_id": "acc_006",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2025-10-06T17:53:12",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00014",
+    "account_id": "acc_006",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2025-05-25T17:54:00",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00015",
+    "account_id": "acc_007",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2025-11-10T14:43:41",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00016",
+    "account_id": "acc_007",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-05T13:16:18",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00017",
+    "account_id": "acc_007",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2026-04-15T11:06:57",
+    "signal_type": "opportunity",
+    "content": "Strong expansion signals from sponsor in our latest QBR — opening conversation on multi-year extension.",
+    "evidence_links": [
+      "call_summaries:latest"
+    ]
+  },
+  {
+    "signal_id": "sig_00018",
+    "account_id": "acc_007",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-05-09T11:20:35",
+    "signal_type": "risk",
+    "content": "Sharp uptick in tickets across this account over the last two months; multiple severities and declining sentiment.",
+    "evidence_links": [
+      "support_tickets:recent_60d"
+    ]
+  },
+  {
+    "signal_id": "sig_00019",
+    "account_id": "acc_008",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-05T09:51:31",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00020",
+    "account_id": "acc_008",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2025-06-12T13:04:46",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00021",
+    "account_id": "acc_008",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2025-11-29T13:49:09",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00022",
+    "account_id": "acc_009",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2026-05-05T15:00:29",
+    "signal_type": "opportunity",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00023",
+    "account_id": "acc_010",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2025-11-17T15:26:16",
+    "signal_type": "opportunity",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00024",
+    "account_id": "acc_010",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2026-01-17T18:27:09",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00025",
+    "account_id": "acc_011",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2025-10-15T09:19:10",
+    "signal_type": "opportunity",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00026",
+    "account_id": "acc_012",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-05-02T15:43:50",
+    "signal_type": "opportunity",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00027",
+    "account_id": "acc_012",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-04-11T13:49:39",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00028",
+    "account_id": "acc_013",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-01-21T11:36:40",
+    "signal_type": "opportunity",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00029",
+    "account_id": "acc_013",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2026-01-08T14:22:25",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00030",
+    "account_id": "acc_013",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2026-04-11T18:06:49",
+    "signal_type": "opportunity",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00031",
+    "account_id": "acc_014",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2025-05-29T12:05:12",
+    "signal_type": "opportunity",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00032",
+    "account_id": "acc_014",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-04-19T15:12:22",
+    "signal_type": "risk",
+    "content": "Tone of recent tickets has shifted sharply. Worth a closer look despite the health score.",
+    "evidence_links": [
+      "support_tickets:recent"
+    ]
+  },
+  {
+    "signal_id": "sig_00033",
+    "account_id": "acc_014",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-05-12T08:46:12",
+    "signal_type": "risk",
+    "content": "Admin console exports/reports unreliable for this customer; we're starting to hear this from other accounts too.",
+    "evidence_links": [
+      "support_tickets:admin_console"
+    ]
+  },
+  {
+    "signal_id": "sig_00034",
+    "account_id": "acc_015",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2026-02-22T12:36:49",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00035",
+    "account_id": "acc_015",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-21T17:09:04",
+    "signal_type": "risk",
+    "content": "Admin console exports/reports unreliable for this customer; we're starting to hear this from other accounts too.",
+    "evidence_links": [
+      "support_tickets:admin_console"
+    ]
+  },
+  {
+    "signal_id": "sig_00036",
+    "account_id": "acc_016",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2025-07-07T16:50:30",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00037",
+    "account_id": "acc_016",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2026-03-20T10:37:31",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00038",
+    "account_id": "acc_016",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-05-10T17:01:05",
+    "signal_type": "opportunity",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00039",
+    "account_id": "acc_017",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-03-30T09:12:14",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00040",
+    "account_id": "acc_017",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-31T13:38:12",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00041",
+    "account_id": "acc_018",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2026-02-10T08:48:52",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00042",
+    "account_id": "acc_018",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2025-06-11T10:43:23",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00043",
+    "account_id": "acc_018",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2025-07-12T10:24:54",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00044",
+    "account_id": "acc_019",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-17T17:16:49",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00045",
+    "account_id": "acc_019",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-29T10:06:20",
+    "signal_type": "risk",
+    "content": "Admin console exports/reports unreliable for this customer; we're starting to hear this from other accounts too.",
+    "evidence_links": [
+      "support_tickets:admin_console"
+    ]
+  },
+  {
+    "signal_id": "sig_00046",
+    "account_id": "acc_020",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2026-01-04T09:26:49",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00047",
+    "account_id": "acc_020",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-20T18:29:31",
+    "signal_type": "risk",
+    "content": "Admin console exports/reports unreliable for this customer; we're starting to hear this from other accounts too.",
+    "evidence_links": [
+      "support_tickets:admin_console"
+    ]
+  },
+  {
+    "signal_id": "sig_00048",
+    "account_id": "acc_021",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2025-09-22T19:08:23",
+    "signal_type": "opportunity",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00049",
+    "account_id": "acc_021",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-04-14T09:32:41",
+    "signal_type": "risk",
+    "content": "Tone of recent tickets has shifted sharply. Worth a closer look despite the health score.",
+    "evidence_links": [
+      "support_tickets:recent"
+    ]
+  },
+  {
+    "signal_id": "sig_00050",
+    "account_id": "acc_022",
+    "contributor_id": "Product Manager - Diego Alvarez",
+    "created_at": "2025-12-30T19:34:38",
+    "signal_type": "opportunity",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00051",
+    "account_id": "acc_022",
+    "contributor_id": "Product Manager - Diego Alvarez",
+    "created_at": "2025-08-01T17:28:33",
+    "signal_type": "opportunity",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00052",
+    "account_id": "acc_023",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2025-07-24T18:36:48",
+    "signal_type": "opportunity",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00053",
+    "account_id": "acc_023",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2026-04-02T17:20:50",
+    "signal_type": "observation",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00054",
+    "account_id": "acc_023",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-02-07T12:48:18",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00055",
+    "account_id": "acc_023",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-05-10T14:28:12",
+    "signal_type": "opportunity",
+    "content": "New activations from Finance/Legal/Ops in last 8 weeks — clear cross-departmental expansion in motion.",
+    "evidence_links": [
+      "users:new_recent"
+    ]
+  },
+  {
+    "signal_id": "sig_00056",
+    "account_id": "acc_024",
+    "contributor_id": "CSM - Tomas Bergstrom",
+    "created_at": "2025-08-08T15:19:38",
+    "signal_type": "observation",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00057",
+    "account_id": "acc_024",
+    "contributor_id": "AE - Sara Lindqvist",
+    "created_at": "2026-05-07T14:40:21",
+    "signal_type": "opportunity",
+    "content": "Strong expansion signals from sponsor in our latest QBR — opening conversation on multi-year extension.",
+    "evidence_links": [
+      "call_summaries:latest"
+    ]
+  },
+  {
+    "signal_id": "sig_00058",
+    "account_id": "acc_024",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-05-01T09:20:08",
+    "signal_type": "risk",
+    "content": "Sharp uptick in tickets across this account over the last two months; multiple severities and declining sentiment.",
+    "evidence_links": [
+      "support_tickets:recent_60d"
+    ]
+  },
+  {
+    "signal_id": "sig_00059",
+    "account_id": "acc_025",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-03-06T13:51:26",
+    "signal_type": "observation",
+    "content": "Customer asked good questions about export APIs.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00060",
+    "account_id": "acc_025",
+    "contributor_id": "Engineering Lead - Mei Zhang",
+    "created_at": "2025-05-21T13:47:58",
+    "signal_type": "opportunity",
+    "content": "Customer using product in an unusual but interesting way.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00061",
+    "account_id": "acc_025",
+    "contributor_id": "Product Manager - Diego Alvarez",
+    "created_at": "2025-06-21T09:30:04",
+    "signal_type": "opportunity",
+    "content": "Team has hired a new IT lead — relationship transition in progress.",
+    "evidence_links": []
+  },
+  {
+    "signal_id": "sig_00062",
+    "account_id": "acc_025",
+    "contributor_id": "Support Lead - Maya Chen",
+    "created_at": "2026-03-21T10:58:01",
+    "signal_type": "risk",
+    "content": "Tone of recent tickets has shifted sharply. Worth a closer look despite the health score.",
+    "evidence_links": [
+      "support_tickets:recent"
+    ]
+  },
+  {
+    "signal_id": "sig_00063",
+    "account_id": "acc_025",
+    "contributor_id": "Solutions Engineer - Priya Iyer",
+    "created_at": "2026-03-08T17:35:10",
+    "signal_type": "risk",
+    "content": "Admin console exports/reports unreliable for this customer; we're starting to hear this from other accounts too.",
+    "evidence_links": [
+      "support_tickets:admin_console"
+    ]
+  }
+]

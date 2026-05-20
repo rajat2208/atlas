@@ -1,0 +1,1955 @@
+[
+  {
+    "note_id": "csn_00001",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2025-10-10T14:46:41",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0007"
+    ]
+  },
+  {
+    "note_id": "csn_00002",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2025-09-10T13:03:27",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0013"
+    ]
+  },
+  {
+    "note_id": "csn_00003",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2026-03-10T12:39:30",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0002"
+    ]
+  },
+  {
+    "note_id": "csn_00004",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2025-09-15T16:39:17",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0012"
+    ]
+  },
+  {
+    "note_id": "csn_00005",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2025-06-10T08:37:55",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0017"
+    ]
+  },
+  {
+    "note_id": "csn_00006",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2025-08-05T09:45:58",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0007"
+    ]
+  },
+  {
+    "note_id": "csn_00007",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2026-03-30T18:39:50",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0013"
+    ]
+  },
+  {
+    "note_id": "csn_00008",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2026-03-23T10:26:39",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0013"
+    ]
+  },
+  {
+    "note_id": "csn_00009",
+    "account_id": "acc_001",
+    "author": "Maya Chen",
+    "created_at": "2025-12-06T19:28:57",
+    "category": "relationship",
+    "content": "Sponsor Aanya Iyer has been a vocal advocate internally. Open to acting as a reference and participating in our customer advisory board.",
+    "tagged_users": [
+      "usr_0001"
+    ]
+  },
+  {
+    "note_id": "csn_00010",
+    "account_id": "acc_002",
+    "author": "Diego Alvarez",
+    "created_at": "2026-05-18T18:05:42",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0022"
+    ]
+  },
+  {
+    "note_id": "csn_00011",
+    "account_id": "acc_002",
+    "author": "Diego Alvarez",
+    "created_at": "2025-11-06T09:27:03",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0027"
+    ]
+  },
+  {
+    "note_id": "csn_00012",
+    "account_id": "acc_002",
+    "author": "Diego Alvarez",
+    "created_at": "2025-10-31T13:02:26",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0024"
+    ]
+  },
+  {
+    "note_id": "csn_00013",
+    "account_id": "acc_002",
+    "author": "Diego Alvarez",
+    "created_at": "2025-11-23T13:25:11",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0021"
+    ]
+  },
+  {
+    "note_id": "csn_00014",
+    "account_id": "acc_002",
+    "author": "Diego Alvarez",
+    "created_at": "2025-12-13T13:29:17",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0026"
+    ]
+  },
+  {
+    "note_id": "csn_00015",
+    "account_id": "acc_002",
+    "author": "Diego Alvarez",
+    "created_at": "2025-12-31T11:21:40",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0019"
+    ]
+  },
+  {
+    "note_id": "csn_00016",
+    "account_id": "acc_002",
+    "author": "Diego Alvarez",
+    "created_at": "2026-04-01T14:49:59",
+    "category": "risk",
+    "content": "Previous sponsor Theo Menon has left the organization. New VP Engineering Aanya Ferreira has taken over decision authority and is openly evaluating alternative vendors before the upcoming renewal.",
+    "tagged_users": [
+      "usr_0028",
+      "usr_0018"
+    ]
+  },
+  {
+    "note_id": "csn_00017",
+    "account_id": "acc_003",
+    "author": "Priya Iyer",
+    "created_at": "2025-08-25T11:58:46",
+    "category": "general",
+    "content": "Routine check-in with Nora Vargas's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0041"
+    ]
+  },
+  {
+    "note_id": "csn_00018",
+    "account_id": "acc_003",
+    "author": "Priya Iyer",
+    "created_at": "2025-09-13T09:53:02",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0044"
+    ]
+  },
+  {
+    "note_id": "csn_00019",
+    "account_id": "acc_003",
+    "author": "Priya Iyer",
+    "created_at": "2026-02-20T15:30:41",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0039"
+    ]
+  },
+  {
+    "note_id": "csn_00020",
+    "account_id": "acc_003",
+    "author": "Priya Iyer",
+    "created_at": "2025-08-30T15:40:37",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0042"
+    ]
+  },
+  {
+    "note_id": "csn_00021",
+    "account_id": "acc_003",
+    "author": "Priya Iyer",
+    "created_at": "2026-05-17T16:51:39",
+    "category": "relationship",
+    "content": "Routine check-in with Nora Vargas's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0036"
+    ]
+  },
+  {
+    "note_id": "csn_00022",
+    "account_id": "acc_003",
+    "author": "Priya Iyer",
+    "created_at": "2026-04-24T11:12:17",
+    "category": "risk",
+    "content": "Previous sponsor Nora Vargas has left the organization. New VP Engineering Lena Ferreira has taken over decision authority and is openly evaluating alternative vendors before the upcoming renewal.",
+    "tagged_users": [
+      "usr_0049",
+      "usr_0029"
+    ]
+  },
+  {
+    "note_id": "csn_00023",
+    "account_id": "acc_004",
+    "author": "Owen Brennan",
+    "created_at": "2025-12-03T19:09:11",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0053"
+    ]
+  },
+  {
+    "note_id": "csn_00024",
+    "account_id": "acc_004",
+    "author": "Owen Brennan",
+    "created_at": "2026-04-11T14:40:55",
+    "category": "opportunity",
+    "content": "Routine check-in with Felix Lehmann's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0065"
+    ]
+  },
+  {
+    "note_id": "csn_00025",
+    "account_id": "acc_004",
+    "author": "Owen Brennan",
+    "created_at": "2026-03-30T11:23:20",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0063"
+    ]
+  },
+  {
+    "note_id": "csn_00026",
+    "account_id": "acc_004",
+    "author": "Owen Brennan",
+    "created_at": "2026-01-31T11:18:44",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0062"
+    ]
+  },
+  {
+    "note_id": "csn_00027",
+    "account_id": "acc_004",
+    "author": "Owen Brennan",
+    "created_at": "2025-12-29T15:11:59",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0052"
+    ]
+  },
+  {
+    "note_id": "csn_00028",
+    "account_id": "acc_004",
+    "author": "Owen Brennan",
+    "created_at": "2026-02-13T17:44:46",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0052"
+    ]
+  },
+  {
+    "note_id": "csn_00029",
+    "account_id": "acc_004",
+    "author": "Owen Brennan",
+    "created_at": "2026-04-22T09:20:02",
+    "category": "opportunity",
+    "content": "New users from Finance/Legal/Ops have signed in over the last quarter. Customer is asking sophisticated questions about API limits and SSO. Strong signal for a commercial expansion conversation that has not happened yet.",
+    "tagged_users": [
+      "usr_0063",
+      "usr_0064",
+      "usr_0065"
+    ]
+  },
+  {
+    "note_id": "csn_00030",
+    "account_id": "acc_005",
+    "author": "Mei Zhang",
+    "created_at": "2026-04-13T11:45:55",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0066"
+    ]
+  },
+  {
+    "note_id": "csn_00031",
+    "account_id": "acc_005",
+    "author": "Mei Zhang",
+    "created_at": "2026-02-28T14:13:34",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0069"
+    ]
+  },
+  {
+    "note_id": "csn_00032",
+    "account_id": "acc_005",
+    "author": "Mei Zhang",
+    "created_at": "2026-01-01T13:03:52",
+    "category": "general",
+    "content": "Routine check-in with Owen Lopez's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0070"
+    ]
+  },
+  {
+    "note_id": "csn_00033",
+    "account_id": "acc_005",
+    "author": "Mei Zhang",
+    "created_at": "2025-06-21T09:29:46",
+    "category": "relationship",
+    "content": "Routine check-in with Owen Lopez's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0071"
+    ]
+  },
+  {
+    "note_id": "csn_00034",
+    "account_id": "acc_005",
+    "author": "Mei Zhang",
+    "created_at": "2026-03-27T10:52:05",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0068"
+    ]
+  },
+  {
+    "note_id": "csn_00035",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2025-06-08T09:19:41",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0089"
+    ]
+  },
+  {
+    "note_id": "csn_00036",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2025-07-11T17:02:31",
+    "category": "general",
+    "content": "Routine check-in with Maya Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0082"
+    ]
+  },
+  {
+    "note_id": "csn_00037",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2025-06-10T11:19:34",
+    "category": "general",
+    "content": "Routine check-in with Maya Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0080"
+    ]
+  },
+  {
+    "note_id": "csn_00038",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2025-09-11T12:17:23",
+    "category": "general",
+    "content": "Routine check-in with Maya Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0086"
+    ]
+  },
+  {
+    "note_id": "csn_00039",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2026-01-30T13:22:32",
+    "category": "opportunity",
+    "content": "Routine check-in with Maya Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0093"
+    ]
+  },
+  {
+    "note_id": "csn_00040",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2025-12-27T16:24:00",
+    "category": "general",
+    "content": "Routine check-in with Maya Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0095"
+    ]
+  },
+  {
+    "note_id": "csn_00041",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2025-06-19T17:51:02",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0078"
+    ]
+  },
+  {
+    "note_id": "csn_00042",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2026-03-31T13:09:33",
+    "category": "relationship",
+    "content": "Routine check-in with Maya Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0075"
+    ]
+  },
+  {
+    "note_id": "csn_00043",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2025-10-27T18:35:25",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0092"
+    ]
+  },
+  {
+    "note_id": "csn_00044",
+    "account_id": "acc_006",
+    "author": "Lucas Reyes",
+    "created_at": "2026-02-28T13:18:30",
+    "category": "risk",
+    "content": "Customer has now raised admin console issues on multiple touchpoints. Not blocking but eroding trust.",
+    "tagged_users": [
+      "usr_0093"
+    ]
+  },
+  {
+    "note_id": "csn_00045",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2025-10-27T19:03:22",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0117"
+    ]
+  },
+  {
+    "note_id": "csn_00046",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-02T08:53:52",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0101"
+    ]
+  },
+  {
+    "note_id": "csn_00047",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2026-02-17T17:12:37",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0097"
+    ]
+  },
+  {
+    "note_id": "csn_00048",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2025-10-07T17:08:04",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0100"
+    ]
+  },
+  {
+    "note_id": "csn_00049",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2026-05-16T11:43:52",
+    "category": "relationship",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0106"
+    ]
+  },
+  {
+    "note_id": "csn_00050",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2025-10-26T11:39:01",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0106"
+    ]
+  },
+  {
+    "note_id": "csn_00051",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2025-09-11T17:24:22",
+    "category": "general",
+    "content": "Routine check-in with Iris Park's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0117"
+    ]
+  },
+  {
+    "note_id": "csn_00052",
+    "account_id": "acc_007",
+    "author": "Lucas Reyes",
+    "created_at": "2026-05-05T08:29:47",
+    "category": "risk",
+    "content": "Sponsor expressed frustration over the recent spike in support tickets. Several team leads have privately raised concerns about reliability. This contradicts the optimistic tone of recent sales touchpoints.",
+    "tagged_users": [
+      "usr_0097"
+    ]
+  },
+  {
+    "note_id": "csn_00053",
+    "account_id": "acc_008",
+    "author": "Diego Alvarez",
+    "created_at": "2026-05-05T08:19:03",
+    "category": "opportunity",
+    "content": "Routine check-in with Jordan Petrov's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0126"
+    ]
+  },
+  {
+    "note_id": "csn_00054",
+    "account_id": "acc_008",
+    "author": "Diego Alvarez",
+    "created_at": "2026-04-05T08:50:02",
+    "category": "general",
+    "content": "Routine check-in with Jordan Petrov's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0131"
+    ]
+  },
+  {
+    "note_id": "csn_00055",
+    "account_id": "acc_008",
+    "author": "Diego Alvarez",
+    "created_at": "2026-04-21T12:52:23",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0119"
+    ]
+  },
+  {
+    "note_id": "csn_00056",
+    "account_id": "acc_008",
+    "author": "Diego Alvarez",
+    "created_at": "2025-08-26T13:53:13",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0124"
+    ]
+  },
+  {
+    "note_id": "csn_00057",
+    "account_id": "acc_008",
+    "author": "Diego Alvarez",
+    "created_at": "2025-07-25T17:38:02",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0126"
+    ]
+  },
+  {
+    "note_id": "csn_00058",
+    "account_id": "acc_009",
+    "author": "Diego Alvarez",
+    "created_at": "2026-01-27T16:26:54",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0141"
+    ]
+  },
+  {
+    "note_id": "csn_00059",
+    "account_id": "acc_009",
+    "author": "Diego Alvarez",
+    "created_at": "2026-03-21T10:48:08",
+    "category": "opportunity",
+    "content": "Routine check-in with Carlos Andersson's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0143"
+    ]
+  },
+  {
+    "note_id": "csn_00060",
+    "account_id": "acc_009",
+    "author": "Diego Alvarez",
+    "created_at": "2026-05-10T11:07:00",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0139"
+    ]
+  },
+  {
+    "note_id": "csn_00061",
+    "account_id": "acc_009",
+    "author": "Diego Alvarez",
+    "created_at": "2026-03-03T19:33:02",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0138"
+    ]
+  },
+  {
+    "note_id": "csn_00062",
+    "account_id": "acc_010",
+    "author": "Hannah Okafor",
+    "created_at": "2025-09-26T13:04:38",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0150"
+    ]
+  },
+  {
+    "note_id": "csn_00063",
+    "account_id": "acc_010",
+    "author": "Hannah Okafor",
+    "created_at": "2026-01-13T09:04:31",
+    "category": "opportunity",
+    "content": "Routine check-in with Iris Lehmann's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0163"
+    ]
+  },
+  {
+    "note_id": "csn_00064",
+    "account_id": "acc_010",
+    "author": "Hannah Okafor",
+    "created_at": "2025-11-11T09:44:50",
+    "category": "relationship",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0149"
+    ]
+  },
+  {
+    "note_id": "csn_00065",
+    "account_id": "acc_010",
+    "author": "Hannah Okafor",
+    "created_at": "2025-11-22T11:47:16",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0148"
+    ]
+  },
+  {
+    "note_id": "csn_00066",
+    "account_id": "acc_010",
+    "author": "Hannah Okafor",
+    "created_at": "2026-02-07T16:06:20",
+    "category": "relationship",
+    "content": "Sponsor Iris Lehmann has been a vocal advocate internally. Open to acting as a reference and participating in our customer advisory board.",
+    "tagged_users": [
+      "usr_0144"
+    ]
+  },
+  {
+    "note_id": "csn_00067",
+    "account_id": "acc_011",
+    "author": "Lucas Reyes",
+    "created_at": "2025-09-04T15:31:54",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0170"
+    ]
+  },
+  {
+    "note_id": "csn_00068",
+    "account_id": "acc_011",
+    "author": "Lucas Reyes",
+    "created_at": "2026-03-17T10:56:40",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0173"
+    ]
+  },
+  {
+    "note_id": "csn_00069",
+    "account_id": "acc_011",
+    "author": "Lucas Reyes",
+    "created_at": "2025-10-06T11:37:50",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0181"
+    ]
+  },
+  {
+    "note_id": "csn_00070",
+    "account_id": "acc_011",
+    "author": "Lucas Reyes",
+    "created_at": "2026-03-09T12:58:13",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0184"
+    ]
+  },
+  {
+    "note_id": "csn_00071",
+    "account_id": "acc_011",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-23T08:49:15",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0168"
+    ]
+  },
+  {
+    "note_id": "csn_00072",
+    "account_id": "acc_011",
+    "author": "Lucas Reyes",
+    "created_at": "2025-06-17T14:16:56",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0175"
+    ]
+  },
+  {
+    "note_id": "csn_00073",
+    "account_id": "acc_011",
+    "author": "Lucas Reyes",
+    "created_at": "2025-08-25T11:22:55",
+    "category": "opportunity",
+    "content": "Routine check-in with Felix Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0186"
+    ]
+  },
+  {
+    "note_id": "csn_00074",
+    "account_id": "acc_012",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-29T17:31:13",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0192"
+    ]
+  },
+  {
+    "note_id": "csn_00075",
+    "account_id": "acc_012",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-14T11:38:07",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0189"
+    ]
+  },
+  {
+    "note_id": "csn_00076",
+    "account_id": "acc_012",
+    "author": "Lucas Reyes",
+    "created_at": "2026-03-26T13:05:11",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0188"
+    ]
+  },
+  {
+    "note_id": "csn_00077",
+    "account_id": "acc_012",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-08T19:51:37",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0194"
+    ]
+  },
+  {
+    "note_id": "csn_00078",
+    "account_id": "acc_012",
+    "author": "Lucas Reyes",
+    "created_at": "2026-05-05T10:29:31",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0195"
+    ]
+  },
+  {
+    "note_id": "csn_00079",
+    "account_id": "acc_012",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-26T19:28:10",
+    "category": "relationship",
+    "content": "Routine check-in with Idris Iyer's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0194"
+    ]
+  },
+  {
+    "note_id": "csn_00080",
+    "account_id": "acc_012",
+    "author": "Lucas Reyes",
+    "created_at": "2026-02-28T19:52:42",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0194"
+    ]
+  },
+  {
+    "note_id": "csn_00081",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-03-23T08:37:52",
+    "category": "relationship",
+    "content": "Routine check-in with Tomas Bergstrom's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0197"
+    ]
+  },
+  {
+    "note_id": "csn_00082",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-05-13T17:56:29",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0202"
+    ]
+  },
+  {
+    "note_id": "csn_00083",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-02-10T08:26:30",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0202"
+    ]
+  },
+  {
+    "note_id": "csn_00084",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-04-23T13:29:09",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0197"
+    ]
+  },
+  {
+    "note_id": "csn_00085",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-04-12T14:23:28",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0201"
+    ]
+  },
+  {
+    "note_id": "csn_00086",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-04-01T11:14:16",
+    "category": "general",
+    "content": "Routine check-in with Tomas Bergstrom's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0196"
+    ]
+  },
+  {
+    "note_id": "csn_00087",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-01-20T17:22:11",
+    "category": "relationship",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0200"
+    ]
+  },
+  {
+    "note_id": "csn_00088",
+    "account_id": "acc_013",
+    "author": "Hannah Okafor",
+    "created_at": "2026-03-04T11:13:40",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0197"
+    ]
+  },
+  {
+    "note_id": "csn_00089",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2025-12-28T09:57:02",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0213"
+    ]
+  },
+  {
+    "note_id": "csn_00090",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2025-08-13T11:01:44",
+    "category": "relationship",
+    "content": "Routine check-in with Kai Andersson's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0213"
+    ]
+  },
+  {
+    "note_id": "csn_00091",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2026-05-04T18:28:05",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0215"
+    ]
+  },
+  {
+    "note_id": "csn_00092",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2026-04-27T11:25:27",
+    "category": "opportunity",
+    "content": "Routine check-in with Kai Andersson's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0208"
+    ]
+  },
+  {
+    "note_id": "csn_00093",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2026-03-10T18:59:02",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0222"
+    ]
+  },
+  {
+    "note_id": "csn_00094",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2025-08-03T19:09:00",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0213"
+    ]
+  },
+  {
+    "note_id": "csn_00095",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2025-06-14T11:19:11",
+    "category": "general",
+    "content": "Routine check-in with Kai Andersson's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0221"
+    ]
+  },
+  {
+    "note_id": "csn_00096",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2026-02-28T13:57:07",
+    "category": "relationship",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0204"
+    ]
+  },
+  {
+    "note_id": "csn_00097",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2026-02-08T17:05:11",
+    "category": "risk",
+    "content": "Executive sponsor Kai Andersson has been unreachable for two cycles. Reorg in their org appears to have moved priorities away from our workstream. QBR was missed. Recommend re-engagement plan.",
+    "tagged_users": [
+      "usr_0203"
+    ]
+  },
+  {
+    "note_id": "csn_00098",
+    "account_id": "acc_014",
+    "author": "Diego Alvarez",
+    "created_at": "2026-05-15T11:32:05",
+    "category": "risk",
+    "content": "Team reports declining usage of the core document workflows. Sentiment on tickets has shifted from neutral to negative. Sponsor is silent.",
+    "tagged_users": [
+      "usr_0203"
+    ]
+  },
+  {
+    "note_id": "csn_00099",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2025-05-26T09:21:42",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0229"
+    ]
+  },
+  {
+    "note_id": "csn_00100",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2025-08-05T11:11:00",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0224"
+    ]
+  },
+  {
+    "note_id": "csn_00101",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2025-05-29T11:30:46",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0228"
+    ]
+  },
+  {
+    "note_id": "csn_00102",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2025-09-15T13:34:22",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0231"
+    ]
+  },
+  {
+    "note_id": "csn_00103",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2026-01-02T14:14:44",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0238"
+    ]
+  },
+  {
+    "note_id": "csn_00104",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2026-02-19T19:32:57",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0227"
+    ]
+  },
+  {
+    "note_id": "csn_00105",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2026-02-06T16:42:00",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0238"
+    ]
+  },
+  {
+    "note_id": "csn_00106",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2025-12-12T13:00:46",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0223"
+    ]
+  },
+  {
+    "note_id": "csn_00107",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-28T15:14:55",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0237"
+    ]
+  },
+  {
+    "note_id": "csn_00108",
+    "account_id": "acc_015",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-01T12:36:47",
+    "category": "risk",
+    "content": "Customer has now raised admin console issues on multiple touchpoints. Not blocking but eroding trust.",
+    "tagged_users": [
+      "usr_0226"
+    ]
+  },
+  {
+    "note_id": "csn_00109",
+    "account_id": "acc_016",
+    "author": "Tomas Bergstrom",
+    "created_at": "2025-10-16T10:59:00",
+    "category": "general",
+    "content": "Routine check-in with Rajiv Rossi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0246"
+    ]
+  },
+  {
+    "note_id": "csn_00110",
+    "account_id": "acc_016",
+    "author": "Tomas Bergstrom",
+    "created_at": "2026-04-19T15:10:14",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0243"
+    ]
+  },
+  {
+    "note_id": "csn_00111",
+    "account_id": "acc_016",
+    "author": "Tomas Bergstrom",
+    "created_at": "2025-05-27T15:04:12",
+    "category": "relationship",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0251"
+    ]
+  },
+  {
+    "note_id": "csn_00112",
+    "account_id": "acc_016",
+    "author": "Tomas Bergstrom",
+    "created_at": "2026-04-23T12:35:32",
+    "category": "relationship",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0244"
+    ]
+  },
+  {
+    "note_id": "csn_00113",
+    "account_id": "acc_016",
+    "author": "Tomas Bergstrom",
+    "created_at": "2025-07-09T19:29:14",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0247"
+    ]
+  },
+  {
+    "note_id": "csn_00114",
+    "account_id": "acc_016",
+    "author": "Tomas Bergstrom",
+    "created_at": "2025-07-01T14:59:02",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0243"
+    ]
+  },
+  {
+    "note_id": "csn_00115",
+    "account_id": "acc_016",
+    "author": "Tomas Bergstrom",
+    "created_at": "2025-12-14T19:43:54",
+    "category": "relationship",
+    "content": "Sponsor Rajiv Rossi has been a vocal advocate internally. Open to acting as a reference and participating in our customer advisory board.",
+    "tagged_users": [
+      "usr_0241"
+    ]
+  },
+  {
+    "note_id": "csn_00116",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-02-19T11:51:04",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0253"
+    ]
+  },
+  {
+    "note_id": "csn_00117",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-03-07T11:01:47",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0259"
+    ]
+  },
+  {
+    "note_id": "csn_00118",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-04-29T13:03:20",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0258"
+    ]
+  },
+  {
+    "note_id": "csn_00119",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-05-13T14:00:16",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0260"
+    ]
+  },
+  {
+    "note_id": "csn_00120",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-03-26T15:43:26",
+    "category": "relationship",
+    "content": "Routine check-in with Idris Lehmann's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0258"
+    ]
+  },
+  {
+    "note_id": "csn_00121",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-03-18T17:45:28",
+    "category": "opportunity",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0258"
+    ]
+  },
+  {
+    "note_id": "csn_00122",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-01-23T10:49:48",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0258"
+    ]
+  },
+  {
+    "note_id": "csn_00123",
+    "account_id": "acc_017",
+    "author": "Owen Brennan",
+    "created_at": "2026-02-11T10:32:03",
+    "category": "relationship",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0255"
+    ]
+  },
+  {
+    "note_id": "csn_00124",
+    "account_id": "acc_018",
+    "author": "Diego Alvarez",
+    "created_at": "2025-06-21T13:13:26",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0262"
+    ]
+  },
+  {
+    "note_id": "csn_00125",
+    "account_id": "acc_018",
+    "author": "Diego Alvarez",
+    "created_at": "2026-01-05T16:58:32",
+    "category": "relationship",
+    "content": "Routine check-in with Sara Hassan's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0273"
+    ]
+  },
+  {
+    "note_id": "csn_00126",
+    "account_id": "acc_018",
+    "author": "Diego Alvarez",
+    "created_at": "2025-07-26T14:21:18",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0269"
+    ]
+  },
+  {
+    "note_id": "csn_00127",
+    "account_id": "acc_018",
+    "author": "Diego Alvarez",
+    "created_at": "2026-03-04T16:07:12",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0261"
+    ]
+  },
+  {
+    "note_id": "csn_00128",
+    "account_id": "acc_019",
+    "author": "Owen Brennan",
+    "created_at": "2025-12-07T10:37:48",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0284"
+    ]
+  },
+  {
+    "note_id": "csn_00129",
+    "account_id": "acc_019",
+    "author": "Owen Brennan",
+    "created_at": "2025-09-16T16:56:34",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0295"
+    ]
+  },
+  {
+    "note_id": "csn_00130",
+    "account_id": "acc_019",
+    "author": "Owen Brennan",
+    "created_at": "2026-04-20T09:55:43",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0288"
+    ]
+  },
+  {
+    "note_id": "csn_00131",
+    "account_id": "acc_019",
+    "author": "Owen Brennan",
+    "created_at": "2025-10-30T13:54:04",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0298"
+    ]
+  },
+  {
+    "note_id": "csn_00132",
+    "account_id": "acc_019",
+    "author": "Owen Brennan",
+    "created_at": "2026-01-31T16:33:46",
+    "category": "general",
+    "content": "Routine check-in with Lena Nakamura's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0288"
+    ]
+  },
+  {
+    "note_id": "csn_00133",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2026-01-12T10:37:25",
+    "category": "general",
+    "content": "Routine check-in with Iris Schmidt's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0306"
+    ]
+  },
+  {
+    "note_id": "csn_00134",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2025-07-20T18:06:12",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0308"
+    ]
+  },
+  {
+    "note_id": "csn_00135",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2026-05-08T11:28:44",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0304"
+    ]
+  },
+  {
+    "note_id": "csn_00136",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2025-06-11T08:22:51",
+    "category": "relationship",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0309"
+    ]
+  },
+  {
+    "note_id": "csn_00137",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2025-12-05T16:43:33",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0308"
+    ]
+  },
+  {
+    "note_id": "csn_00138",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2025-07-06T09:16:42",
+    "category": "general",
+    "content": "Routine check-in with Iris Schmidt's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0313"
+    ]
+  },
+  {
+    "note_id": "csn_00139",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2025-11-22T09:09:45",
+    "category": "relationship",
+    "content": "Routine check-in with Iris Schmidt's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0308"
+    ]
+  },
+  {
+    "note_id": "csn_00140",
+    "account_id": "acc_020",
+    "author": "Owen Brennan",
+    "created_at": "2026-05-05T13:50:51",
+    "category": "risk",
+    "content": "Customer has now raised admin console issues on multiple touchpoints. Not blocking but eroding trust.",
+    "tagged_users": [
+      "usr_0303"
+    ]
+  },
+  {
+    "note_id": "csn_00141",
+    "account_id": "acc_021",
+    "author": "Lucas Reyes",
+    "created_at": "2025-09-25T08:11:03",
+    "category": "opportunity",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0319"
+    ]
+  },
+  {
+    "note_id": "csn_00142",
+    "account_id": "acc_021",
+    "author": "Lucas Reyes",
+    "created_at": "2025-12-23T11:03:21",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0325"
+    ]
+  },
+  {
+    "note_id": "csn_00143",
+    "account_id": "acc_021",
+    "author": "Lucas Reyes",
+    "created_at": "2025-12-29T15:08:53",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0315"
+    ]
+  },
+  {
+    "note_id": "csn_00144",
+    "account_id": "acc_021",
+    "author": "Lucas Reyes",
+    "created_at": "2025-06-21T10:46:02",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0327"
+    ]
+  },
+  {
+    "note_id": "csn_00145",
+    "account_id": "acc_021",
+    "author": "Lucas Reyes",
+    "created_at": "2025-07-07T08:48:03",
+    "category": "relationship",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0326"
+    ]
+  },
+  {
+    "note_id": "csn_00146",
+    "account_id": "acc_021",
+    "author": "Lucas Reyes",
+    "created_at": "2026-01-17T13:22:30",
+    "category": "risk",
+    "content": "Executive sponsor Jordan Patel has been unreachable for two cycles. Reorg in their org appears to have moved priorities away from our workstream. QBR was missed. Recommend re-engagement plan.",
+    "tagged_users": [
+      "usr_0314"
+    ]
+  },
+  {
+    "note_id": "csn_00147",
+    "account_id": "acc_021",
+    "author": "Lucas Reyes",
+    "created_at": "2026-03-19T16:23:25",
+    "category": "risk",
+    "content": "Team reports declining usage of the core document workflows. Sentiment on tickets has shifted from neutral to negative. Sponsor is silent.",
+    "tagged_users": [
+      "usr_0314"
+    ]
+  },
+  {
+    "note_id": "csn_00148",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2025-07-29T09:19:36",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0334"
+    ]
+  },
+  {
+    "note_id": "csn_00149",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2026-01-12T12:43:19",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0339"
+    ]
+  },
+  {
+    "note_id": "csn_00150",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2026-02-07T14:03:24",
+    "category": "relationship",
+    "content": "Routine check-in with Diego Lindqvist's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0334"
+    ]
+  },
+  {
+    "note_id": "csn_00151",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2025-11-24T11:16:16",
+    "category": "general",
+    "content": "Routine check-in with Diego Lindqvist's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0341"
+    ]
+  },
+  {
+    "note_id": "csn_00152",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2025-12-31T14:36:24",
+    "category": "general",
+    "content": "Routine check-in with Diego Lindqvist's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0342"
+    ]
+  },
+  {
+    "note_id": "csn_00153",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2026-03-15T17:38:08",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0338"
+    ]
+  },
+  {
+    "note_id": "csn_00154",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2026-03-03T16:13:29",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0339"
+    ]
+  },
+  {
+    "note_id": "csn_00155",
+    "account_id": "acc_022",
+    "author": "Diego Alvarez",
+    "created_at": "2025-12-19T19:24:05",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0339"
+    ]
+  },
+  {
+    "note_id": "csn_00156",
+    "account_id": "acc_023",
+    "author": "Maya Chen",
+    "created_at": "2025-12-04T14:07:56",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0350"
+    ]
+  },
+  {
+    "note_id": "csn_00157",
+    "account_id": "acc_023",
+    "author": "Maya Chen",
+    "created_at": "2025-09-07T13:49:37",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0352"
+    ]
+  },
+  {
+    "note_id": "csn_00158",
+    "account_id": "acc_023",
+    "author": "Maya Chen",
+    "created_at": "2025-06-11T15:52:26",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0351"
+    ]
+  },
+  {
+    "note_id": "csn_00159",
+    "account_id": "acc_023",
+    "author": "Maya Chen",
+    "created_at": "2025-09-03T17:30:47",
+    "category": "general",
+    "content": "Routine check-in with Mateo Iyer's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0346"
+    ]
+  },
+  {
+    "note_id": "csn_00160",
+    "account_id": "acc_023",
+    "author": "Maya Chen",
+    "created_at": "2025-06-26T14:54:49",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0347"
+    ]
+  },
+  {
+    "note_id": "csn_00161",
+    "account_id": "acc_023",
+    "author": "Maya Chen",
+    "created_at": "2025-05-27T08:59:28",
+    "category": "opportunity",
+    "content": "Routine check-in with Mateo Iyer's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0351"
+    ]
+  },
+  {
+    "note_id": "csn_00162",
+    "account_id": "acc_023",
+    "author": "Maya Chen",
+    "created_at": "2026-04-12T12:13:43",
+    "category": "opportunity",
+    "content": "New users from Finance/Legal/Ops have signed in over the last quarter. Customer is asking sophisticated questions about API limits and SSO. Strong signal for a commercial expansion conversation that has not happened yet.",
+    "tagged_users": [
+      "usr_0354",
+      "usr_0355",
+      "usr_0356"
+    ]
+  },
+  {
+    "note_id": "csn_00163",
+    "account_id": "acc_024",
+    "author": "Lucas Reyes",
+    "created_at": "2026-03-14T13:08:53",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0361"
+    ]
+  },
+  {
+    "note_id": "csn_00164",
+    "account_id": "acc_024",
+    "author": "Lucas Reyes",
+    "created_at": "2025-07-09T14:12:27",
+    "category": "opportunity",
+    "content": "Routine check-in with Rajiv Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0362"
+    ]
+  },
+  {
+    "note_id": "csn_00165",
+    "account_id": "acc_024",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-12T10:42:39",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0357"
+    ]
+  },
+  {
+    "note_id": "csn_00166",
+    "account_id": "acc_024",
+    "author": "Lucas Reyes",
+    "created_at": "2025-10-19T16:16:34",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0366"
+    ]
+  },
+  {
+    "note_id": "csn_00167",
+    "account_id": "acc_024",
+    "author": "Lucas Reyes",
+    "created_at": "2025-09-15T19:56:09",
+    "category": "general",
+    "content": "Routine check-in with Rajiv Mwangi's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0357"
+    ]
+  },
+  {
+    "note_id": "csn_00168",
+    "account_id": "acc_024",
+    "author": "Lucas Reyes",
+    "created_at": "2026-04-21T09:35:37",
+    "category": "risk",
+    "content": "Sponsor expressed frustration over the recent spike in support tickets. Several team leads have privately raised concerns about reliability. This contradicts the optimistic tone of recent sales touchpoints.",
+    "tagged_users": [
+      "usr_0357"
+    ]
+  },
+  {
+    "note_id": "csn_00169",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2025-06-09T13:52:21",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0386"
+    ]
+  },
+  {
+    "note_id": "csn_00170",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2025-05-28T14:52:56",
+    "category": "general",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0368"
+    ]
+  },
+  {
+    "note_id": "csn_00171",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2026-05-08T15:25:21",
+    "category": "opportunity",
+    "content": "Discussed integrations roadmap with the IT lead.",
+    "tagged_users": [
+      "usr_0380"
+    ]
+  },
+  {
+    "note_id": "csn_00172",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2026-04-08T09:30:34",
+    "category": "general",
+    "content": "Customer requested updated training materials for new hires.",
+    "tagged_users": [
+      "usr_0379"
+    ]
+  },
+  {
+    "note_id": "csn_00173",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2025-09-26T19:24:45",
+    "category": "general",
+    "content": "Adoption trending steady; team is exploring additional use cases.",
+    "tagged_users": [
+      "usr_0385"
+    ]
+  },
+  {
+    "note_id": "csn_00174",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2025-07-27T18:01:57",
+    "category": "general",
+    "content": "Routine check-in with Nora Alvarez's team. No issues flagged.",
+    "tagged_users": [
+      "usr_0382"
+    ]
+  },
+  {
+    "note_id": "csn_00175",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2026-01-31T11:53:00",
+    "category": "risk",
+    "content": "Executive sponsor Nora Alvarez has been unreachable for two cycles. Reorg in their org appears to have moved priorities away from our workstream. QBR was missed. Recommend re-engagement plan.",
+    "tagged_users": [
+      "usr_0368"
+    ]
+  },
+  {
+    "note_id": "csn_00176",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2026-03-20T14:08:41",
+    "category": "risk",
+    "content": "Team reports declining usage of the core document workflows. Sentiment on tickets has shifted from neutral to negative. Sponsor is silent.",
+    "tagged_users": [
+      "usr_0368"
+    ]
+  },
+  {
+    "note_id": "csn_00177",
+    "account_id": "acc_025",
+    "author": "Owen Brennan",
+    "created_at": "2026-02-20T13:33:34",
+    "category": "risk",
+    "content": "Customer has now raised admin console issues on multiple touchpoints. Not blocking but eroding trust.",
+    "tagged_users": [
+      "usr_0377"
+    ]
+  }
+]

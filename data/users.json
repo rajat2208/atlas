@@ -1,0 +1,3882 @@
+[
+  {
+    "user_id": "usr_0001",
+    "account_id": "acc_001",
+    "name": "Aanya Iyer",
+    "role": "Chief of Staff",
+    "email": "aanya.iyer@acme.example.com",
+    "last_login_at": "2026-05-18T10:37:10",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0002",
+    "account_id": "acc_001",
+    "name": "Kai Rossi",
+    "role": "Director of IT",
+    "email": "kai.rossi@acme.example.com",
+    "last_login_at": "2026-05-14T09:05:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0003",
+    "account_id": "acc_001",
+    "name": "Ravi Lehmann",
+    "role": "Project Manager",
+    "email": "ravi.lehmann@acme.example.com",
+    "last_login_at": "2026-04-08T13:18:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0004",
+    "account_id": "acc_001",
+    "name": "Priya Kowalski",
+    "role": "Senior Engineer",
+    "email": "priya.kowalski@acme.example.com",
+    "last_login_at": "2026-05-09T17:23:45",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0005",
+    "account_id": "acc_001",
+    "name": "Alex Holloway",
+    "role": "Analyst",
+    "email": "alex.holloway@acme.example.com",
+    "last_login_at": "2026-05-06T10:47:53",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0006",
+    "account_id": "acc_001",
+    "name": "Tomas Park",
+    "role": "Engineering Manager",
+    "email": "tomas.park@acme.example.com",
+    "last_login_at": "2026-05-12T11:53:51",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0007",
+    "account_id": "acc_001",
+    "name": "Priya Pereira",
+    "role": "Team Lead",
+    "email": "priya.pereira@acme.example.com",
+    "last_login_at": "2026-04-23T09:20:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0008",
+    "account_id": "acc_001",
+    "name": "Mark Park",
+    "role": "Coordinator",
+    "email": "mark.park@acme.example.com",
+    "last_login_at": "2026-04-18T16:14:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0009",
+    "account_id": "acc_001",
+    "name": "Rajiv Brennan",
+    "role": "Product Manager",
+    "email": "rajiv.brennan@acme.example.com",
+    "last_login_at": "2026-05-09T09:56:31",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0010",
+    "account_id": "acc_001",
+    "name": "Hannah Lindqvist",
+    "role": "Coordinator",
+    "email": "hannah.lindqvist@acme.example.com",
+    "last_login_at": "2026-05-17T12:55:50",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0011",
+    "account_id": "acc_001",
+    "name": "Liam Vargas",
+    "role": "Senior Engineer",
+    "email": "liam.vargas@acme.example.com",
+    "last_login_at": "2026-04-20T11:43:09",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0012",
+    "account_id": "acc_001",
+    "name": "Joon Singh",
+    "role": "Analyst",
+    "email": "joon.singh@acme.example.com",
+    "last_login_at": "2026-04-04T13:09:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0013",
+    "account_id": "acc_001",
+    "name": "Carlos Pereira",
+    "role": "Engineering Manager",
+    "email": "carlos.pereira@acme.example.com",
+    "last_login_at": "2026-04-05T10:08:54",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0014",
+    "account_id": "acc_001",
+    "name": "Mark Nakamura",
+    "role": "Coordinator",
+    "email": "mark.nakamura@acme.example.com",
+    "last_login_at": "2026-04-14T13:39:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0015",
+    "account_id": "acc_001",
+    "name": "Naomi Khan",
+    "role": "Specialist",
+    "email": "naomi.khan@acme.example.com",
+    "last_login_at": "2026-05-06T11:57:58",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0016",
+    "account_id": "acc_001",
+    "name": "Mark Alvarez",
+    "role": "Specialist",
+    "email": "mark.alvarez@acme.example.com",
+    "last_login_at": "2026-04-04T17:34:41",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0017",
+    "account_id": "acc_001",
+    "name": "Tomas Singh",
+    "role": "Analyst",
+    "email": "tomas.singh@acme.example.com",
+    "last_login_at": "2026-04-19T16:00:36",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0018",
+    "account_id": "acc_002",
+    "name": "Theo Menon",
+    "role": "SVP Technology",
+    "email": "theo.menon@beta.example.com",
+    "last_login_at": "2025-08-30T00:00:00",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0019",
+    "account_id": "acc_002",
+    "name": "Naomi Okafor",
+    "role": "Director Operations",
+    "email": "naomi.okafor@beta.example.com",
+    "last_login_at": "2026-05-06T18:56:25",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0020",
+    "account_id": "acc_002",
+    "name": "Sara Brennan",
+    "role": "Associate",
+    "email": "sara.brennan@beta.example.com",
+    "last_login_at": "2026-04-06T09:33:45",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0021",
+    "account_id": "acc_002",
+    "name": "Mark Park",
+    "role": "Product Manager",
+    "email": "mark.park@beta.example.com",
+    "last_login_at": "2026-04-23T19:54:56",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0022",
+    "account_id": "acc_002",
+    "name": "Priya Bello",
+    "role": "Team Lead",
+    "email": "priya.bello@beta.example.com",
+    "last_login_at": "2026-05-10T08:56:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0023",
+    "account_id": "acc_002",
+    "name": "Aanya Lehmann",
+    "role": "Senior Engineer",
+    "email": "aanya.lehmann@beta.example.com",
+    "last_login_at": "2026-04-09T08:36:51",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0024",
+    "account_id": "acc_002",
+    "name": "Elena Lindqvist",
+    "role": "Product Manager",
+    "email": "elena.lindqvist@beta.example.com",
+    "last_login_at": "2026-05-06T13:47:27",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0025",
+    "account_id": "acc_002",
+    "name": "Kai Kowalski",
+    "role": "Analyst",
+    "email": "kai.kowalski@beta.example.com",
+    "last_login_at": "2026-04-28T16:55:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0026",
+    "account_id": "acc_002",
+    "name": "Idris Pereira",
+    "role": "Project Manager",
+    "email": "idris.pereira@beta.example.com",
+    "last_login_at": "2026-04-08T14:44:41",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0027",
+    "account_id": "acc_002",
+    "name": "Felix Pereira",
+    "role": "Engineering Manager",
+    "email": "felix.pereira@beta.example.com",
+    "last_login_at": "2026-05-10T19:27:37",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0028",
+    "account_id": "acc_002",
+    "name": "Aanya Ferreira",
+    "role": "VP Engineering",
+    "email": "aanya.ferreira@beta.example.com",
+    "last_login_at": "2026-05-07T19:22:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0029",
+    "account_id": "acc_003",
+    "name": "Nora Vargas",
+    "role": "VP Engineering",
+    "email": "nora.vargas@helios.example.com",
+    "last_login_at": "2025-11-27T00:00:00",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0030",
+    "account_id": "acc_003",
+    "name": "Lena Bergstrom",
+    "role": "Head of Productivity",
+    "email": "lena.bergstrom@helios.example.com",
+    "last_login_at": "2026-05-12T11:52:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0031",
+    "account_id": "acc_003",
+    "name": "Yara Brennan",
+    "role": "Product Manager",
+    "email": "yara.brennan@helios.example.com",
+    "last_login_at": "2026-05-14T08:50:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0032",
+    "account_id": "acc_003",
+    "name": "Owen Bello",
+    "role": "Project Manager",
+    "email": "owen.bello@helios.example.com",
+    "last_login_at": "2026-05-15T08:41:02",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0033",
+    "account_id": "acc_003",
+    "name": "Joon Iyer",
+    "role": "Senior Engineer",
+    "email": "joon.iyer@helios.example.com",
+    "last_login_at": "2026-04-15T17:02:40",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0034",
+    "account_id": "acc_003",
+    "name": "Mei Menon",
+    "role": "Engineering Manager",
+    "email": "mei.menon@helios.example.com",
+    "last_login_at": "2026-05-07T08:04:12",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0035",
+    "account_id": "acc_003",
+    "name": "Yara Lindqvist",
+    "role": "Team Lead",
+    "email": "yara.lindqvist@helios.example.com",
+    "last_login_at": "2026-05-06T08:13:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0036",
+    "account_id": "acc_003",
+    "name": "Elena Lindqvist",
+    "role": "Ops Manager",
+    "email": "elena.lindqvist@helios.example.com",
+    "last_login_at": "2026-05-16T16:09:08",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0037",
+    "account_id": "acc_003",
+    "name": "Jin Holloway",
+    "role": "Analyst",
+    "email": "jin.holloway@helios.example.com",
+    "last_login_at": "2026-04-27T19:27:10",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0038",
+    "account_id": "acc_003",
+    "name": "Mei Chen",
+    "role": "Specialist",
+    "email": "mei.chen@helios.example.com",
+    "last_login_at": "2026-04-20T13:53:45",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0039",
+    "account_id": "acc_003",
+    "name": "Jordan Bergstrom",
+    "role": "Analyst",
+    "email": "jordan.bergstrom@helios.example.com",
+    "last_login_at": "2026-05-08T13:32:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0040",
+    "account_id": "acc_003",
+    "name": "Naomi Bello",
+    "role": "Product Manager",
+    "email": "naomi.bello@helios.example.com",
+    "last_login_at": "2026-04-10T09:17:50",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0041",
+    "account_id": "acc_003",
+    "name": "Joon Nakamura",
+    "role": "Product Manager",
+    "email": "joon.nakamura@helios.example.com",
+    "last_login_at": "2026-04-28T19:05:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0042",
+    "account_id": "acc_003",
+    "name": "Selma Andersson",
+    "role": "Senior Engineer",
+    "email": "selma.andersson@helios.example.com",
+    "last_login_at": "2026-04-17T15:00:36",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0043",
+    "account_id": "acc_003",
+    "name": "Mark Rossi",
+    "role": "Engineering Manager",
+    "email": "mark.rossi@helios.example.com",
+    "last_login_at": "2026-05-09T18:04:47",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0044",
+    "account_id": "acc_003",
+    "name": "Carlos Reyes",
+    "role": "Ops Manager",
+    "email": "carlos.reyes@helios.example.com",
+    "last_login_at": "2026-05-10T19:59:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0045",
+    "account_id": "acc_003",
+    "name": "Mei Iyer",
+    "role": "Senior Engineer",
+    "email": "mei.iyer@helios.example.com",
+    "last_login_at": "2026-05-10T17:51:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0046",
+    "account_id": "acc_003",
+    "name": "Joon Singh",
+    "role": "Associate",
+    "email": "joon.singh@helios.example.com",
+    "last_login_at": "2026-04-14T10:58:50",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0047",
+    "account_id": "acc_003",
+    "name": "Lena Bello",
+    "role": "Team Lead",
+    "email": "lena.bello@helios.example.com",
+    "last_login_at": "2026-05-07T10:56:28",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0048",
+    "account_id": "acc_003",
+    "name": "Cleo Bello",
+    "role": "Ops Manager",
+    "email": "cleo.bello@helios.example.com",
+    "last_login_at": "2026-04-08T10:32:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0049",
+    "account_id": "acc_003",
+    "name": "Lena Ferreira",
+    "role": "VP Engineering",
+    "email": "lena.ferreira@helios.example.com",
+    "last_login_at": "2026-04-30T14:23:23",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0050",
+    "account_id": "acc_004",
+    "name": "Felix Lehmann",
+    "role": "VP Operations",
+    "email": "felix.lehmann@nimbus.example.com",
+    "last_login_at": "2026-05-17T16:16:15",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0051",
+    "account_id": "acc_004",
+    "name": "Selma Okafor",
+    "role": "Head of Collaboration",
+    "email": "selma.okafor@nimbus.example.com",
+    "last_login_at": "2026-05-10T12:57:58",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0052",
+    "account_id": "acc_004",
+    "name": "Yara Pereira",
+    "role": "Product Manager",
+    "email": "yara.pereira@nimbus.example.com",
+    "last_login_at": "2026-04-15T18:31:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0053",
+    "account_id": "acc_004",
+    "name": "Tomas Menon",
+    "role": "Analyst",
+    "email": "tomas.menon@nimbus.example.com",
+    "last_login_at": "2026-04-25T11:38:35",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0054",
+    "account_id": "acc_004",
+    "name": "Diego Andersson",
+    "role": "Team Lead",
+    "email": "diego.andersson@nimbus.example.com",
+    "last_login_at": "2026-04-27T11:30:09",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0055",
+    "account_id": "acc_004",
+    "name": "Priya Zhang",
+    "role": "Ops Manager",
+    "email": "priya.zhang@nimbus.example.com",
+    "last_login_at": "2026-04-21T13:29:15",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0056",
+    "account_id": "acc_004",
+    "name": "Priya Mwangi",
+    "role": "Team Lead",
+    "email": "priya.mwangi@nimbus.example.com",
+    "last_login_at": "2026-05-08T16:59:09",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0057",
+    "account_id": "acc_004",
+    "name": "Sofia Ferreira",
+    "role": "Coordinator",
+    "email": "sofia.ferreira@nimbus.example.com",
+    "last_login_at": "2026-05-14T08:11:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0058",
+    "account_id": "acc_004",
+    "name": "Aanya Rossi",
+    "role": "Senior Engineer",
+    "email": "aanya.rossi@nimbus.example.com",
+    "last_login_at": "2026-05-17T19:45:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0059",
+    "account_id": "acc_004",
+    "name": "Ravi Mwangi",
+    "role": "Analyst",
+    "email": "ravi.mwangi@nimbus.example.com",
+    "last_login_at": "2026-04-21T13:06:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0060",
+    "account_id": "acc_004",
+    "name": "Sofia Reyes",
+    "role": "Analyst",
+    "email": "sofia.reyes@nimbus.example.com",
+    "last_login_at": "2026-05-15T18:28:22",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0061",
+    "account_id": "acc_004",
+    "name": "Aanya Brennan",
+    "role": "Legal Ops Manager",
+    "email": "aanya.brennan@nimbus.example.com",
+    "last_login_at": "2026-04-02T16:49:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0062",
+    "account_id": "acc_004",
+    "name": "Tomas Lindqvist",
+    "role": "Legal Ops Manager",
+    "email": "tomas.lindqvist@nimbus.example.com",
+    "last_login_at": "2026-04-04T19:47:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0063",
+    "account_id": "acc_004",
+    "name": "Diego Ferreira",
+    "role": "Finance Analyst",
+    "email": "diego.ferreira@nimbus.example.com",
+    "last_login_at": "2026-04-28T13:45:36",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0064",
+    "account_id": "acc_004",
+    "name": "Jin Iyer",
+    "role": "Finance Director",
+    "email": "jin.iyer@nimbus.example.com",
+    "last_login_at": "2026-03-30T14:15:59",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0065",
+    "account_id": "acc_004",
+    "name": "Priya Mwangi",
+    "role": "Procurement Lead",
+    "email": "priya.mwangi@nimbus.example.com",
+    "last_login_at": "2026-05-18T11:45:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0066",
+    "account_id": "acc_005",
+    "name": "Owen Lopez",
+    "role": "Chief Operating Officer",
+    "email": "owen.lopez@orbit.example.com",
+    "last_login_at": "2026-05-14T15:30:03",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0067",
+    "account_id": "acc_005",
+    "name": "Maya Zhang",
+    "role": "Director Engineering",
+    "email": "maya.zhang@orbit.example.com",
+    "last_login_at": "2026-05-05T13:30:13",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0068",
+    "account_id": "acc_005",
+    "name": "Mateo Hassan",
+    "role": "Senior Engineer",
+    "email": "mateo.hassan@orbit.example.com",
+    "last_login_at": "2026-05-02T13:01:45",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0069",
+    "account_id": "acc_005",
+    "name": "Nora Ferreira",
+    "role": "Team Lead",
+    "email": "nora.ferreira@orbit.example.com",
+    "last_login_at": "2026-04-14T18:14:37",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0070",
+    "account_id": "acc_005",
+    "name": "Lena Kowalski",
+    "role": "Project Manager",
+    "email": "lena.kowalski@orbit.example.com",
+    "last_login_at": "2026-05-09T13:07:41",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0071",
+    "account_id": "acc_005",
+    "name": "Alex Rossi",
+    "role": "Associate",
+    "email": "alex.rossi@orbit.example.com",
+    "last_login_at": "2026-04-23T09:55:13",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0072",
+    "account_id": "acc_005",
+    "name": "Kai Ferreira",
+    "role": "Coordinator",
+    "email": "kai.ferreira@orbit.example.com",
+    "last_login_at": "2026-04-29T19:29:14",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0073",
+    "account_id": "acc_005",
+    "name": "Naomi Lehmann",
+    "role": "Team Lead",
+    "email": "naomi.lehmann@orbit.example.com",
+    "last_login_at": "2026-04-25T14:20:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0074",
+    "account_id": "acc_005",
+    "name": "Joon Reyes",
+    "role": "Engineering Manager",
+    "email": "joon.reyes@orbit.example.com",
+    "last_login_at": "2026-04-08T14:57:46",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0075",
+    "account_id": "acc_006",
+    "name": "Maya Mwangi",
+    "role": "CIO",
+    "email": "maya.mwangi@vertex.example.com",
+    "last_login_at": "2026-05-10T17:08:13",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0076",
+    "account_id": "acc_006",
+    "name": "Elena Schmidt",
+    "role": "Director Engineering",
+    "email": "elena.schmidt@vertex.example.com",
+    "last_login_at": "2026-05-01T09:18:45",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0077",
+    "account_id": "acc_006",
+    "name": "Naomi Bello",
+    "role": "Team Lead",
+    "email": "naomi.bello@vertex.example.com",
+    "last_login_at": "2026-04-27T11:04:25",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0078",
+    "account_id": "acc_006",
+    "name": "Selma Vargas",
+    "role": "Associate",
+    "email": "selma.vargas@vertex.example.com",
+    "last_login_at": "2026-05-12T12:13:02",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0079",
+    "account_id": "acc_006",
+    "name": "Sara Nakamura",
+    "role": "Project Manager",
+    "email": "sara.nakamura@vertex.example.com",
+    "last_login_at": "2026-04-26T11:09:12",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0080",
+    "account_id": "acc_006",
+    "name": "Cleo Singh",
+    "role": "Associate",
+    "email": "cleo.singh@vertex.example.com",
+    "last_login_at": "2026-04-16T19:07:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0081",
+    "account_id": "acc_006",
+    "name": "Mei Ferreira",
+    "role": "Team Lead",
+    "email": "mei.ferreira@vertex.example.com",
+    "last_login_at": "2026-04-14T08:32:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0082",
+    "account_id": "acc_006",
+    "name": "Felix Rossi",
+    "role": "Coordinator",
+    "email": "felix.rossi@vertex.example.com",
+    "last_login_at": "2026-05-02T14:28:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0083",
+    "account_id": "acc_006",
+    "name": "Lena Bergstrom",
+    "role": "Senior Engineer",
+    "email": "lena.bergstrom@vertex.example.com",
+    "last_login_at": "2026-05-15T13:06:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0084",
+    "account_id": "acc_006",
+    "name": "Bram Lopez",
+    "role": "Associate",
+    "email": "bram.lopez@vertex.example.com",
+    "last_login_at": "2026-05-02T17:35:59",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0085",
+    "account_id": "acc_006",
+    "name": "Idris Schmidt",
+    "role": "Specialist",
+    "email": "idris.schmidt@vertex.example.com",
+    "last_login_at": "2026-05-18T12:13:46",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0086",
+    "account_id": "acc_006",
+    "name": "Hannah Park",
+    "role": "Team Lead",
+    "email": "hannah.park@vertex.example.com",
+    "last_login_at": "2026-04-23T13:47:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0087",
+    "account_id": "acc_006",
+    "name": "Iris Petrov",
+    "role": "Specialist",
+    "email": "iris.petrov@vertex.example.com",
+    "last_login_at": "2026-04-28T08:28:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0088",
+    "account_id": "acc_006",
+    "name": "Sofia Kowalski",
+    "role": "Ops Manager",
+    "email": "sofia.kowalski@vertex.example.com",
+    "last_login_at": "2026-04-29T08:16:56",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0089",
+    "account_id": "acc_006",
+    "name": "Nora Reyes",
+    "role": "Engineering Manager",
+    "email": "nora.reyes@vertex.example.com",
+    "last_login_at": "2026-05-12T08:27:23",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0090",
+    "account_id": "acc_006",
+    "name": "Iris Bergstrom",
+    "role": "Analyst",
+    "email": "iris.bergstrom@vertex.example.com",
+    "last_login_at": "2026-04-30T19:50:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0091",
+    "account_id": "acc_006",
+    "name": "Theo Ferreira",
+    "role": "Associate",
+    "email": "theo.ferreira@vertex.example.com",
+    "last_login_at": "2026-04-16T12:16:29",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0092",
+    "account_id": "acc_006",
+    "name": "Iris Hassan",
+    "role": "Team Lead",
+    "email": "iris.hassan@vertex.example.com",
+    "last_login_at": "2026-04-13T10:41:01",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0093",
+    "account_id": "acc_006",
+    "name": "Nora Reyes",
+    "role": "Coordinator",
+    "email": "nora.reyes@vertex.example.com",
+    "last_login_at": "2026-04-18T09:25:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0094",
+    "account_id": "acc_006",
+    "name": "Hannah Bergstrom",
+    "role": "Ops Manager",
+    "email": "hannah.bergstrom@vertex.example.com",
+    "last_login_at": "2026-04-04T19:07:44",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0095",
+    "account_id": "acc_006",
+    "name": "Jordan Lindqvist",
+    "role": "Associate",
+    "email": "jordan.lindqvist@vertex.example.com",
+    "last_login_at": "2026-05-10T11:28:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0096",
+    "account_id": "acc_006",
+    "name": "Diego Rossi",
+    "role": "Specialist",
+    "email": "diego.rossi@vertex.example.com",
+    "last_login_at": "2026-05-12T08:34:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0097",
+    "account_id": "acc_007",
+    "name": "Iris Park",
+    "role": "VP Engineering",
+    "email": "iris.park@apex.example.com",
+    "last_login_at": "2026-04-10T00:00:00",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0098",
+    "account_id": "acc_007",
+    "name": "Aisha Brennan",
+    "role": "Director of IT",
+    "email": "aisha.brennan@apex.example.com",
+    "last_login_at": "2026-04-30T17:17:22",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0099",
+    "account_id": "acc_007",
+    "name": "Liam Holloway",
+    "role": "Associate",
+    "email": "liam.holloway@apex.example.com",
+    "last_login_at": "2026-04-28T19:23:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0100",
+    "account_id": "acc_007",
+    "name": "Naomi Petrov",
+    "role": "Senior Engineer",
+    "email": "naomi.petrov@apex.example.com",
+    "last_login_at": "2026-05-16T15:53:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0101",
+    "account_id": "acc_007",
+    "name": "Joon Okafor",
+    "role": "Coordinator",
+    "email": "joon.okafor@apex.example.com",
+    "last_login_at": "2026-05-09T19:52:55",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0102",
+    "account_id": "acc_007",
+    "name": "Felix Lopez",
+    "role": "Engineering Manager",
+    "email": "felix.lopez@apex.example.com",
+    "last_login_at": "2026-04-12T17:11:54",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0103",
+    "account_id": "acc_007",
+    "name": "Aisha Bello",
+    "role": "Ops Manager",
+    "email": "aisha.bello@apex.example.com",
+    "last_login_at": "2026-04-24T13:33:51",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0104",
+    "account_id": "acc_007",
+    "name": "Ravi Andersson",
+    "role": "Ops Manager",
+    "email": "ravi.andersson@apex.example.com",
+    "last_login_at": "2026-04-13T11:46:55",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0105",
+    "account_id": "acc_007",
+    "name": "Bram Vargas",
+    "role": "Associate",
+    "email": "bram.vargas@apex.example.com",
+    "last_login_at": "2026-05-17T13:20:37",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0106",
+    "account_id": "acc_007",
+    "name": "Mark Park",
+    "role": "Product Manager",
+    "email": "mark.park@apex.example.com",
+    "last_login_at": "2026-05-12T16:26:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0107",
+    "account_id": "acc_007",
+    "name": "Felix Zhang",
+    "role": "Coordinator",
+    "email": "felix.zhang@apex.example.com",
+    "last_login_at": "2026-05-08T14:23:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0108",
+    "account_id": "acc_007",
+    "name": "Mateo Lopez",
+    "role": "Analyst",
+    "email": "mateo.lopez@apex.example.com",
+    "last_login_at": "2026-04-18T16:33:27",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0109",
+    "account_id": "acc_007",
+    "name": "Mark Reyes",
+    "role": "Ops Manager",
+    "email": "mark.reyes@apex.example.com",
+    "last_login_at": "2026-04-25T19:48:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0110",
+    "account_id": "acc_007",
+    "name": "Yara Okafor",
+    "role": "Project Manager",
+    "email": "yara.okafor@apex.example.com",
+    "last_login_at": "2026-04-29T11:31:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0111",
+    "account_id": "acc_007",
+    "name": "Naomi Iyer",
+    "role": "Specialist",
+    "email": "naomi.iyer@apex.example.com",
+    "last_login_at": "2026-04-14T19:50:11",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0112",
+    "account_id": "acc_007",
+    "name": "Sara Petrov",
+    "role": "Product Manager",
+    "email": "sara.petrov@apex.example.com",
+    "last_login_at": "2026-05-07T09:23:17",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0113",
+    "account_id": "acc_007",
+    "name": "Iris Pereira",
+    "role": "Product Manager",
+    "email": "iris.pereira@apex.example.com",
+    "last_login_at": "2026-04-19T08:37:11",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0114",
+    "account_id": "acc_007",
+    "name": "Alex Iyer",
+    "role": "Senior Engineer",
+    "email": "alex.iyer@apex.example.com",
+    "last_login_at": "2026-04-27T15:42:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0115",
+    "account_id": "acc_007",
+    "name": "Sofia Menon",
+    "role": "Engineering Manager",
+    "email": "sofia.menon@apex.example.com",
+    "last_login_at": "2026-05-08T19:39:51",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0116",
+    "account_id": "acc_007",
+    "name": "Lena Singh",
+    "role": "Specialist",
+    "email": "lena.singh@apex.example.com",
+    "last_login_at": "2026-05-12T14:24:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0117",
+    "account_id": "acc_007",
+    "name": "Lena Okafor",
+    "role": "Ops Manager",
+    "email": "lena.okafor@apex.example.com",
+    "last_login_at": "2026-04-26T17:19:54",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0118",
+    "account_id": "acc_008",
+    "name": "Jordan Petrov",
+    "role": "Chief Operating Officer",
+    "email": "jordan.petrov@borealis.example.com",
+    "last_login_at": "2026-05-13T13:10:59",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0119",
+    "account_id": "acc_008",
+    "name": "Alex Park",
+    "role": "Head of Workplace",
+    "email": "alex.park@borealis.example.com",
+    "last_login_at": "2026-05-18T18:12:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0120",
+    "account_id": "acc_008",
+    "name": "Joon Pereira",
+    "role": "Senior Engineer",
+    "email": "joon.pereira@borealis.example.com",
+    "last_login_at": "2026-04-26T16:42:43",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0121",
+    "account_id": "acc_008",
+    "name": "Iris Iyer",
+    "role": "Coordinator",
+    "email": "iris.iyer@borealis.example.com",
+    "last_login_at": "2026-05-05T14:58:31",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0122",
+    "account_id": "acc_008",
+    "name": "Sara Bergstrom",
+    "role": "Team Lead",
+    "email": "sara.bergstrom@borealis.example.com",
+    "last_login_at": "2026-04-14T09:54:45",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0123",
+    "account_id": "acc_008",
+    "name": "Mateo Vargas",
+    "role": "Coordinator",
+    "email": "mateo.vargas@borealis.example.com",
+    "last_login_at": "2026-04-17T09:35:37",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0124",
+    "account_id": "acc_008",
+    "name": "Owen Iyer",
+    "role": "Team Lead",
+    "email": "owen.iyer@borealis.example.com",
+    "last_login_at": "2026-05-15T08:33:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0125",
+    "account_id": "acc_008",
+    "name": "Idris Chen",
+    "role": "Coordinator",
+    "email": "idris.chen@borealis.example.com",
+    "last_login_at": "2026-04-20T18:36:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0126",
+    "account_id": "acc_008",
+    "name": "Mateo Vargas",
+    "role": "Coordinator",
+    "email": "mateo.vargas@borealis.example.com",
+    "last_login_at": "2026-04-26T16:46:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0127",
+    "account_id": "acc_008",
+    "name": "Mateo Holloway",
+    "role": "Project Manager",
+    "email": "mateo.holloway@borealis.example.com",
+    "last_login_at": "2026-04-04T15:22:13",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0128",
+    "account_id": "acc_008",
+    "name": "Nora Ferreira",
+    "role": "Team Lead",
+    "email": "nora.ferreira@borealis.example.com",
+    "last_login_at": "2026-04-30T12:21:26",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0129",
+    "account_id": "acc_008",
+    "name": "Jordan Vargas",
+    "role": "Analyst",
+    "email": "jordan.vargas@borealis.example.com",
+    "last_login_at": "2026-05-17T13:16:01",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0130",
+    "account_id": "acc_008",
+    "name": "Lena Brennan",
+    "role": "Ops Manager",
+    "email": "lena.brennan@borealis.example.com",
+    "last_login_at": "2026-04-09T13:00:00",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0131",
+    "account_id": "acc_008",
+    "name": "Henrik Khan",
+    "role": "Specialist",
+    "email": "henrik.khan@borealis.example.com",
+    "last_login_at": "2026-05-09T13:18:50",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0132",
+    "account_id": "acc_008",
+    "name": "Henrik Iyer",
+    "role": "Analyst",
+    "email": "henrik.iyer@borealis.example.com",
+    "last_login_at": "2026-04-28T08:07:02",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0133",
+    "account_id": "acc_009",
+    "name": "Carlos Andersson",
+    "role": "VP Product",
+    "email": "carlos.andersson@cinder.example.com",
+    "last_login_at": "2026-05-07T19:13:08",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0134",
+    "account_id": "acc_009",
+    "name": "Cleo Khan",
+    "role": "Director Engineering",
+    "email": "cleo.khan@cinder.example.com",
+    "last_login_at": "2026-05-09T13:54:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0135",
+    "account_id": "acc_009",
+    "name": "Carlos Pereira",
+    "role": "Analyst",
+    "email": "carlos.pereira@cinder.example.com",
+    "last_login_at": "2026-05-07T14:48:51",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0136",
+    "account_id": "acc_009",
+    "name": "Nora Petrov",
+    "role": "Coordinator",
+    "email": "nora.petrov@cinder.example.com",
+    "last_login_at": "2026-04-08T16:04:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0137",
+    "account_id": "acc_009",
+    "name": "Yara Lindqvist",
+    "role": "Ops Manager",
+    "email": "yara.lindqvist@cinder.example.com",
+    "last_login_at": "2026-05-15T11:29:26",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0138",
+    "account_id": "acc_009",
+    "name": "Iris Brennan",
+    "role": "Project Manager",
+    "email": "iris.brennan@cinder.example.com",
+    "last_login_at": "2026-05-10T14:12:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0139",
+    "account_id": "acc_009",
+    "name": "Cleo Mwangi",
+    "role": "Product Manager",
+    "email": "cleo.mwangi@cinder.example.com",
+    "last_login_at": "2026-05-09T08:14:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0140",
+    "account_id": "acc_009",
+    "name": "Henrik Nakamura",
+    "role": "Analyst",
+    "email": "henrik.nakamura@cinder.example.com",
+    "last_login_at": "2026-04-04T17:21:00",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0141",
+    "account_id": "acc_009",
+    "name": "Owen Lehmann",
+    "role": "Associate",
+    "email": "owen.lehmann@cinder.example.com",
+    "last_login_at": "2026-04-12T12:48:35",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0142",
+    "account_id": "acc_009",
+    "name": "Mei Holloway",
+    "role": "Specialist",
+    "email": "mei.holloway@cinder.example.com",
+    "last_login_at": "2026-05-14T10:45:32",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0143",
+    "account_id": "acc_009",
+    "name": "Owen Ferreira",
+    "role": "Team Lead",
+    "email": "owen.ferreira@cinder.example.com",
+    "last_login_at": "2026-04-30T13:05:22",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0144",
+    "account_id": "acc_010",
+    "name": "Iris Lehmann",
+    "role": "VP Engineering",
+    "email": "iris.lehmann@delta.example.com",
+    "last_login_at": "2026-05-16T19:06:22",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0145",
+    "account_id": "acc_010",
+    "name": "Aisha Zhang",
+    "role": "Director Engineering",
+    "email": "aisha.zhang@delta.example.com",
+    "last_login_at": "2026-05-10T10:12:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0146",
+    "account_id": "acc_010",
+    "name": "Alex Nakamura",
+    "role": "Project Manager",
+    "email": "alex.nakamura@delta.example.com",
+    "last_login_at": "2026-05-08T16:51:52",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0147",
+    "account_id": "acc_010",
+    "name": "Liam Bello",
+    "role": "Senior Engineer",
+    "email": "liam.bello@delta.example.com",
+    "last_login_at": "2026-05-15T18:24:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0148",
+    "account_id": "acc_010",
+    "name": "Liam Petrov",
+    "role": "Team Lead",
+    "email": "liam.petrov@delta.example.com",
+    "last_login_at": "2026-04-13T17:26:09",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0149",
+    "account_id": "acc_010",
+    "name": "Tomas Petrov",
+    "role": "Coordinator",
+    "email": "tomas.petrov@delta.example.com",
+    "last_login_at": "2026-04-19T17:01:54",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0150",
+    "account_id": "acc_010",
+    "name": "Henrik Zhang",
+    "role": "Analyst",
+    "email": "henrik.zhang@delta.example.com",
+    "last_login_at": "2026-04-23T17:42:25",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0151",
+    "account_id": "acc_010",
+    "name": "Jordan Brennan",
+    "role": "Project Manager",
+    "email": "jordan.brennan@delta.example.com",
+    "last_login_at": "2026-05-10T12:44:12",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0152",
+    "account_id": "acc_010",
+    "name": "Cleo Singh",
+    "role": "Engineering Manager",
+    "email": "cleo.singh@delta.example.com",
+    "last_login_at": "2026-04-12T19:57:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0153",
+    "account_id": "acc_010",
+    "name": "Hannah Menon",
+    "role": "Senior Engineer",
+    "email": "hannah.menon@delta.example.com",
+    "last_login_at": "2026-04-07T08:56:39",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0154",
+    "account_id": "acc_010",
+    "name": "Jin Okafor",
+    "role": "Coordinator",
+    "email": "jin.okafor@delta.example.com",
+    "last_login_at": "2026-04-04T15:12:50",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0155",
+    "account_id": "acc_010",
+    "name": "Mark Zhang",
+    "role": "Associate",
+    "email": "mark.zhang@delta.example.com",
+    "last_login_at": "2026-04-23T14:06:41",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0156",
+    "account_id": "acc_010",
+    "name": "Elena Chen",
+    "role": "Senior Engineer",
+    "email": "elena.chen@delta.example.com",
+    "last_login_at": "2026-04-24T08:15:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0157",
+    "account_id": "acc_010",
+    "name": "Aisha Bergstrom",
+    "role": "Coordinator",
+    "email": "aisha.bergstrom@delta.example.com",
+    "last_login_at": "2026-04-12T15:10:52",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0158",
+    "account_id": "acc_010",
+    "name": "Iris Singh",
+    "role": "Ops Manager",
+    "email": "iris.singh@delta.example.com",
+    "last_login_at": "2026-04-23T12:34:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0159",
+    "account_id": "acc_010",
+    "name": "Carlos Holloway",
+    "role": "Project Manager",
+    "email": "carlos.holloway@delta.example.com",
+    "last_login_at": "2026-04-09T19:58:15",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0160",
+    "account_id": "acc_010",
+    "name": "Aisha Khan",
+    "role": "Ops Manager",
+    "email": "aisha.khan@delta.example.com",
+    "last_login_at": "2026-04-11T08:04:48",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0161",
+    "account_id": "acc_010",
+    "name": "Yara Bergstrom",
+    "role": "Project Manager",
+    "email": "yara.bergstrom@delta.example.com",
+    "last_login_at": "2026-05-01T10:23:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0162",
+    "account_id": "acc_010",
+    "name": "Sofia Iyer",
+    "role": "Specialist",
+    "email": "sofia.iyer@delta.example.com",
+    "last_login_at": "2026-05-14T14:42:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0163",
+    "account_id": "acc_010",
+    "name": "Iris Park",
+    "role": "Specialist",
+    "email": "iris.park@delta.example.com",
+    "last_login_at": "2026-05-15T08:50:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0164",
+    "account_id": "acc_010",
+    "name": "Yara Kowalski",
+    "role": "Team Lead",
+    "email": "yara.kowalski@delta.example.com",
+    "last_login_at": "2026-04-22T15:39:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0165",
+    "account_id": "acc_010",
+    "name": "Henrik Alvarez",
+    "role": "Analyst",
+    "email": "henrik.alvarez@delta.example.com",
+    "last_login_at": "2026-04-26T08:21:53",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0166",
+    "account_id": "acc_010",
+    "name": "Carlos Holloway",
+    "role": "Product Manager",
+    "email": "carlos.holloway@delta.example.com",
+    "last_login_at": "2026-04-30T11:20:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0167",
+    "account_id": "acc_010",
+    "name": "Mei Nakamura",
+    "role": "Engineering Manager",
+    "email": "mei.nakamura@delta.example.com",
+    "last_login_at": "2026-05-01T13:38:38",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0168",
+    "account_id": "acc_011",
+    "name": "Felix Mwangi",
+    "role": "Chief of Staff",
+    "email": "felix.mwangi@ember.example.com",
+    "last_login_at": "2026-05-07T14:56:52",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0169",
+    "account_id": "acc_011",
+    "name": "Iris Iyer",
+    "role": "Head of Productivity",
+    "email": "iris.iyer@ember.example.com",
+    "last_login_at": "2026-05-09T13:13:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0170",
+    "account_id": "acc_011",
+    "name": "Owen Patel",
+    "role": "Ops Manager",
+    "email": "owen.patel@ember.example.com",
+    "last_login_at": "2026-05-05T12:37:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0171",
+    "account_id": "acc_011",
+    "name": "Rajiv Kowalski",
+    "role": "Associate",
+    "email": "rajiv.kowalski@ember.example.com",
+    "last_login_at": "2026-04-19T12:40:54",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0172",
+    "account_id": "acc_011",
+    "name": "Mei Bello",
+    "role": "Coordinator",
+    "email": "mei.bello@ember.example.com",
+    "last_login_at": "2026-04-05T17:06:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0173",
+    "account_id": "acc_011",
+    "name": "Naomi Lindqvist",
+    "role": "Coordinator",
+    "email": "naomi.lindqvist@ember.example.com",
+    "last_login_at": "2026-04-18T19:41:25",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0174",
+    "account_id": "acc_011",
+    "name": "Ravi Zhang",
+    "role": "Project Manager",
+    "email": "ravi.zhang@ember.example.com",
+    "last_login_at": "2026-05-15T11:57:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0175",
+    "account_id": "acc_011",
+    "name": "Sofia Iyer",
+    "role": "Associate",
+    "email": "sofia.iyer@ember.example.com",
+    "last_login_at": "2026-05-05T14:58:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0176",
+    "account_id": "acc_011",
+    "name": "Aisha Alvarez",
+    "role": "Analyst",
+    "email": "aisha.alvarez@ember.example.com",
+    "last_login_at": "2026-05-10T13:59:10",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0177",
+    "account_id": "acc_011",
+    "name": "Diego Reyes",
+    "role": "Analyst",
+    "email": "diego.reyes@ember.example.com",
+    "last_login_at": "2026-04-06T08:33:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0178",
+    "account_id": "acc_011",
+    "name": "Tomas Patel",
+    "role": "Engineering Manager",
+    "email": "tomas.patel@ember.example.com",
+    "last_login_at": "2026-05-08T13:03:19",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0179",
+    "account_id": "acc_011",
+    "name": "Kai Andersson",
+    "role": "Ops Manager",
+    "email": "kai.andersson@ember.example.com",
+    "last_login_at": "2026-04-25T17:54:46",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0180",
+    "account_id": "acc_011",
+    "name": "Aisha Khan",
+    "role": "Project Manager",
+    "email": "aisha.khan@ember.example.com",
+    "last_login_at": "2026-05-03T15:11:29",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0181",
+    "account_id": "acc_011",
+    "name": "Liam Mwangi",
+    "role": "Product Manager",
+    "email": "liam.mwangi@ember.example.com",
+    "last_login_at": "2026-05-09T17:10:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0182",
+    "account_id": "acc_011",
+    "name": "Selma Mwangi",
+    "role": "Associate",
+    "email": "selma.mwangi@ember.example.com",
+    "last_login_at": "2026-05-06T10:05:29",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0183",
+    "account_id": "acc_011",
+    "name": "Iris Lopez",
+    "role": "Senior Engineer",
+    "email": "iris.lopez@ember.example.com",
+    "last_login_at": "2026-04-18T14:45:39",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0184",
+    "account_id": "acc_011",
+    "name": "Sara Vargas",
+    "role": "Associate",
+    "email": "sara.vargas@ember.example.com",
+    "last_login_at": "2026-04-09T14:42:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0185",
+    "account_id": "acc_011",
+    "name": "Priya Kowalski",
+    "role": "Associate",
+    "email": "priya.kowalski@ember.example.com",
+    "last_login_at": "2026-04-09T15:30:56",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0186",
+    "account_id": "acc_011",
+    "name": "Owen Okafor",
+    "role": "Senior Engineer",
+    "email": "owen.okafor@ember.example.com",
+    "last_login_at": "2026-04-24T11:57:29",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0187",
+    "account_id": "acc_011",
+    "name": "Sofia Okafor",
+    "role": "Coordinator",
+    "email": "sofia.okafor@ember.example.com",
+    "last_login_at": "2026-05-08T13:25:59",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0188",
+    "account_id": "acc_012",
+    "name": "Idris Iyer",
+    "role": "SVP Technology",
+    "email": "idris.iyer@fjord.example.com",
+    "last_login_at": "2026-05-09T08:33:43",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0189",
+    "account_id": "acc_012",
+    "name": "Alex Iyer",
+    "role": "Director Engineering",
+    "email": "alex.iyer@fjord.example.com",
+    "last_login_at": "2026-05-10T09:01:56",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0190",
+    "account_id": "acc_012",
+    "name": "Aanya Bello",
+    "role": "Engineering Manager",
+    "email": "aanya.bello@fjord.example.com",
+    "last_login_at": "2026-05-13T16:08:22",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0191",
+    "account_id": "acc_012",
+    "name": "Liam Brennan",
+    "role": "Ops Manager",
+    "email": "liam.brennan@fjord.example.com",
+    "last_login_at": "2026-04-20T13:10:32",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0192",
+    "account_id": "acc_012",
+    "name": "Lena Bello",
+    "role": "Specialist",
+    "email": "lena.bello@fjord.example.com",
+    "last_login_at": "2026-05-17T09:06:59",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0193",
+    "account_id": "acc_012",
+    "name": "Alex Lopez",
+    "role": "Engineering Manager",
+    "email": "alex.lopez@fjord.example.com",
+    "last_login_at": "2026-05-08T19:40:26",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0194",
+    "account_id": "acc_012",
+    "name": "Sara Bello",
+    "role": "Associate",
+    "email": "sara.bello@fjord.example.com",
+    "last_login_at": "2026-05-06T17:16:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0195",
+    "account_id": "acc_012",
+    "name": "Selma Okafor",
+    "role": "Specialist",
+    "email": "selma.okafor@fjord.example.com",
+    "last_login_at": "2026-04-13T17:34:26",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0196",
+    "account_id": "acc_013",
+    "name": "Tomas Bergstrom",
+    "role": "SVP Technology",
+    "email": "tomas.bergstrom@granite.example.com",
+    "last_login_at": "2026-05-17T18:08:16",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0197",
+    "account_id": "acc_013",
+    "name": "Sara Iyer",
+    "role": "Director of IT",
+    "email": "sara.iyer@granite.example.com",
+    "last_login_at": "2026-05-11T11:00:41",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0198",
+    "account_id": "acc_013",
+    "name": "Owen Bello",
+    "role": "Product Manager",
+    "email": "owen.bello@granite.example.com",
+    "last_login_at": "2026-05-10T11:23:37",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0199",
+    "account_id": "acc_013",
+    "name": "Elena Lehmann",
+    "role": "Analyst",
+    "email": "elena.lehmann@granite.example.com",
+    "last_login_at": "2026-05-02T11:17:22",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0200",
+    "account_id": "acc_013",
+    "name": "Mei Bello",
+    "role": "Product Manager",
+    "email": "mei.bello@granite.example.com",
+    "last_login_at": "2026-04-17T18:22:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0201",
+    "account_id": "acc_013",
+    "name": "Kai Alvarez",
+    "role": "Ops Manager",
+    "email": "kai.alvarez@granite.example.com",
+    "last_login_at": "2026-05-14T14:24:55",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0202",
+    "account_id": "acc_013",
+    "name": "Owen Rossi",
+    "role": "Project Manager",
+    "email": "owen.rossi@granite.example.com",
+    "last_login_at": "2026-05-10T10:18:27",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0203",
+    "account_id": "acc_014",
+    "name": "Kai Andersson",
+    "role": "Chief Operating Officer",
+    "email": "kai.andersson@horizon.example.com",
+    "last_login_at": "2026-03-02T00:00:00",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0204",
+    "account_id": "acc_014",
+    "name": "Selma Park",
+    "role": "Director Engineering",
+    "email": "selma.park@horizon.example.com",
+    "last_login_at": "2026-05-06T15:05:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0205",
+    "account_id": "acc_014",
+    "name": "Felix Zhang",
+    "role": "Associate",
+    "email": "felix.zhang@horizon.example.com",
+    "last_login_at": "2026-04-05T09:57:29",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0206",
+    "account_id": "acc_014",
+    "name": "Jin Reyes",
+    "role": "Associate",
+    "email": "jin.reyes@horizon.example.com",
+    "last_login_at": "2026-04-28T15:09:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0207",
+    "account_id": "acc_014",
+    "name": "Yara Ferreira",
+    "role": "Coordinator",
+    "email": "yara.ferreira@horizon.example.com",
+    "last_login_at": "2026-04-13T15:15:40",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0208",
+    "account_id": "acc_014",
+    "name": "Felix Park",
+    "role": "Senior Engineer",
+    "email": "felix.park@horizon.example.com",
+    "last_login_at": "2026-05-11T11:17:27",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0209",
+    "account_id": "acc_014",
+    "name": "Maya Chen",
+    "role": "Ops Manager",
+    "email": "maya.chen@horizon.example.com",
+    "last_login_at": "2026-05-14T16:24:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0210",
+    "account_id": "acc_014",
+    "name": "Henrik Andersson",
+    "role": "Team Lead",
+    "email": "henrik.andersson@horizon.example.com",
+    "last_login_at": "2026-04-19T18:41:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0211",
+    "account_id": "acc_014",
+    "name": "Bram Lehmann",
+    "role": "Engineering Manager",
+    "email": "bram.lehmann@horizon.example.com",
+    "last_login_at": "2026-05-04T17:19:51",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0212",
+    "account_id": "acc_014",
+    "name": "Bram Iyer",
+    "role": "Ops Manager",
+    "email": "bram.iyer@horizon.example.com",
+    "last_login_at": "2026-04-26T14:58:11",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0213",
+    "account_id": "acc_014",
+    "name": "Lena Rossi",
+    "role": "Team Lead",
+    "email": "lena.rossi@horizon.example.com",
+    "last_login_at": "2026-04-19T08:57:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0214",
+    "account_id": "acc_014",
+    "name": "Liam Schmidt",
+    "role": "Product Manager",
+    "email": "liam.schmidt@horizon.example.com",
+    "last_login_at": "2026-05-12T16:54:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0215",
+    "account_id": "acc_014",
+    "name": "Jordan Lehmann",
+    "role": "Team Lead",
+    "email": "jordan.lehmann@horizon.example.com",
+    "last_login_at": "2026-05-07T08:03:12",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0216",
+    "account_id": "acc_014",
+    "name": "Maya Hassan",
+    "role": "Engineering Manager",
+    "email": "maya.hassan@horizon.example.com",
+    "last_login_at": "2026-04-29T15:58:13",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0217",
+    "account_id": "acc_014",
+    "name": "Jin Ferreira",
+    "role": "Analyst",
+    "email": "jin.ferreira@horizon.example.com",
+    "last_login_at": "2026-04-05T17:32:10",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0218",
+    "account_id": "acc_014",
+    "name": "Henrik Khan",
+    "role": "Coordinator",
+    "email": "henrik.khan@horizon.example.com",
+    "last_login_at": "2026-04-26T09:59:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0219",
+    "account_id": "acc_014",
+    "name": "Ravi Park",
+    "role": "Senior Engineer",
+    "email": "ravi.park@horizon.example.com",
+    "last_login_at": "2026-05-01T11:46:48",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0220",
+    "account_id": "acc_014",
+    "name": "Felix Ferreira",
+    "role": "Project Manager",
+    "email": "felix.ferreira@horizon.example.com",
+    "last_login_at": "2026-05-08T17:58:48",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0221",
+    "account_id": "acc_014",
+    "name": "Felix Ferreira",
+    "role": "Analyst",
+    "email": "felix.ferreira@horizon.example.com",
+    "last_login_at": "2026-04-16T13:20:28",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0222",
+    "account_id": "acc_014",
+    "name": "Felix Nakamura",
+    "role": "Associate",
+    "email": "felix.nakamura@horizon.example.com",
+    "last_login_at": "2026-05-07T17:24:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0223",
+    "account_id": "acc_015",
+    "name": "Priya Hassan",
+    "role": "SVP Technology",
+    "email": "priya.hassan@indigo.example.com",
+    "last_login_at": "2026-05-18T13:45:33",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0224",
+    "account_id": "acc_015",
+    "name": "Owen Pereira",
+    "role": "Head of Workplace",
+    "email": "owen.pereira@indigo.example.com",
+    "last_login_at": "2026-05-17T19:53:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0225",
+    "account_id": "acc_015",
+    "name": "Felix Menon",
+    "role": "Project Manager",
+    "email": "felix.menon@indigo.example.com",
+    "last_login_at": "2026-04-06T11:14:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0226",
+    "account_id": "acc_015",
+    "name": "Selma Schmidt",
+    "role": "Engineering Manager",
+    "email": "selma.schmidt@indigo.example.com",
+    "last_login_at": "2026-04-10T15:07:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0227",
+    "account_id": "acc_015",
+    "name": "Ravi Brennan",
+    "role": "Coordinator",
+    "email": "ravi.brennan@indigo.example.com",
+    "last_login_at": "2026-04-21T14:40:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0228",
+    "account_id": "acc_015",
+    "name": "Mateo Zhang",
+    "role": "Product Manager",
+    "email": "mateo.zhang@indigo.example.com",
+    "last_login_at": "2026-04-13T18:08:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0229",
+    "account_id": "acc_015",
+    "name": "Kai Lopez",
+    "role": "Project Manager",
+    "email": "kai.lopez@indigo.example.com",
+    "last_login_at": "2026-05-16T17:04:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0230",
+    "account_id": "acc_015",
+    "name": "Maya Petrov",
+    "role": "Team Lead",
+    "email": "maya.petrov@indigo.example.com",
+    "last_login_at": "2026-05-17T19:20:27",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0231",
+    "account_id": "acc_015",
+    "name": "Ravi Patel",
+    "role": "Coordinator",
+    "email": "ravi.patel@indigo.example.com",
+    "last_login_at": "2026-05-17T17:28:26",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0232",
+    "account_id": "acc_015",
+    "name": "Elena Nakamura",
+    "role": "Ops Manager",
+    "email": "elena.nakamura@indigo.example.com",
+    "last_login_at": "2026-05-01T11:47:23",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0233",
+    "account_id": "acc_015",
+    "name": "Aisha Alvarez",
+    "role": "Coordinator",
+    "email": "aisha.alvarez@indigo.example.com",
+    "last_login_at": "2026-05-12T15:08:19",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0234",
+    "account_id": "acc_015",
+    "name": "Alex Mwangi",
+    "role": "Ops Manager",
+    "email": "alex.mwangi@indigo.example.com",
+    "last_login_at": "2026-04-20T19:42:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0235",
+    "account_id": "acc_015",
+    "name": "Mark Patel",
+    "role": "Senior Engineer",
+    "email": "mark.patel@indigo.example.com",
+    "last_login_at": "2026-04-24T08:51:35",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0236",
+    "account_id": "acc_015",
+    "name": "Mark Zhang",
+    "role": "Specialist",
+    "email": "mark.zhang@indigo.example.com",
+    "last_login_at": "2026-04-12T13:57:31",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0237",
+    "account_id": "acc_015",
+    "name": "Aisha Lopez",
+    "role": "Product Manager",
+    "email": "aisha.lopez@indigo.example.com",
+    "last_login_at": "2026-04-15T08:57:23",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0238",
+    "account_id": "acc_015",
+    "name": "Carlos Hassan",
+    "role": "Associate",
+    "email": "carlos.hassan@indigo.example.com",
+    "last_login_at": "2026-05-14T13:31:35",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0239",
+    "account_id": "acc_015",
+    "name": "Kai Singh",
+    "role": "Specialist",
+    "email": "kai.singh@indigo.example.com",
+    "last_login_at": "2026-05-09T14:05:44",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0240",
+    "account_id": "acc_015",
+    "name": "Yara Lindqvist",
+    "role": "Associate",
+    "email": "yara.lindqvist@indigo.example.com",
+    "last_login_at": "2026-05-11T18:42:45",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0241",
+    "account_id": "acc_016",
+    "name": "Rajiv Rossi",
+    "role": "Chief Digital Officer",
+    "email": "rajiv.rossi@juniper.example.com",
+    "last_login_at": "2026-05-11T16:27:48",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0242",
+    "account_id": "acc_016",
+    "name": "Mark Singh",
+    "role": "Director of IT",
+    "email": "mark.singh@juniper.example.com",
+    "last_login_at": "2026-04-29T18:04:10",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0243",
+    "account_id": "acc_016",
+    "name": "Sara Brennan",
+    "role": "Team Lead",
+    "email": "sara.brennan@juniper.example.com",
+    "last_login_at": "2026-04-13T19:16:43",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0244",
+    "account_id": "acc_016",
+    "name": "Felix Iyer",
+    "role": "Project Manager",
+    "email": "felix.iyer@juniper.example.com",
+    "last_login_at": "2026-04-15T15:40:20",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0245",
+    "account_id": "acc_016",
+    "name": "Yara Chen",
+    "role": "Team Lead",
+    "email": "yara.chen@juniper.example.com",
+    "last_login_at": "2026-04-04T10:39:15",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0246",
+    "account_id": "acc_016",
+    "name": "Cleo Nakamura",
+    "role": "Project Manager",
+    "email": "cleo.nakamura@juniper.example.com",
+    "last_login_at": "2026-05-07T17:43:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0247",
+    "account_id": "acc_016",
+    "name": "Yara Andersson",
+    "role": "Ops Manager",
+    "email": "yara.andersson@juniper.example.com",
+    "last_login_at": "2026-05-07T17:14:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0248",
+    "account_id": "acc_016",
+    "name": "Aisha Nakamura",
+    "role": "Engineering Manager",
+    "email": "aisha.nakamura@juniper.example.com",
+    "last_login_at": "2026-05-14T13:04:02",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0249",
+    "account_id": "acc_016",
+    "name": "Aisha Rossi",
+    "role": "Associate",
+    "email": "aisha.rossi@juniper.example.com",
+    "last_login_at": "2026-04-05T09:56:43",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0250",
+    "account_id": "acc_016",
+    "name": "Yara Kowalski",
+    "role": "Analyst",
+    "email": "yara.kowalski@juniper.example.com",
+    "last_login_at": "2026-05-11T09:07:01",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0251",
+    "account_id": "acc_016",
+    "name": "Sofia Vargas",
+    "role": "Product Manager",
+    "email": "sofia.vargas@juniper.example.com",
+    "last_login_at": "2026-04-16T16:33:17",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0252",
+    "account_id": "acc_016",
+    "name": "Felix Bergstrom",
+    "role": "Project Manager",
+    "email": "felix.bergstrom@juniper.example.com",
+    "last_login_at": "2026-04-27T13:53:36",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0253",
+    "account_id": "acc_017",
+    "name": "Idris Lehmann",
+    "role": "VP Operations",
+    "email": "idris.lehmann@keystone.example.com",
+    "last_login_at": "2026-05-08T16:45:57",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0254",
+    "account_id": "acc_017",
+    "name": "Mateo Okafor",
+    "role": "Director Operations",
+    "email": "mateo.okafor@keystone.example.com",
+    "last_login_at": "2026-05-15T17:40:02",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0255",
+    "account_id": "acc_017",
+    "name": "Alex Kowalski",
+    "role": "Specialist",
+    "email": "alex.kowalski@keystone.example.com",
+    "last_login_at": "2026-04-17T15:00:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0256",
+    "account_id": "acc_017",
+    "name": "Idris Chen",
+    "role": "Product Manager",
+    "email": "idris.chen@keystone.example.com",
+    "last_login_at": "2026-05-13T19:40:43",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0257",
+    "account_id": "acc_017",
+    "name": "Nora Bergstrom",
+    "role": "Analyst",
+    "email": "nora.bergstrom@keystone.example.com",
+    "last_login_at": "2026-04-24T14:28:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0258",
+    "account_id": "acc_017",
+    "name": "Aanya Khan",
+    "role": "Team Lead",
+    "email": "aanya.khan@keystone.example.com",
+    "last_login_at": "2026-04-08T08:10:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0259",
+    "account_id": "acc_017",
+    "name": "Hannah Lehmann",
+    "role": "Analyst",
+    "email": "hannah.lehmann@keystone.example.com",
+    "last_login_at": "2026-04-05T14:49:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0260",
+    "account_id": "acc_017",
+    "name": "Liam Alvarez",
+    "role": "Analyst",
+    "email": "liam.alvarez@keystone.example.com",
+    "last_login_at": "2026-05-03T09:00:55",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0261",
+    "account_id": "acc_018",
+    "name": "Sara Hassan",
+    "role": "VP Operations",
+    "email": "sara.hassan@lyra.example.com",
+    "last_login_at": "2026-05-17T18:45:33",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0262",
+    "account_id": "acc_018",
+    "name": "Naomi Lopez",
+    "role": "Director Operations",
+    "email": "naomi.lopez@lyra.example.com",
+    "last_login_at": "2026-05-03T14:34:38",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0263",
+    "account_id": "acc_018",
+    "name": "Aisha Schmidt",
+    "role": "Associate",
+    "email": "aisha.schmidt@lyra.example.com",
+    "last_login_at": "2026-05-03T16:41:46",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0264",
+    "account_id": "acc_018",
+    "name": "Rajiv Kowalski",
+    "role": "Senior Engineer",
+    "email": "rajiv.kowalski@lyra.example.com",
+    "last_login_at": "2026-04-07T13:22:13",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0265",
+    "account_id": "acc_018",
+    "name": "Mateo Nakamura",
+    "role": "Analyst",
+    "email": "mateo.nakamura@lyra.example.com",
+    "last_login_at": "2026-05-17T12:28:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0266",
+    "account_id": "acc_018",
+    "name": "Selma Iyer",
+    "role": "Ops Manager",
+    "email": "selma.iyer@lyra.example.com",
+    "last_login_at": "2026-04-28T10:50:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0267",
+    "account_id": "acc_018",
+    "name": "Rajiv Vargas",
+    "role": "Team Lead",
+    "email": "rajiv.vargas@lyra.example.com",
+    "last_login_at": "2026-04-10T16:40:17",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0268",
+    "account_id": "acc_018",
+    "name": "Yara Patel",
+    "role": "Analyst",
+    "email": "yara.patel@lyra.example.com",
+    "last_login_at": "2026-04-20T18:16:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0269",
+    "account_id": "acc_018",
+    "name": "Sara Rossi",
+    "role": "Engineering Manager",
+    "email": "sara.rossi@lyra.example.com",
+    "last_login_at": "2026-05-10T14:50:08",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0270",
+    "account_id": "acc_018",
+    "name": "Jordan Lopez",
+    "role": "Senior Engineer",
+    "email": "jordan.lopez@lyra.example.com",
+    "last_login_at": "2026-05-03T16:22:50",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0271",
+    "account_id": "acc_018",
+    "name": "Aanya Menon",
+    "role": "Specialist",
+    "email": "aanya.menon@lyra.example.com",
+    "last_login_at": "2026-04-19T11:20:36",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0272",
+    "account_id": "acc_018",
+    "name": "Alex Park",
+    "role": "Ops Manager",
+    "email": "alex.park@lyra.example.com",
+    "last_login_at": "2026-04-21T19:07:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0273",
+    "account_id": "acc_018",
+    "name": "Jordan Zhang",
+    "role": "Ops Manager",
+    "email": "jordan.zhang@lyra.example.com",
+    "last_login_at": "2026-05-16T09:32:17",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0274",
+    "account_id": "acc_018",
+    "name": "Rajiv Brennan",
+    "role": "Ops Manager",
+    "email": "rajiv.brennan@lyra.example.com",
+    "last_login_at": "2026-04-19T08:29:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0275",
+    "account_id": "acc_018",
+    "name": "Alex Alvarez",
+    "role": "Product Manager",
+    "email": "alex.alvarez@lyra.example.com",
+    "last_login_at": "2026-04-09T18:39:25",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0276",
+    "account_id": "acc_018",
+    "name": "Priya Petrov",
+    "role": "Senior Engineer",
+    "email": "priya.petrov@lyra.example.com",
+    "last_login_at": "2026-04-19T15:21:39",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0277",
+    "account_id": "acc_018",
+    "name": "Mateo Rossi",
+    "role": "Product Manager",
+    "email": "mateo.rossi@lyra.example.com",
+    "last_login_at": "2026-04-14T11:23:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0278",
+    "account_id": "acc_018",
+    "name": "Sofia Hassan",
+    "role": "Senior Engineer",
+    "email": "sofia.hassan@lyra.example.com",
+    "last_login_at": "2026-04-09T13:55:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0279",
+    "account_id": "acc_018",
+    "name": "Iris Bello",
+    "role": "Team Lead",
+    "email": "iris.bello@lyra.example.com",
+    "last_login_at": "2026-04-08T18:23:14",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0280",
+    "account_id": "acc_019",
+    "name": "Lena Nakamura",
+    "role": "Chief Operating Officer",
+    "email": "lena.nakamura@meridian.example.com",
+    "last_login_at": "2026-05-16T10:54:07",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0281",
+    "account_id": "acc_019",
+    "name": "Diego Reyes",
+    "role": "Director Engineering",
+    "email": "diego.reyes@meridian.example.com",
+    "last_login_at": "2026-05-09T18:14:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0282",
+    "account_id": "acc_019",
+    "name": "Sara Chen",
+    "role": "Engineering Manager",
+    "email": "sara.chen@meridian.example.com",
+    "last_login_at": "2026-05-17T14:44:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0283",
+    "account_id": "acc_019",
+    "name": "Elena Ferreira",
+    "role": "Product Manager",
+    "email": "elena.ferreira@meridian.example.com",
+    "last_login_at": "2026-05-11T09:28:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0284",
+    "account_id": "acc_019",
+    "name": "Iris Lopez",
+    "role": "Project Manager",
+    "email": "iris.lopez@meridian.example.com",
+    "last_login_at": "2026-04-28T10:49:32",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0285",
+    "account_id": "acc_019",
+    "name": "Liam Holloway",
+    "role": "Engineering Manager",
+    "email": "liam.holloway@meridian.example.com",
+    "last_login_at": "2026-04-18T18:32:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0286",
+    "account_id": "acc_019",
+    "name": "Sara Bergstrom",
+    "role": "Ops Manager",
+    "email": "sara.bergstrom@meridian.example.com",
+    "last_login_at": "2026-05-08T16:33:00",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0287",
+    "account_id": "acc_019",
+    "name": "Liam Singh",
+    "role": "Ops Manager",
+    "email": "liam.singh@meridian.example.com",
+    "last_login_at": "2026-05-05T13:54:54",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0288",
+    "account_id": "acc_019",
+    "name": "Nora Iyer",
+    "role": "Senior Engineer",
+    "email": "nora.iyer@meridian.example.com",
+    "last_login_at": "2026-05-18T17:57:22",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0289",
+    "account_id": "acc_019",
+    "name": "Idris Petrov",
+    "role": "Senior Engineer",
+    "email": "idris.petrov@meridian.example.com",
+    "last_login_at": "2026-05-02T14:58:54",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0290",
+    "account_id": "acc_019",
+    "name": "Iris Hassan",
+    "role": "Engineering Manager",
+    "email": "iris.hassan@meridian.example.com",
+    "last_login_at": "2026-04-21T19:33:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0291",
+    "account_id": "acc_019",
+    "name": "Kai Holloway",
+    "role": "Project Manager",
+    "email": "kai.holloway@meridian.example.com",
+    "last_login_at": "2026-05-13T15:50:29",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0292",
+    "account_id": "acc_019",
+    "name": "Maya Rossi",
+    "role": "Associate",
+    "email": "maya.rossi@meridian.example.com",
+    "last_login_at": "2026-04-18T19:55:56",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0293",
+    "account_id": "acc_019",
+    "name": "Hannah Holloway",
+    "role": "Coordinator",
+    "email": "hannah.holloway@meridian.example.com",
+    "last_login_at": "2026-04-27T09:24:09",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0294",
+    "account_id": "acc_019",
+    "name": "Aanya Chen",
+    "role": "Analyst",
+    "email": "aanya.chen@meridian.example.com",
+    "last_login_at": "2026-04-22T09:02:02",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0295",
+    "account_id": "acc_019",
+    "name": "Diego Menon",
+    "role": "Ops Manager",
+    "email": "diego.menon@meridian.example.com",
+    "last_login_at": "2026-05-03T19:25:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0296",
+    "account_id": "acc_019",
+    "name": "Theo Lehmann",
+    "role": "Analyst",
+    "email": "theo.lehmann@meridian.example.com",
+    "last_login_at": "2026-05-08T16:59:40",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0297",
+    "account_id": "acc_019",
+    "name": "Lena Menon",
+    "role": "Engineering Manager",
+    "email": "lena.menon@meridian.example.com",
+    "last_login_at": "2026-05-07T15:03:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0298",
+    "account_id": "acc_019",
+    "name": "Ravi Mwangi",
+    "role": "Product Manager",
+    "email": "ravi.mwangi@meridian.example.com",
+    "last_login_at": "2026-04-17T16:11:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0299",
+    "account_id": "acc_019",
+    "name": "Henrik Bello",
+    "role": "Senior Engineer",
+    "email": "henrik.bello@meridian.example.com",
+    "last_login_at": "2026-04-05T15:29:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0300",
+    "account_id": "acc_020",
+    "name": "Iris Schmidt",
+    "role": "Chief Operating Officer",
+    "email": "iris.schmidt@northstar.example.com",
+    "last_login_at": "2026-05-09T08:37:07",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0301",
+    "account_id": "acc_020",
+    "name": "Owen Schmidt",
+    "role": "Head of Workplace",
+    "email": "owen.schmidt@northstar.example.com",
+    "last_login_at": "2026-05-11T11:24:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0302",
+    "account_id": "acc_020",
+    "name": "Kai Brennan",
+    "role": "Project Manager",
+    "email": "kai.brennan@northstar.example.com",
+    "last_login_at": "2026-04-16T13:57:44",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0303",
+    "account_id": "acc_020",
+    "name": "Hannah Mwangi",
+    "role": "Ops Manager",
+    "email": "hannah.mwangi@northstar.example.com",
+    "last_login_at": "2026-04-11T10:20:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0304",
+    "account_id": "acc_020",
+    "name": "Mark Lindqvist",
+    "role": "Project Manager",
+    "email": "mark.lindqvist@northstar.example.com",
+    "last_login_at": "2026-04-23T18:10:05",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0305",
+    "account_id": "acc_020",
+    "name": "Tomas Menon",
+    "role": "Specialist",
+    "email": "tomas.menon@northstar.example.com",
+    "last_login_at": "2026-04-29T18:20:25",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0306",
+    "account_id": "acc_020",
+    "name": "Diego Lopez",
+    "role": "Coordinator",
+    "email": "diego.lopez@northstar.example.com",
+    "last_login_at": "2026-05-11T17:27:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0307",
+    "account_id": "acc_020",
+    "name": "Ravi Schmidt",
+    "role": "Product Manager",
+    "email": "ravi.schmidt@northstar.example.com",
+    "last_login_at": "2026-05-08T08:20:53",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0308",
+    "account_id": "acc_020",
+    "name": "Mateo Alvarez",
+    "role": "Specialist",
+    "email": "mateo.alvarez@northstar.example.com",
+    "last_login_at": "2026-05-05T14:27:07",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0309",
+    "account_id": "acc_020",
+    "name": "Nora Okafor",
+    "role": "Ops Manager",
+    "email": "nora.okafor@northstar.example.com",
+    "last_login_at": "2026-05-07T19:32:29",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0310",
+    "account_id": "acc_020",
+    "name": "Mark Park",
+    "role": "Team Lead",
+    "email": "mark.park@northstar.example.com",
+    "last_login_at": "2026-04-22T17:02:09",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0311",
+    "account_id": "acc_020",
+    "name": "Ravi Mwangi",
+    "role": "Project Manager",
+    "email": "ravi.mwangi@northstar.example.com",
+    "last_login_at": "2026-05-04T12:56:11",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0312",
+    "account_id": "acc_020",
+    "name": "Lena Okafor",
+    "role": "Ops Manager",
+    "email": "lena.okafor@northstar.example.com",
+    "last_login_at": "2026-04-07T16:16:59",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0313",
+    "account_id": "acc_020",
+    "name": "Kai Lindqvist",
+    "role": "Team Lead",
+    "email": "kai.lindqvist@northstar.example.com",
+    "last_login_at": "2026-04-19T16:22:40",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0314",
+    "account_id": "acc_021",
+    "name": "Jordan Patel",
+    "role": "Chief Digital Officer",
+    "email": "jordan.patel@onyx.example.com",
+    "last_login_at": "2026-02-28T00:00:00",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0315",
+    "account_id": "acc_021",
+    "name": "Bram Bello",
+    "role": "Head of Workplace",
+    "email": "bram.bello@onyx.example.com",
+    "last_login_at": "2026-05-12T08:58:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0316",
+    "account_id": "acc_021",
+    "name": "Sofia Schmidt",
+    "role": "Product Manager",
+    "email": "sofia.schmidt@onyx.example.com",
+    "last_login_at": "2026-05-18T08:10:12",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0317",
+    "account_id": "acc_021",
+    "name": "Mei Lopez",
+    "role": "Engineering Manager",
+    "email": "mei.lopez@onyx.example.com",
+    "last_login_at": "2026-04-10T18:42:34",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0318",
+    "account_id": "acc_021",
+    "name": "Nora Okafor",
+    "role": "Analyst",
+    "email": "nora.okafor@onyx.example.com",
+    "last_login_at": "2026-05-13T17:17:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0319",
+    "account_id": "acc_021",
+    "name": "Owen Chen",
+    "role": "Associate",
+    "email": "owen.chen@onyx.example.com",
+    "last_login_at": "2026-05-06T08:25:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0320",
+    "account_id": "acc_021",
+    "name": "Cleo Petrov",
+    "role": "Associate",
+    "email": "cleo.petrov@onyx.example.com",
+    "last_login_at": "2026-05-12T11:21:26",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0321",
+    "account_id": "acc_021",
+    "name": "Ravi Zhang",
+    "role": "Associate",
+    "email": "ravi.zhang@onyx.example.com",
+    "last_login_at": "2026-05-17T17:09:17",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0322",
+    "account_id": "acc_021",
+    "name": "Elena Schmidt",
+    "role": "Team Lead",
+    "email": "elena.schmidt@onyx.example.com",
+    "last_login_at": "2026-05-12T15:04:31",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0323",
+    "account_id": "acc_021",
+    "name": "Bram Lopez",
+    "role": "Associate",
+    "email": "bram.lopez@onyx.example.com",
+    "last_login_at": "2026-05-10T16:31:43",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0324",
+    "account_id": "acc_021",
+    "name": "Yara Alvarez",
+    "role": "Team Lead",
+    "email": "yara.alvarez@onyx.example.com",
+    "last_login_at": "2026-04-14T15:33:00",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0325",
+    "account_id": "acc_021",
+    "name": "Felix Zhang",
+    "role": "Product Manager",
+    "email": "felix.zhang@onyx.example.com",
+    "last_login_at": "2026-05-08T10:16:14",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0326",
+    "account_id": "acc_021",
+    "name": "Theo Bello",
+    "role": "Product Manager",
+    "email": "theo.bello@onyx.example.com",
+    "last_login_at": "2026-04-20T15:05:43",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0327",
+    "account_id": "acc_021",
+    "name": "Felix Rossi",
+    "role": "Engineering Manager",
+    "email": "felix.rossi@onyx.example.com",
+    "last_login_at": "2026-05-04T12:41:27",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0328",
+    "account_id": "acc_021",
+    "name": "Lena Singh",
+    "role": "Senior Engineer",
+    "email": "lena.singh@onyx.example.com",
+    "last_login_at": "2026-05-13T17:54:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0329",
+    "account_id": "acc_021",
+    "name": "Mei Bello",
+    "role": "Coordinator",
+    "email": "mei.bello@onyx.example.com",
+    "last_login_at": "2026-04-10T11:56:43",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0330",
+    "account_id": "acc_021",
+    "name": "Aisha Singh",
+    "role": "Project Manager",
+    "email": "aisha.singh@onyx.example.com",
+    "last_login_at": "2026-05-12T18:52:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0331",
+    "account_id": "acc_021",
+    "name": "Joon Alvarez",
+    "role": "Ops Manager",
+    "email": "joon.alvarez@onyx.example.com",
+    "last_login_at": "2026-04-25T09:50:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0332",
+    "account_id": "acc_021",
+    "name": "Henrik Rossi",
+    "role": "Coordinator",
+    "email": "henrik.rossi@onyx.example.com",
+    "last_login_at": "2026-04-06T09:00:58",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0333",
+    "account_id": "acc_021",
+    "name": "Alex Brennan",
+    "role": "Product Manager",
+    "email": "alex.brennan@onyx.example.com",
+    "last_login_at": "2026-04-17T10:18:11",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0334",
+    "account_id": "acc_022",
+    "name": "Diego Lindqvist",
+    "role": "Chief Digital Officer",
+    "email": "diego.lindqvist@pinnacle.example.com",
+    "last_login_at": "2026-05-17T16:54:28",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0335",
+    "account_id": "acc_022",
+    "name": "Kai Menon",
+    "role": "Director Operations",
+    "email": "kai.menon@pinnacle.example.com",
+    "last_login_at": "2026-05-16T19:33:35",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0336",
+    "account_id": "acc_022",
+    "name": "Elena Zhang",
+    "role": "Ops Manager",
+    "email": "elena.zhang@pinnacle.example.com",
+    "last_login_at": "2026-04-06T14:02:21",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0337",
+    "account_id": "acc_022",
+    "name": "Alex Brennan",
+    "role": "Team Lead",
+    "email": "alex.brennan@pinnacle.example.com",
+    "last_login_at": "2026-04-06T08:13:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0338",
+    "account_id": "acc_022",
+    "name": "Mateo Chen",
+    "role": "Analyst",
+    "email": "mateo.chen@pinnacle.example.com",
+    "last_login_at": "2026-04-04T19:44:36",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0339",
+    "account_id": "acc_022",
+    "name": "Idris Rossi",
+    "role": "Project Manager",
+    "email": "idris.rossi@pinnacle.example.com",
+    "last_login_at": "2026-04-15T16:52:53",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0340",
+    "account_id": "acc_022",
+    "name": "Nora Brennan",
+    "role": "Engineering Manager",
+    "email": "nora.brennan@pinnacle.example.com",
+    "last_login_at": "2026-05-01T18:23:11",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0341",
+    "account_id": "acc_022",
+    "name": "Hannah Rossi",
+    "role": "Associate",
+    "email": "hannah.rossi@pinnacle.example.com",
+    "last_login_at": "2026-04-09T16:49:26",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0342",
+    "account_id": "acc_022",
+    "name": "Naomi Petrov",
+    "role": "Ops Manager",
+    "email": "naomi.petrov@pinnacle.example.com",
+    "last_login_at": "2026-04-21T09:34:39",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0343",
+    "account_id": "acc_022",
+    "name": "Cleo Schmidt",
+    "role": "Engineering Manager",
+    "email": "cleo.schmidt@pinnacle.example.com",
+    "last_login_at": "2026-05-11T08:23:55",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0344",
+    "account_id": "acc_022",
+    "name": "Owen Reyes",
+    "role": "Project Manager",
+    "email": "owen.reyes@pinnacle.example.com",
+    "last_login_at": "2026-05-07T13:37:35",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0345",
+    "account_id": "acc_023",
+    "name": "Mateo Iyer",
+    "role": "CIO",
+    "email": "mateo.iyer@quartz.example.com",
+    "last_login_at": "2026-05-17T18:32:08",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0346",
+    "account_id": "acc_023",
+    "name": "Sofia Hassan",
+    "role": "Head of Workplace",
+    "email": "sofia.hassan@quartz.example.com",
+    "last_login_at": "2026-04-29T12:36:04",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0347",
+    "account_id": "acc_023",
+    "name": "Carlos Petrov",
+    "role": "Coordinator",
+    "email": "carlos.petrov@quartz.example.com",
+    "last_login_at": "2026-04-23T08:26:53",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0348",
+    "account_id": "acc_023",
+    "name": "Aanya Schmidt",
+    "role": "Project Manager",
+    "email": "aanya.schmidt@quartz.example.com",
+    "last_login_at": "2026-05-15T10:22:19",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0349",
+    "account_id": "acc_023",
+    "name": "Rajiv Okafor",
+    "role": "Coordinator",
+    "email": "rajiv.okafor@quartz.example.com",
+    "last_login_at": "2026-04-29T15:59:08",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0350",
+    "account_id": "acc_023",
+    "name": "Idris Ferreira",
+    "role": "Associate",
+    "email": "idris.ferreira@quartz.example.com",
+    "last_login_at": "2026-05-17T12:24:52",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0351",
+    "account_id": "acc_023",
+    "name": "Selma Pereira",
+    "role": "Ops Manager",
+    "email": "selma.pereira@quartz.example.com",
+    "last_login_at": "2026-04-14T11:58:52",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0352",
+    "account_id": "acc_023",
+    "name": "Felix Andersson",
+    "role": "Senior Engineer",
+    "email": "felix.andersson@quartz.example.com",
+    "last_login_at": "2026-04-09T14:40:49",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0353",
+    "account_id": "acc_023",
+    "name": "Theo Reyes",
+    "role": "Legal Ops Manager",
+    "email": "theo.reyes@quartz.example.com",
+    "last_login_at": "2026-04-11T10:05:08",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0354",
+    "account_id": "acc_023",
+    "name": "Sara Rossi",
+    "role": "Compliance Analyst",
+    "email": "sara.rossi@quartz.example.com",
+    "last_login_at": "2026-05-11T18:25:53",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0355",
+    "account_id": "acc_023",
+    "name": "Theo Rossi",
+    "role": "Finance Director",
+    "email": "theo.rossi@quartz.example.com",
+    "last_login_at": "2026-04-05T14:25:18",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0356",
+    "account_id": "acc_023",
+    "name": "Priya Ferreira",
+    "role": "Legal Counsel",
+    "email": "priya.ferreira@quartz.example.com",
+    "last_login_at": "2026-05-03T19:55:41",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0357",
+    "account_id": "acc_024",
+    "name": "Rajiv Mwangi",
+    "role": "Chief Operating Officer",
+    "email": "rajiv.mwangi@rhea.example.com",
+    "last_login_at": "2026-04-08T00:00:00",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0358",
+    "account_id": "acc_024",
+    "name": "Lena Nakamura",
+    "role": "Head of Collaboration",
+    "email": "lena.nakamura@rhea.example.com",
+    "last_login_at": "2026-05-06T09:38:37",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0359",
+    "account_id": "acc_024",
+    "name": "Cleo Patel",
+    "role": "Analyst",
+    "email": "cleo.patel@rhea.example.com",
+    "last_login_at": "2026-04-17T09:56:24",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0360",
+    "account_id": "acc_024",
+    "name": "Selma Lindqvist",
+    "role": "Engineering Manager",
+    "email": "selma.lindqvist@rhea.example.com",
+    "last_login_at": "2026-05-14T12:50:20",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0361",
+    "account_id": "acc_024",
+    "name": "Hannah Singh",
+    "role": "Product Manager",
+    "email": "hannah.singh@rhea.example.com",
+    "last_login_at": "2026-05-18T12:38:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0362",
+    "account_id": "acc_024",
+    "name": "Hannah Mwangi",
+    "role": "Ops Manager",
+    "email": "hannah.mwangi@rhea.example.com",
+    "last_login_at": "2026-04-19T11:21:31",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0363",
+    "account_id": "acc_024",
+    "name": "Lena Khan",
+    "role": "Team Lead",
+    "email": "lena.khan@rhea.example.com",
+    "last_login_at": "2026-04-09T08:31:37",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0364",
+    "account_id": "acc_024",
+    "name": "Rajiv Lindqvist",
+    "role": "Analyst",
+    "email": "rajiv.lindqvist@rhea.example.com",
+    "last_login_at": "2026-04-28T13:03:52",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0365",
+    "account_id": "acc_024",
+    "name": "Mei Menon",
+    "role": "Engineering Manager",
+    "email": "mei.menon@rhea.example.com",
+    "last_login_at": "2026-04-14T10:34:52",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0366",
+    "account_id": "acc_024",
+    "name": "Yara Ferreira",
+    "role": "Specialist",
+    "email": "yara.ferreira@rhea.example.com",
+    "last_login_at": "2026-05-17T09:52:06",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0367",
+    "account_id": "acc_024",
+    "name": "Carlos Bergstrom",
+    "role": "Ops Manager",
+    "email": "carlos.bergstrom@rhea.example.com",
+    "last_login_at": "2026-04-11T16:56:33",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0368",
+    "account_id": "acc_025",
+    "name": "Nora Alvarez",
+    "role": "Chief Operating Officer",
+    "email": "nora.alvarez@solstice.example.com",
+    "last_login_at": "2026-04-01T00:00:00",
+    "is_executive_sponsor": true,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0369",
+    "account_id": "acc_025",
+    "name": "Felix Alvarez",
+    "role": "Director Operations",
+    "email": "felix.alvarez@solstice.example.com",
+    "last_login_at": "2026-05-13T13:44:17",
+    "is_executive_sponsor": false,
+    "is_decision_maker": true
+  },
+  {
+    "user_id": "usr_0370",
+    "account_id": "acc_025",
+    "name": "Alex Vargas",
+    "role": "Analyst",
+    "email": "alex.vargas@solstice.example.com",
+    "last_login_at": "2026-04-14T15:08:52",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0371",
+    "account_id": "acc_025",
+    "name": "Rajiv Holloway",
+    "role": "Senior Engineer",
+    "email": "rajiv.holloway@solstice.example.com",
+    "last_login_at": "2026-04-27T11:09:16",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0372",
+    "account_id": "acc_025",
+    "name": "Aanya Vargas",
+    "role": "Ops Manager",
+    "email": "aanya.vargas@solstice.example.com",
+    "last_login_at": "2026-05-02T12:53:50",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0373",
+    "account_id": "acc_025",
+    "name": "Aisha Park",
+    "role": "Engineering Manager",
+    "email": "aisha.park@solstice.example.com",
+    "last_login_at": "2026-04-29T18:42:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0374",
+    "account_id": "acc_025",
+    "name": "Nora Andersson",
+    "role": "Coordinator",
+    "email": "nora.andersson@solstice.example.com",
+    "last_login_at": "2026-05-15T18:16:15",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0375",
+    "account_id": "acc_025",
+    "name": "Idris Lehmann",
+    "role": "Specialist",
+    "email": "idris.lehmann@solstice.example.com",
+    "last_login_at": "2026-05-06T16:54:58",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0376",
+    "account_id": "acc_025",
+    "name": "Nora Alvarez",
+    "role": "Specialist",
+    "email": "nora.alvarez@solstice.example.com",
+    "last_login_at": "2026-05-13T18:26:30",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0377",
+    "account_id": "acc_025",
+    "name": "Elena Chen",
+    "role": "Coordinator",
+    "email": "elena.chen@solstice.example.com",
+    "last_login_at": "2026-04-27T19:44:19",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0378",
+    "account_id": "acc_025",
+    "name": "Bram Patel",
+    "role": "Engineering Manager",
+    "email": "bram.patel@solstice.example.com",
+    "last_login_at": "2026-04-19T15:18:57",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0379",
+    "account_id": "acc_025",
+    "name": "Hannah Brennan",
+    "role": "Team Lead",
+    "email": "hannah.brennan@solstice.example.com",
+    "last_login_at": "2026-04-10T10:05:02",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0380",
+    "account_id": "acc_025",
+    "name": "Alex Zhang",
+    "role": "Team Lead",
+    "email": "alex.zhang@solstice.example.com",
+    "last_login_at": "2026-04-06T09:34:42",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0381",
+    "account_id": "acc_025",
+    "name": "Selma Iyer",
+    "role": "Project Manager",
+    "email": "selma.iyer@solstice.example.com",
+    "last_login_at": "2026-05-16T10:22:31",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0382",
+    "account_id": "acc_025",
+    "name": "Rajiv Bello",
+    "role": "Project Manager",
+    "email": "rajiv.bello@solstice.example.com",
+    "last_login_at": "2026-04-08T08:21:28",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0383",
+    "account_id": "acc_025",
+    "name": "Yara Singh",
+    "role": "Engineering Manager",
+    "email": "yara.singh@solstice.example.com",
+    "last_login_at": "2026-04-28T15:04:46",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0384",
+    "account_id": "acc_025",
+    "name": "Maya Menon",
+    "role": "Senior Engineer",
+    "email": "maya.menon@solstice.example.com",
+    "last_login_at": "2026-04-09T16:44:03",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0385",
+    "account_id": "acc_025",
+    "name": "Owen Chen",
+    "role": "Team Lead",
+    "email": "owen.chen@solstice.example.com",
+    "last_login_at": "2026-04-15T08:51:36",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0386",
+    "account_id": "acc_025",
+    "name": "Sara Vargas",
+    "role": "Coordinator",
+    "email": "sara.vargas@solstice.example.com",
+    "last_login_at": "2026-04-10T12:26:35",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0387",
+    "account_id": "acc_025",
+    "name": "Mateo Andersson",
+    "role": "Specialist",
+    "email": "mateo.andersson@solstice.example.com",
+    "last_login_at": "2026-05-06T15:50:46",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  },
+  {
+    "user_id": "usr_0388",
+    "account_id": "acc_025",
+    "name": "Alex Bello",
+    "role": "Associate",
+    "email": "alex.bello@solstice.example.com",
+    "last_login_at": "2026-05-05T12:43:51",
+    "is_executive_sponsor": false,
+    "is_decision_maker": false
+  }
+]
