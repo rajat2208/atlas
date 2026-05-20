@@ -94,3 +94,77 @@ def score_pattern(
 # Backward-compatible alias for any existing callers.
 def score_hidden_churn(agent_results: list[dict[str, Any]]) -> dict[str, Any]:
     return score_pattern("hidden_churn_risk", agent_results)
+
+
+def score_portfolio_pattern(
+    pattern_key: str,
+    agent_results: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Score a Tier 2 portfolio-level detector result against ground truth.
+
+    Portfolio patterns produce a single detection result (not per-account),
+    so scoring has two dimensions:
+      1. Did the agent detect the pattern at all? (binary)
+      2. How well does the affected_accounts set match ground truth? (F1)
+
+    Args:
+        pattern_key: e.g. "systemic_product_signal"
+        agent_results: list with one portfolio detection dict (as written by
+            run_portfolio.py). Records without `detected` are treated as errors.
+    """
+    from eval.ground_truth_loader import portfolio_pattern
+
+    gt_entry = portfolio_pattern(pattern_key)
+    gt_detected = gt_entry is not None
+    gt_accounts = set(gt_entry.get("account_ids", [])) if gt_entry else set()
+
+    # Find the relevant result record
+    result = next(
+        (r for r in agent_results if r.get("pattern") == pattern_key and "detected" in r),
+        None,
+    )
+
+    if result is None:
+        return {
+            "pattern": pattern_key,
+            "status": "no_result",
+            "ground_truth_detected": gt_detected,
+            "ground_truth_account_count": len(gt_accounts),
+        }
+
+    agent_detected = bool(result.get("detected"))
+    agent_accounts = set(result.get("affected_accounts", []))
+
+    detection_correct = agent_detected == gt_detected
+
+    # Member-set F1 (only meaningful when both agree pattern exists)
+    if gt_accounts and agent_accounts:
+        tp = len(agent_accounts & gt_accounts)
+        fp = len(agent_accounts - gt_accounts)
+        fn = len(gt_accounts - agent_accounts)
+        precision = tp / (tp + fp) if (tp + fp) else None
+        recall = tp / (tp + fn) if (tp + fn) else None
+        f1 = (
+            2 * precision * recall / (precision + recall)
+            if precision and recall
+            else None
+        )
+    else:
+        tp = fp = fn = 0
+        precision = recall = f1 = None
+
+    return {
+        "pattern": pattern_key,
+        "ground_truth_detected": gt_detected,
+        "ground_truth_accounts": sorted(gt_accounts),
+        "agent_detected": agent_detected,
+        "agent_accounts": sorted(agent_accounts),
+        "detection_correct": detection_correct,
+        "member_set_true_positives": sorted(agent_accounts & gt_accounts),
+        "member_set_false_positives": sorted(agent_accounts - gt_accounts),
+        "member_set_false_negatives": sorted(gt_accounts - agent_accounts),
+        "member_set_precision": round(precision, 3) if precision is not None else None,
+        "member_set_recall": round(recall, 3) if recall is not None else None,
+        "member_set_f1": round(f1, 3) if f1 is not None else None,
+        "agent_confidence": result.get("confidence"),
+    }
