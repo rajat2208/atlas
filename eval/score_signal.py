@@ -116,7 +116,14 @@ def score_portfolio_pattern(
 
     gt_entry = portfolio_pattern(pattern_key)
     gt_detected = gt_entry is not None
-    gt_accounts = set(gt_entry.get("account_ids", [])) if gt_entry else set()
+    # Tier 2 ground truth uses `member_account_ids`. feedback_to_roadmap_disconnect
+    # has no member set — it's scored on whether the pattern was detected at all
+    # and on whether the right `demanded_capability` was identified.
+    gt_accounts = (
+        set(gt_entry.get("member_account_ids", []))
+        if gt_entry
+        else set()
+    )
 
     # Find the relevant result record
     result = next(
