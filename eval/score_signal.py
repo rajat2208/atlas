@@ -18,8 +18,9 @@ _ACCOUNT_LEVEL_PATTERNS = {
     "hidden_churn_risk",
     "expansion_ready",
     "executive_friction",
-    "cross_functional_blind_spot",
 }
+# cross_functional_blind_spot lives under organizational_patterns in ground_truth.json,
+# so it is NOT in this set — the else-branch routes it to organizational_pattern_accounts.
 
 
 def score_pattern(

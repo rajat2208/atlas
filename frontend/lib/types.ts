@@ -82,3 +82,32 @@ export interface PortfolioResponse {
     portfolio_patterns: PatternKey[];
   };
 }
+
+// Account detail — returned by GET /accounts/{id}
+export interface AccountRecord {
+  account_id: string;
+  name: string;
+  industry: string;
+  employee_count: number;
+  arr: number;
+  contract_start: string;
+  contract_end: string;
+  assigned_csm: string;
+  assigned_ae: string;
+  executive_sponsor: string;
+  health_score: number;
+}
+
+export interface SignalDetection {
+  account_id: string;
+  pattern: PatternKey;
+  detected: boolean;
+  confidence: number;
+  reasoning?: string;
+  evidence?: EvidenceItem[];
+}
+
+export interface AccountDetail {
+  account: AccountRecord;
+  detections: SignalDetection[];
+}

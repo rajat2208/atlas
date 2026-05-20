@@ -1,4 +1,4 @@
-import type { Briefing, PortfolioResponse } from "@/lib/types";
+import type { AccountDetail, Briefing, PortfolioResponse } from "@/lib/types";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -16,4 +16,8 @@ export function getBriefing(): Promise<Briefing> {
 
 export function getPortfolio(): Promise<PortfolioResponse> {
   return apiFetch<PortfolioResponse>("/portfolio");
+}
+
+export function getAccountDetail(accountId: string): Promise<AccountDetail> {
+  return apiFetch<AccountDetail>(`/accounts/${accountId}`);
 }
