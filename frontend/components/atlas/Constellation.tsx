@@ -195,15 +195,48 @@ export default function Constellation({ accounts, cards }: Props) {
           {/* Background dot grid */}
           <rect width={W} height={H} fill="url(#bgDots)" opacity="0.55" />
 
-          {/* Axis guide lines */}
-          <line
-            x1={PAD.l - 20} y1={PAD.t + (H - PAD.t - PAD.b) / 2}
-            x2={W - PAD.r + 20} y2={PAD.t + (H - PAD.t - PAD.b) / 2}
-            stroke="var(--atlas-z-150)" strokeWidth={1} />
-          <line
-            x1={PAD.l + (W - PAD.l - PAD.r) / 2} y1={PAD.t - 20}
-            x2={PAD.l + (W - PAD.l - PAD.r) / 2} y2={H - PAD.b + 20}
-            stroke="var(--atlas-z-150)" strokeWidth={1} />
+          {/* Axis bounding box */}
+          <line x1={PAD.l} y1={H - PAD.b} x2={W - PAD.r} y2={H - PAD.b} stroke="#d4d4d8" strokeWidth={1} />
+          <line x1={PAD.l} y1={PAD.t} x2={PAD.l} y2={H - PAD.b} stroke="#d4d4d8" strokeWidth={1} />
+
+          {/* Midpoint guide lines */}
+          <line x1={PAD.l} y1={PAD.t + (H - PAD.t - PAD.b) / 2}
+                x2={W - PAD.r} y2={PAD.t + (H - PAD.t - PAD.b) / 2}
+                stroke="#e4e4e7" strokeWidth={1} strokeDasharray="4 5" />
+          <line x1={PAD.l + (W - PAD.l - PAD.r) / 2} y1={PAD.t}
+                x2={PAD.l + (W - PAD.l - PAD.r) / 2} y2={H - PAD.b}
+                stroke="#e4e4e7" strokeWidth={1} strokeDasharray="4 5" />
+
+          {/* X-axis ticks + labels */}
+          {([1, 2, 3, 4] as const).map((v) => {
+            const tx = PAD.l + ((v - 0.4) / 4.6) * (W - PAD.l - PAD.r);
+            return (
+              <g key={`xt-${v}`}>
+                <line x1={tx} y1={H - PAD.b} x2={tx} y2={H - PAD.b + 5} stroke="#a1a1aa" strokeWidth={1} />
+                <text x={tx} y={H - PAD.b + 17} textAnchor="middle" fontSize={10} fill="#71717a"
+                      fontFamily="ui-monospace, monospace">${v}M</text>
+              </g>
+            );
+          })}
+          <text x={(PAD.l + W - PAD.r) / 2} y={H - 6} textAnchor="middle" fontSize={10} fill="#71717a"
+                fontFamily="ui-monospace, monospace"
+                style={{ textTransform: "uppercase" as const, letterSpacing: "0.07em" }}>ARR</text>
+
+          {/* Y-axis ticks + labels */}
+          {([65, 75, 85, 95] as const).map((v) => {
+            const ty = PAD.t + ((100 - v) / 42) * (H - PAD.t - PAD.b);
+            return (
+              <g key={`yt-${v}`}>
+                <line x1={PAD.l - 5} y1={ty} x2={PAD.l} y2={ty} stroke="#a1a1aa" strokeWidth={1} />
+                <text x={PAD.l - 8} y={ty + 4} textAnchor="end" fontSize={10} fill="#71717a"
+                      fontFamily="ui-monospace, monospace">{v}</text>
+              </g>
+            );
+          })}
+          <text x={14} y={(PAD.t + H - PAD.b) / 2} textAnchor="middle" fontSize={10} fill="#71717a"
+                fontFamily="ui-monospace, monospace"
+                style={{ textTransform: "uppercase" as const, letterSpacing: "0.07em" }}
+                transform={`rotate(-90 14 ${(PAD.t + H - PAD.b) / 2})`}>Health</text>
 
           {/* Systemic blurred amber field */}
           {showSystemic && systemicNodes.length > 0 && (
@@ -212,17 +245,6 @@ export default function Constellation({ accounts, cards }: Props) {
                 <circle key={n.account_id} cx={n.x} cy={n.y} r="45" fill="var(--atlas-warn)" />
               ))}
             </g>
-          )}
-
-          {/* Systemic chord web */}
-          {showSystemic && systemicNodes.map((n, i) =>
-            systemicNodes.slice(i + 1).map((m) => (
-              <line
-                key={`${n.account_id}-${m.account_id}`}
-                x1={n.x} y1={n.y} x2={m.x} y2={m.y}
-                stroke="var(--atlas-warn)" strokeWidth="0.6" opacity="0.2"
-              />
-            ))
           )}
 
           {/* All nodes */}
@@ -247,20 +269,16 @@ export default function Constellation({ accounts, cards }: Props) {
             );
           })}
 
-          {/* Halos for risk accounts */}
+          {/* Single halo per risk account */}
           {showRisk && riskNodes.map((n) => (
-            <g key={`halo-risk-${n.account_id}`}>
-              <circle className="halo halo-risk pulse"      cx={n.x} cy={n.y} r={n.r + 11} strokeWidth="1.8" />
-              <circle className="halo halo-risk pulse-slow" cx={n.x} cy={n.y} r={n.r + 20} strokeWidth="0.9" />
-            </g>
+            <circle key={`halo-risk-${n.account_id}`}
+              className="halo halo-risk pulse" cx={n.x} cy={n.y} r={n.r + 12} strokeWidth="1.5" />
           ))}
 
-          {/* Halos for coord accounts */}
+          {/* Single halo per coord account */}
           {showCoord && coordNodes.map((n) => (
-            <g key={`halo-coord-${n.account_id}`}>
-              <circle className="halo halo-coord pulse"      cx={n.x} cy={n.y} r={n.r + 11} strokeWidth="1.8" />
-              <circle className="halo halo-coord pulse-slow" cx={n.x} cy={n.y} r={n.r + 20} strokeWidth="0.9" />
-            </g>
+            <circle key={`halo-coord-${n.account_id}`}
+              className="halo halo-coord pulse" cx={n.x} cy={n.y} r={n.r + 12} strokeWidth="1.5" />
           ))}
 
           {/* Leader lines to annotation cards */}
@@ -292,11 +310,6 @@ export default function Constellation({ accounts, cards }: Props) {
             />
           )}
         </svg>
-
-        {/* Axis labels */}
-        <div className="const-html-axis top-left" style={{ fontFamily: "var(--font-geist-mono)" }}>↑ Healthier</div>
-        <div className="const-html-axis bot-right" style={{ fontFamily: "var(--font-geist-mono)" }}>ARR ($M) →</div>
-        <div className="const-html-axis q-tr" style={{ fontFamily: "var(--font-geist-mono)" }}>Healthy · scaled by ARR</div>
 
         {/* Node labels for key accounts */}
         {nodes
