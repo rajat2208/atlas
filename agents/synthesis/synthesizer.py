@@ -205,7 +205,7 @@ def synthesize(
     client = get_client()
     response = client.messages.create(
         model=model or DEFAULT_MODEL,
-        max_tokens=4000,
+        max_tokens=8000,
         system=[
             {
                 "type": "text",

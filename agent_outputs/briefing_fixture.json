@@ -1,184 +1,602 @@
 {
   "briefing_date": "2026-05-19",
-  "card_count": 4,
+  "card_count": 5,
   "cards": [
     {
       "rank": 1,
-      "card_id": "hidden_churn_risk_acc_018",
-      "title": "Hidden Churn Risk at Lyra Aerospace",
-      "pattern": "hidden_churn_risk",
-      "tier": 1,
-      "account_id": "acc_018",
-      "account_name": "Lyra Aerospace",
-      "affected_accounts": [
-        { "id": "acc_018", "name": "Lyra Aerospace", "arr": 979000 }
-      ],
-      "urgency": "high",
-      "confidence": 0.81,
-      "synthesis": "Lyra Aerospace looks stable on paper — no open escalations, contract not due until October. But I'm seeing a convergence of quiet signals that together suggest real churn risk: core docs usage is down 48% over the last 60 days, support tickets shifted from how-to questions to a string of frustrated bug reports, and the executive sponsor's last login was six weeks ago. The renewal is five months out. If these signals aren't addressed now, the Q3 renewal conversation will be much harder than it needs to be.",
-      "recommended_action": {
-        "what": "Schedule an executive sponsor re-engagement call within the next two weeks — bring the CSM and AE together so this isn't read as a firefighting visit.",
-        "owner": "CSM",
-        "when": "this_week"
-      },
-      "evidence": [
-        {
-          "source": "usage_events",
-          "claim": "docs usage dropped 48% in the last 60 days vs. the prior 60-day window",
-          "support_refs": ["docs"]
-        },
-        {
-          "source": "support_tickets",
-          "claim": "Last 4 tickets are bug reports with negative sentiment (avg score -0.3), versus exploratory how-to questions 90 days prior",
-          "support_refs": ["tkt_00287", "tkt_00291", "tkt_00304", "tkt_00318"]
-        },
-        {
-          "source": "account",
-          "claim": "Executive sponsor last_login_at was 2026-04-01 — 48 days ago",
-          "support_refs": ["acc_018"]
-        },
-        {
-          "source": "cs_notes",
-          "claim": "CS note from 2026-04-28 categorised as 'risk': sponsor mentioned feeling less engaged since their team reorg",
-          "support_refs": ["csn_00142"]
-        }
-      ]
-    },
-    {
-      "rank": 2,
       "card_id": "systemic_product_signal_portfolio",
-      "title": "Systemic Admin Console Issue Across 6 Accounts",
+      "title": "Admin Console Is Breaking Across 8 Accounts and $8M ARR",
       "pattern": "systemic_product_signal",
       "tier": 2,
       "account_id": null,
       "account_name": null,
       "affected_accounts": [
-        { "id": "acc_003", "name": "Helios Robotics", "arr": 1040000 },
-        { "id": "acc_007", "name": "Apex Foods", "arr": 1519000 },
-        { "id": "acc_014", "name": "Horizon Travel", "arr": 907000 },
-        { "id": "acc_019", "name": "Meridian Banking", "arr": 1807000 },
-        { "id": "acc_021", "name": "Onyx Mining", "arr": 654000 },
-        { "id": "acc_022", "name": "Pinnacle Consulting", "arr": 554000 }
+        {
+          "id": "acc_002",
+          "name": "Beta Analytics",
+          "arr": 267000
+        },
+        {
+          "id": "acc_003",
+          "name": "Helios Robotics",
+          "arr": 1040000
+        },
+        {
+          "id": "acc_006",
+          "name": "Vertex Capital",
+          "arr": 2322000
+        },
+        {
+          "id": "acc_014",
+          "name": "Horizon Travel",
+          "arr": 907000
+        },
+        {
+          "id": "acc_015",
+          "name": "Indigo Retail",
+          "arr": 395000
+        },
+        {
+          "id": "acc_020",
+          "name": "Northstar Logistics",
+          "arr": 938000
+        },
+        {
+          "id": "acc_021",
+          "name": "Onyx Mining",
+          "arr": 654000
+        },
+        {
+          "id": "acc_025",
+          "name": "Solstice Hospitality",
+          "arr": 1435000
+        }
       ],
       "urgency": "high",
-      "confidence": 0.87,
-      "synthesis": "Six accounts have independently logged support tickets about admin console role propagation delays and reporting discrepancies in the last 45 days. Viewed in isolation each looked minor — one or two tickets per account. Viewed together, this is a systemic product issue touching $6.5M ARR and 24% of the portfolio. Admin console usage is down an average of 31% across these accounts, suggesting users are hitting the issue and withdrawing from the feature rather than filing more tickets. Your product team needs to see this before the next sprint.",
+      "confidence": 0.92,
+      "synthesis": "I'm seeing a real product defect, not isolated complaints. Eight accounts representing nearly $8M ARR have filed bug tickets clustered on the same admin console failures \u2014 reports that don't match usage, role propagation delays over 30 minutes, missing log entries, and empty CSV exports \u2014 with sentiment scores running as low as -0.84. Five of these accounts also show admin_console usage declines greater than 20%, so customers aren't just complaining, they're disengaging. This issue is now appearing in renewal conversations at Horizon Travel, Onyx Mining, and Solstice Hospitality, which means it's no longer a support problem \u2014 it's a churn driver.",
       "recommended_action": {
-        "what": "Escalate to the Product team with the attached account list and affected ARR figure — request acknowledgment and a fix timeline within 48 hours.",
+        "what": "Escalate to Product Engineering leadership this week with the affected account list and request an emergency fix plan covering reporting accuracy, role propagation, and export/log integrity.",
         "owner": "Sarah",
         "when": "this_week"
       },
       "evidence": [
         {
           "source": "support_tickets",
-          "claim": "18 tickets across 6 accounts referencing admin console role updates or reporting accuracy in the last 45 days",
-          "support_refs": ["tkt_00271", "tkt_00283", "tkt_00295", "tkt_00301", "tkt_00312", "tkt_00327"]
+          "claim": "8 accounts filed bug tickets on admin console reporting and role propagation issues with consistent negative sentiment",
+          "support_refs": [
+            "tkt_00032",
+            "tkt_00107",
+            "tkt_00108",
+            "tkt_00109",
+            "tkt_00122",
+            "tkt_00124",
+            "tkt_00254",
+            "tkt_00259",
+            "tkt_00260",
+            "tkt_00264",
+            "tkt_00288",
+            "tkt_00289",
+            "tkt_00290",
+            "tkt_00291",
+            "tkt_00369",
+            "tkt_00370",
+            "tkt_00371",
+            "tkt_00372",
+            "tkt_00373",
+            "tkt_00389",
+            "tkt_00392",
+            "tkt_00426",
+            "tkt_00470",
+            "tkt_00489",
+            "tkt_00490",
+            "tkt_00492",
+            "tkt_00493",
+            "tkt_00494"
+          ]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "Recurring ticket pattern across portfolio: 'Admin console reports do not match underlying usage' filed by acc_002, acc_005, acc_006, acc_007, acc_014, acc_015, acc_025 with consistently negative sentiment (-0.24 to -0.83)",
+          "support_refs": [
+            "tkt_00032",
+            "tkt_00094",
+            "tkt_00107",
+            "tkt_00122",
+            "tkt_00254",
+            "tkt_00259",
+            "tkt_00289",
+            "tkt_00291",
+            "tkt_00426",
+            "tkt_00470",
+            "tkt_00489",
+            "tkt_00490"
+          ]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "Admin console role propagation delays reported by acc_006, acc_014, acc_015, acc_020, acc_021, acc_025 with 'role updates take >30 minutes to propagate' pattern (6 accounts)",
+          "support_refs": [
+            "tkt_00109",
+            "tkt_00124",
+            "tkt_00244",
+            "tkt_00260",
+            "tkt_00264",
+            "tkt_00290",
+            "tkt_00370",
+            "tkt_00373",
+            "tkt_00389",
+            "tkt_00392",
+            "tkt_00492",
+            "tkt_00493",
+            "tkt_00494"
+          ]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "Admin console logs missing entries reported by acc_006, acc_014, acc_019, acc_020 with 'logs missing entries for the last 48h' pattern (4 accounts)",
+          "support_refs": [
+            "tkt_00108",
+            "tkt_00257",
+            "tkt_00258",
+            "tkt_00354",
+            "tkt_00355",
+            "tkt_00369"
+          ]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "Admin console export failures reported by acc_015, acc_020, acc_021, acc_025 with 'exports return empty CSV files' pattern (4 accounts)",
+          "support_refs": [
+            "tkt_00288",
+            "tkt_00371",
+            "tkt_00372",
+            "tkt_00379",
+            "tkt_00491"
+          ]
         },
         {
           "source": "usage_events",
-          "claim": "admin_console usage down an average of 31% across the 6 affected accounts in the last 60 days",
-          "support_refs": ["admin_console"]
+          "claim": "7 accounts show significant admin_console feature usage decline >20%: acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+          "support_refs": [
+            "admin_console"
+          ]
+        },
+        {
+          "source": "usage_events",
+          "claim": "Corroboration: 5 of the 8 affected accounts (acc_006, acc_015, acc_020, acc_024, acc_025) appear in both bug ticket cluster and admin_console usage decline list, validating the systemic signal",
+          "support_refs": [
+            "admin_console"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "card_id": "executive_friction_acc_003",
+      "title": "Helios Robotics: New VP Is Shopping Slack Before August Renewal",
+      "pattern": "executive_friction",
+      "tier": 1,
+      "account_id": "acc_003",
+      "account_name": "Helios Robotics",
+      "affected_accounts": [
+        {
+          "id": "acc_003",
+          "name": "Helios Robotics",
+          "arr": 1040000
+        }
+      ],
+      "urgency": "high",
+      "confidence": 0.78,
+      "synthesis": "Helios Robotics renews in 103 days and the executive relationship has just been reset. Prior sponsor Nora Vargas has departed and the new VP Engineering, Lena Ferreira, has no history with us \u2014 she has prior experience with Slack and has told us directly she wants to evaluate alternatives before signing. Health score (82) and call sentiment look fine, which is exactly why this one is dangerous: $1.04M ARR is exposed to a competitive review and we have no established relationship with the decision-maker.",
+      "recommended_action": {
+        "what": "Schedule an executive-to-executive introduction between Sarah and Lena Ferreira within the next two weeks, paired with a tailored value review ahead of the renewal evaluation.",
+        "owner": "Sarah",
+        "when": "this_week"
+      },
+      "evidence": [
+        {
+          "source": "account",
+          "claim": "Contract renewal in 103 days (2026-08-30), placing account in imminent renewal window.",
+          "support_refs": [
+            "contract_end: 2026-08-30"
+          ]
+        },
+        {
+          "source": "cs_notes",
+          "claim": "Previous sponsor Nora Vargas has departed the organization; new VP Engineering Lena Ferreira has assumed decision authority.",
+          "support_refs": [
+            "csn_00022"
+          ]
+        },
+        {
+          "source": "call_summaries",
+          "claim": "New executive sponsor (Lena Ferreira) recently introduced and is openly evaluating alternative vendors before renewal; competitor (Slack) explicitly mentioned in context of vendor consolidation review.",
+          "support_refs": [
+            "call_00025"
+          ]
+        },
+        {
+          "source": "call_summaries",
+          "claim": "New sponsor previously used competing product and is actively reviewing options, suggesting lack of established relationship and competitive exposure.",
+          "support_refs": [
+            "call_00025"
+          ]
+        },
+        {
+          "source": "cs_notes",
+          "claim": "CS notes flag relationship transition as a risk, with new sponsor conducting vendor evaluation before renewal.",
+          "support_refs": [
+            "csn_00022"
+          ]
         }
       ]
     },
     {
       "rank": 3,
-      "card_id": "expansion_ready_acc_010",
-      "title": "Expansion Window Opening at Delta Pharma",
-      "pattern": "expansion_ready",
+      "card_id": "hidden_churn_risk_acc_025",
+      "title": "Solstice Hospitality: $1.4M Account Looks Healthy, Actually Isn't",
+      "pattern": "hidden_churn_risk",
       "tier": 1,
-      "account_id": "acc_010",
-      "account_name": "Delta Pharma",
+      "account_id": "acc_025",
+      "account_name": "Solstice Hospitality",
       "affected_accounts": [
-        { "id": "acc_010", "name": "Delta Pharma", "arr": 910000 }
+        {
+          "id": "acc_025",
+          "name": "Solstice Hospitality",
+          "arr": 1435000
+        }
       ],
-      "urgency": "medium",
-      "confidence": 0.74,
-      "synthesis": "Delta Pharma has been a steady mid-tier account for over two years. In the last 45 days something has changed: usage across workflows and integrations is up 67%, their last two support tickets are advanced questions about API rate limits and bulk user provisioning, and a recent call noted that their Finance and Legal teams have started onboarding. No expansion conversation has been initiated. This is a window that typically stays open 60–90 days before the new teams either self-organise or look for a better fit.",
+      "urgency": "high",
+      "confidence": 0.78,
+      "synthesis": "Solstice Hospitality carries a health score of 83 and a renewal that's still over a year out, but underneath that the account is unraveling. Admin console usage is down 39%, docs down 26%, sentiment on recent support tickets has collapsed to -0.84 with customers explicitly naming renewal risk, and the COO sponsor has been silent for seven weeks after a reorg deprioritized us. This is the largest ARR in your portfolio currently showing this convergence \u2014 sponsor disengagement plus usage decline plus product frustration \u2014 and Owen's calls are still describing it as 'steady adoption.' We need to surface the real picture before the next QBR.",
       "recommended_action": {
-        "what": "AE to reach out to the Delta Pharma sponsor this week to schedule an expansion scoping call — frame it around the Finance and Legal team adoption they've already started.",
-        "owner": "AE",
+        "what": "Have Owen escalate to Solstice's new operational lead this week and request a re-engagement meeting with the COO, while running an account health reset internally with Sarah's involvement.",
+        "owner": "Sarah",
         "when": "this_week"
       },
       "evidence": [
         {
           "source": "usage_events",
-          "claim": "workflows usage up 67% and integrations up 52% in the last 60 days vs. prior period",
-          "support_refs": ["workflows", "integrations"]
+          "claim": "Core administrative feature (admin_console) usage declined 39.4% over last 60 days; docs (primary feature) declined 26.0%; meetings declined 20.8%.",
+          "support_refs": [
+            "admin_console",
+            "docs",
+            "meetings"
+          ]
         },
         {
           "source": "support_tickets",
-          "claim": "Two recent tickets are advanced-use questions: API rate limits (tkt_00198) and bulk user provisioning (tkt_00203)",
-          "support_refs": ["tkt_00198", "tkt_00203"]
+          "claim": "Tone shift from exploratory/neutral (Feb-Mar how-to tickets: tkt_00475, tkt_00478, tkt_00482) to frustrated/negative (Apr-May bug tickets with sentiment -0.28 to -0.84: tkt_00486, tkt_00487, tkt_00488, tkt_00489, tkt_00490, tkt_00491, tkt_00492, tkt_00493, tkt_00494). Bug category dominates recent tickets; repeated mentions of customer frustration and renewal concerns.",
+          "support_refs": [
+            "tkt_00475",
+            "tkt_00478",
+            "tkt_00482",
+            "tkt_00486",
+            "tkt_00487",
+            "tkt_00488",
+            "tkt_00489",
+            "tkt_00490",
+            "tkt_00491",
+            "tkt_00492",
+            "tkt_00493",
+            "tkt_00494"
+          ]
+        },
+        {
+          "source": "cs_notes",
+          "claim": "Two explicit risk-tagged notes document sponsor disengagement due to reorg (csn_00175: 'unreachable for two cycles', 'QBR was missed') and declining core usage with negative sentiment shift (csn_00176). Additional risk note on recurring admin console erosion of trust (csn_00177).",
+          "support_refs": [
+            "csn_00175",
+            "csn_00176",
+            "csn_00177"
+          ]
+        },
+        {
+          "source": "account",
+          "claim": "Executive sponsor last_login_at is 2026-04-01 (49 days stale as of reference date 2026-05-19), indicating material disengagement.",
+          "support_refs": [
+            "usr_0368"
+          ]
         },
         {
           "source": "call_summaries",
-          "claim": "Call on 2026-04-15 noted Finance and Legal teams beginning onboarding; no expansion proposal discussed",
-          "support_refs": ["call_00087"]
+          "claim": "Call on 2026-03-02 (call_00182) documents sponsor absence due to reorg, replacement attendee, and dropped leadership engagement. Earlier calls (2026-02-28, 2026-02-06) surfaced admin console and permission gaps as unresolved pain points.",
+          "support_refs": [
+            "call_00182",
+            "call_00183",
+            "call_00186"
+          ]
+        },
+        {
+          "source": "cross_functional_signals",
+          "claim": "Support and Solutions teams both flagged risk: sig_00062 explicitly notes sharp tone shift in tickets despite health score; sig_00063 flags admin console unreliability as a pattern affecting multiple accounts.",
+          "support_refs": [
+            "sig_00062",
+            "sig_00063"
+          ]
         }
       ]
     },
     {
       "rank": 4,
-      "card_id": "win_reference_opportunity_portfolio",
-      "title": "Reference Opportunity: Borealis Energy and Vertex Capital",
-      "pattern": "win_reference_opportunity",
+      "card_id": "feedback_to_roadmap_disconnect_portfolio",
+      "title": "Customers Are Begging for Granular Permissions; The Roadmap Has Nothing",
+      "pattern": "feedback_to_roadmap_disconnect",
       "tier": 2,
       "account_id": null,
       "account_name": null,
       "affected_accounts": [
-        { "id": "acc_008", "name": "Borealis Energy", "arr": 799000 },
-        { "id": "acc_006", "name": "Vertex Capital", "arr": 2322000 }
+        {
+          "id": "acc_001",
+          "name": "Acme Industries",
+          "arr": 557000
+        },
+        {
+          "id": "acc_002",
+          "name": "Beta Analytics",
+          "arr": 267000
+        },
+        {
+          "id": "acc_003",
+          "name": "Helios Robotics",
+          "arr": 1040000
+        },
+        {
+          "id": "acc_004",
+          "name": "Nimbus Logistics",
+          "arr": 303000
+        },
+        {
+          "id": "acc_008",
+          "name": "Borealis Energy",
+          "arr": 799000
+        },
+        {
+          "id": "acc_009",
+          "name": "Cinder Media",
+          "arr": 215000
+        },
+        {
+          "id": "acc_010",
+          "name": "Delta Pharma",
+          "arr": 910000
+        },
+        {
+          "id": "acc_011",
+          "name": "Ember Telecom",
+          "arr": 405000
+        },
+        {
+          "id": "acc_012",
+          "name": "Fjord Insurance",
+          "arr": 109000
+        },
+        {
+          "id": "acc_013",
+          "name": "Granite Manufacturing",
+          "arr": 339000
+        },
+        {
+          "id": "acc_014",
+          "name": "Horizon Travel",
+          "arr": 907000
+        },
+        {
+          "id": "acc_015",
+          "name": "Indigo Retail",
+          "arr": 395000
+        },
+        {
+          "id": "acc_016",
+          "name": "Juniper Biotech",
+          "arr": 477000
+        },
+        {
+          "id": "acc_019",
+          "name": "Meridian Banking",
+          "arr": 1807000
+        },
+        {
+          "id": "acc_020",
+          "name": "Northstar Logistics",
+          "arr": 938000
+        },
+        {
+          "id": "acc_021",
+          "name": "Onyx Mining",
+          "arr": 654000
+        },
+        {
+          "id": "acc_022",
+          "name": "Pinnacle Consulting",
+          "arr": 554000
+        },
+        {
+          "id": "acc_023",
+          "name": "Quartz Semiconductors",
+          "arr": 440000
+        },
+        {
+          "id": "acc_024",
+          "name": "Rhea Education",
+          "arr": 324000
+        },
+        {
+          "id": "acc_025",
+          "name": "Solstice Hospitality",
+          "arr": 1435000
+        }
       ],
-      "urgency": "low",
-      "confidence": 0.79,
-      "synthesis": "Borealis Energy and Vertex Capital are your two strongest reference candidates right now. Borealis has sustained top-decile usage for eight months, their sponsor logged in three days ago, and the last QBR call summary included explicit advocacy language. Vertex Capital is your highest-ARR account at $2.3M, has expanded twice in the last 12 months, and their CS notes are consistently relationship-positive. Neither has been asked to participate in a case study or reference programme.",
+      "urgency": "high",
+      "confidence": 0.92,
+      "synthesis": "Granular permissions is the single most-requested capability in your portfolio \u2014 26 call mentions and 27 feature-request tickets spanning 20 accounts representing $12.9M ARR. It's completely absent from the roadmap. Meanwhile AI meeting summaries is in-progress with high investment despite only two customer requests. This isn't a minor prioritization gap; granular permissions is showing up specifically in renewal-risk conversations and competitive evaluations, so the roadmap mismatch is actively eroding our position.",
       "recommended_action": {
-        "what": "Marketing to initiate case study conversations with both accounts — Borealis for a usage-depth story, Vertex for an enterprise expansion story.",
-        "owner": "Marketing",
-        "when": "this_month"
+        "what": "Bring the granular permissions demand data to the next Product leadership review and push for it to enter the next quarter's roadmap, with concurrent validation of AI meeting summaries investment.",
+        "owner": "Sarah",
+        "when": "this_week"
       },
       "evidence": [
         {
           "source": "call_summaries",
-          "claim": "Borealis Energy QBR call (2026-05-02) included sponsor advocacy language and public praise of the product",
-          "support_refs": ["call_00112"]
+          "claim": "Granular permissions mentioned 26 times across call topics ('feature request: granular permissions' 10 mentions, 'granular permissions' 8 mentions, 'permissions model' 8 mentions)",
+          "support_refs": [
+            "feature request: granular permissions",
+            "granular permissions",
+            "permissions model"
+          ]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "27 feature-request tickets (71% of all feature requests) explicitly request granular permissions in various forms across 16+ accounts",
+          "support_refs": [
+            "tkt_00003",
+            "tkt_00015",
+            "tkt_00028",
+            "tkt_00051",
+            "tkt_00053",
+            "tkt_00072",
+            "tkt_00162",
+            "tkt_00163",
+            "tkt_00165",
+            "tkt_00169",
+            "tkt_00212",
+            "tkt_00239",
+            "tkt_00241",
+            "tkt_00263",
+            "tkt_00267",
+            "tkt_00271",
+            "tkt_00298",
+            "tkt_00360",
+            "tkt_00364",
+            "tkt_00401",
+            "tkt_00477",
+            "tkt_00495",
+            "tkt_00500",
+            "tkt_00501",
+            "tkt_00502",
+            "tkt_00504",
+            "tkt_00506",
+            "tkt_00507",
+            "tkt_00508",
+            "tkt_00510"
+          ]
+        },
+        {
+          "source": "roadmap",
+          "claim": "Granular permissions feature is completely absent from the roadmap (no planned, in_progress, or backlog items address this capability)",
+          "support_refs": []
+        },
+        {
+          "source": "roadmap",
+          "claim": "AI meeting summaries has high investment (status: in_progress, investment_level: high, Q3-2026) but only 2 feature-request tickets demand it",
+          "support_refs": [
+            "rm_001",
+            "tkt_00514",
+            "tkt_00515"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "card_id": "expansion_ready_acc_023",
+      "title": "Quartz Semiconductors: Expansion Window Open Before September Renewal",
+      "pattern": "expansion_ready",
+      "tier": 1,
+      "account_id": "acc_023",
+      "account_name": "Quartz Semiconductors",
+      "affected_accounts": [
+        {
+          "id": "acc_023",
+          "name": "Quartz Semiconductors",
+          "arr": 440000
+        }
+      ],
+      "urgency": "medium",
+      "confidence": 0.82,
+      "synthesis": "Quartz Semiconductors is doing the work for us. Finance, Legal, and Ops have all started onboarding over the last quarter, usage is up across seven features, and recent tickets are advanced \u2014 SSO custom IdP, programmatic admin reporting, procurement webhooks. The CIO sponsor logged in two days ago and health is at 92. CS has already flagged in writing that the commercial expansion conversation hasn't happened yet, and the contract renews in September, so the AE has roughly four months to convert this organic momentum into a structured expansion before renewal lands.",
+      "recommended_action": {
+        "what": "Trigger the AE to open an expansion proposal with Quartz's CIO this month, bundling the cross-departmental growth into the renewal conversation.",
+        "owner": "AE",
+        "when": "this_month"
+      },
+      "evidence": [
+        {
+          "source": "usage_events",
+          "claim": "Broad usage acceleration across multiple features in last 60 days: search +48.0%, admin_console +29.9%, mobile_app +22.1%, meetings +14.2%, docs +9.1%, chat +7.4%, shared_drive +7.1%.",
+          "support_refs": [
+            "search",
+            "admin_console",
+            "mobile_app",
+            "meetings",
+            "docs",
+            "chat",
+            "shared_drive"
+          ]
+        },
+        {
+          "source": "call_summaries",
+          "claim": "Most recent call (2026-05-17, call_00159) notes Finance, Legal, and Ops adoption over last quarter with sophisticated questions on API limits and SSO configuration; sentiment positive; action item to draft expansion proposal drafted but no commercial conversation initiated yet.",
+          "support_refs": [
+            "call_00162"
+          ]
         },
         {
           "source": "cs_notes",
-          "claim": "Vertex Capital CS notes over the last 180 days are consistently categorised as 'relationship' with no risk flags",
-          "support_refs": ["csn_00089", "csn_00104", "csn_00118"]
+          "claim": "CS note from 2026-04-12 (csn_00162) explicitly flags new users from Finance/Legal/Ops, sophisticated API/SSO questions, and opportunity for commercial expansion conversation that has not yet occurred.",
+          "support_refs": [
+            "csn_00162"
+          ]
         },
         {
-          "source": "usage_events",
-          "claim": "Borealis Energy usage trend is +22% across core features in the last 60 days",
-          "support_refs": ["docs", "workflows"]
+          "source": "cross_functional_signals",
+          "claim": "Signal sig_00055 (2026-05-10) identifies new activations from Finance/Legal/Ops in last 8 weeks as clear cross-departmental expansion in motion.",
+          "support_refs": [
+            "sig_00055"
+          ]
+        },
+        {
+          "source": "support_tickets",
+          "claim": "Recent tickets show power-user behavior: SSO custom IdP configuration (tkt_00433), programmatic admin reporting feature request (tkt_00434), webhook reliability for procurement workflow (tkt_00432) \u2014 all advanced use cases.",
+          "support_refs": [
+            "tkt_00432",
+            "tkt_00433",
+            "tkt_00434"
+          ]
+        },
+        {
+          "source": "account",
+          "claim": "Executive sponsor (Mateo Iyer, CIO) last logged in 2026-05-17 (2 days before reference date); account health_score 92; contract extends to 2026-09-15 (4 months out).",
+          "support_refs": [
+            "usr_0345"
+          ]
         }
       ]
     }
   ],
   "portfolio_pulse": {
     "total_accounts": 25,
-    "accounts_with_patterns": 8,
-    "healthy_accounts": 17,
+    "accounts_with_patterns": 12,
+    "healthy_accounts": 13,
     "per_pattern_counts": {
-      "hidden_churn_risk": 2,
-      "expansion_ready": 2,
-      "executive_friction": 1,
-      "cross_functional_blind_spot": 1
+      "hidden_churn_risk": 3,
+      "executive_friction": 4,
+      "cross_functional_blind_spot": 7,
+      "expansion_ready": 3
     },
     "portfolio_patterns_detected": [
-      "systemic_product_signal",
-      "support_load_concentration",
       "feedback_to_roadmap_disconnect",
+      "support_load_concentration",
+      "systemic_product_signal",
       "win_reference_opportunity"
     ]
   },
   "_usage": {
-    "input_tokens": 0,
-    "output_tokens": 0,
-    "cache_creation_input_tokens": 0,
-    "cache_read_input_tokens": 0,
-    "model": "fixture"
+    "input_tokens": 6,
+    "output_tokens": 6482,
+    "cache_creation_input_tokens": 23541,
+    "cache_read_input_tokens": 2643,
+    "model": "claude-opus-4-7"
   }
 }
