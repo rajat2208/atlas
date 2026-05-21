@@ -86,6 +86,8 @@
   --atlas-warn:     #d97706;
   --atlas-warn-bg:  #fffbeb;
   --atlas-coord:    #9333ea;
+  --atlas-exec:     #ea580c;
+  --atlas-exec-bg:  #fff7ed;
   --atlas-accent:   #0f766e;
   --atlas-z-50:     #fafafa;
   --atlas-z-100:    #f4f4f5;
@@ -226,6 +228,7 @@
 }
 
 .strip-rule[data-pattern="risk"]    { background: var(--atlas-risk); }
+.strip-rule[data-pattern="exec"]    { background: var(--atlas-exec); }
 .strip-rule[data-pattern="opp"]     { background: var(--atlas-opp); }
 .strip-rule[data-pattern="coord"]   { background: var(--atlas-coord); }
 .strip-rule[data-pattern="product"] { background: var(--atlas-warn); }
@@ -267,6 +270,7 @@
 }
 
 .pattern-tag.risk    { color: var(--atlas-risk);  background: var(--atlas-risk-bg);  border-color: #fecaca; }
+.pattern-tag.exec    { color: var(--atlas-exec);  background: var(--atlas-exec-bg);  border-color: #fed7aa; }
 .pattern-tag.opp     { color: var(--atlas-opp);   background: var(--atlas-opp-bg);   border-color: #a7f3d0; }
 .pattern-tag.coord   { color: var(--atlas-coord); background: #faf5ff;               border-color: #e9d5ff; }
 .pattern-tag.product { color: #b45309;            background: var(--atlas-warn-bg);  border-color: #fde68a; }
@@ -342,6 +346,7 @@
   transform-box: fill-box;
 }
 .halo-risk  { stroke: var(--atlas-risk); }
+.halo-exec  { stroke: var(--atlas-exec); }
 .halo-coord { stroke: var(--atlas-coord); }
 .halo.pulse      { animation: haloPulse 2.6s ease-in-out infinite; }
 .halo.pulse-slow { animation: haloPulse 3.6s ease-in-out infinite; }
@@ -360,6 +365,7 @@
   pointer-events: none;
 }
 .const-leader.risk    { stroke: var(--atlas-risk); }
+.const-leader.exec    { stroke: var(--atlas-exec); }
 .const-leader.coord   { stroke: var(--atlas-coord); }
 .const-leader.product { stroke: var(--atlas-warn); }
 
@@ -380,6 +386,7 @@
 }
 .const-html-annot:hover { box-shadow: 0 6px 20px rgba(9,9,11,0.12); }
 .const-html-annot.risk    { border-left-color: var(--atlas-risk); }
+.const-html-annot.exec    { border-left-color: var(--atlas-exec); }
 .const-html-annot.coord   { border-left-color: var(--atlas-coord); }
 .const-html-annot.product { border-left-color: var(--atlas-warn); }
 
@@ -444,6 +451,7 @@
   flex-shrink: 0;
 }
 .const-legend-swatch.risk    { border-color: var(--atlas-risk); }
+.const-legend-swatch.exec    { border-color: var(--atlas-exec); }
 .const-legend-swatch.coord   { border-color: var(--atlas-coord); }
 .const-legend-swatch.product { border-color: var(--atlas-warn); background: rgba(217,119,6,0.12); }
 .const-legend-swatch.node    { background: var(--atlas-z-700); border: 0; width: 6px; height: 6px; }

@@ -114,7 +114,7 @@ function BriefingHero({ briefing }: { briefing: Briefing }) {
       >
         {countWord}, Sarah.
         <br />
-        <span className="hero-emph">{subject} is the one</span> I&apos;d
+        <span className="hero-emph">{subject} is the one</span>{" "}I&apos;d
         start with.
       </h1>
 
@@ -237,6 +237,7 @@ const MEMORY_ITEMS = [
 
 const TONE_DOT: Record<string, string> = {
   risk: "var(--atlas-risk)",
+  exec: "var(--atlas-exec)",
   opp: "var(--atlas-opp)",
   product: "var(--atlas-warn)",
   coord: "var(--atlas-coord)",
@@ -285,7 +286,7 @@ function SinceLastVisit() {
 // Accounts in motion
 // ─────────────────────────────────────────────────────────
 
-const TONE_RANK: Record<string, number> = { risk: 0, coord: 1, product: 2, opp: 3 };
+const TONE_RANK: Record<string, number> = { risk: 0, exec: 1, coord: 2, product: 3, opp: 4 };
 
 function topPattern(patterns: PatternKey[]): PatternKey | null {
   if (patterns.length === 0) return null;

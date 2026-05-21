@@ -1,8 +1,8 @@
 import type { PatternKey } from "@/lib/types";
 
-export const PATTERN_TONE: Record<PatternKey, "risk" | "opp" | "coord" | "product"> = {
+export const PATTERN_TONE: Record<PatternKey, "risk" | "exec" | "opp" | "coord" | "product"> = {
   hidden_churn_risk:              "risk",
-  executive_friction:             "risk",
+  executive_friction:             "exec",
   expansion_ready:                "opp",
   win_reference_opportunity:      "opp",
   cross_functional_blind_spot:    "coord",
@@ -28,7 +28,7 @@ export const TIER_LABEL: Record<1 | 2 | 3, string> = {
   3: "Org",
 };
 
-export function patternTone(p: string): "risk" | "opp" | "coord" | "product" {
+export function patternTone(p: string): "risk" | "exec" | "opp" | "coord" | "product" {
   return PATTERN_TONE[p as PatternKey] ?? "product";
 }
 

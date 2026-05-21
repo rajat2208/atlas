@@ -29,7 +29,8 @@ function jitter(id: string): [number, number] {
   return [(h & 0x1f) - 16, ((h >> 5) & 0x1f) - 16];
 }
 
-const RISK_PATTERNS: PatternKey[] = ["hidden_churn_risk", "executive_friction"];
+const RISK_PATTERNS: PatternKey[] = ["hidden_churn_risk"];
+const EXEC_PATTERNS: PatternKey[] = ["executive_friction"];
 const COORD_PATTERNS: PatternKey[] = ["cross_functional_blind_spot"];
 const SYSTEMIC_PATTERNS: PatternKey[] = [
   "systemic_product_signal",
@@ -44,6 +45,7 @@ function hasAny(patterns: string[], keys: PatternKey[]) {
 // Annotation card positions (% of container, centers)
 const ANNOT_POS = {
   risk:     { cx: 81, cy: 80 },
+  exec:     { cx: 80, cy: 12 },
   coord:    { cx: 30, cy: 80 },
   systemic: { cx: 16, cy: 20 },
 };
@@ -53,7 +55,7 @@ interface Props {
   cards: InsightCard[];
 }
 
-type Filter = "all" | "risk" | "coord" | "product";
+type Filter = "all" | "risk" | "exec" | "coord" | "product";
 
 export default function Constellation({ accounts, cards }: Props) {
   const router = useRouter();
@@ -65,6 +67,7 @@ export default function Constellation({ accounts, cards }: Props) {
     const [jx, jy] = jitter(a.account_id);
     const r = nodeRadius(a.arr);
     const isRisk     = hasAny(a.patterns, RISK_PATTERNS);
+    const isExec     = hasAny(a.patterns, EXEC_PATTERNS);
     const isCoord    = hasAny(a.patterns, COORD_PATTERNS);
     const isSystemic = hasAny(a.patterns, SYSTEMIC_PATTERNS);
     // Clamp so jitter never pushes a node outside the axis box
@@ -76,13 +79,15 @@ export default function Constellation({ accounts, cards }: Props) {
       y: Math.max(PAD.t + r + 2, Math.min(H - PAD.b - r - 2, rawY)),
       r,
       isRisk,
+      isExec,
       isCoord,
       isSystemic,
-      isPattern: isRisk || isCoord || isSystemic,
+      isPattern: isRisk || isExec || isCoord || isSystemic,
     };
   });
 
   const riskNodes     = nodes.filter((n) => n.isRisk);
+  const execNodes     = nodes.filter((n) => n.isExec);
   const coordNodes    = nodes.filter((n) => n.isCoord);
   const systemicNodes = nodes.filter((n) => n.isSystemic);
 
@@ -96,6 +101,7 @@ export default function Constellation({ accounts, cards }: Props) {
 
   // Top insight per tone for annotation cards
   const riskCard     = cards.find((c) => RISK_PATTERNS.includes(c.pattern));
+  const execCard     = cards.find((c) => EXEC_PATTERNS.includes(c.pattern));
   const coordCard    = cards.find((c) => COORD_PATTERNS.includes(c.pattern));
   const systemicCard = cards.find((c) => SYSTEMIC_PATTERNS.includes(c.pattern));
 
@@ -103,18 +109,21 @@ export default function Constellation({ accounts, cards }: Props) {
   function isDimmed(n: typeof nodes[0]) {
     if (filter === "all")     return false;
     if (filter === "risk")    return !n.isRisk;
+    if (filter === "exec")    return !n.isExec;
     if (filter === "coord")   return !n.isCoord;
     if (filter === "product") return !n.isSystemic;
     return false;
   }
 
   const showRisk     = filter === "all" || filter === "risk";
+  const showExec     = filter === "all" || filter === "exec";
   const showCoord    = filter === "all" || filter === "coord";
   const showSystemic = filter === "all" || filter === "product";
 
   // Pattern nodes → insight drilldown; plain nodes → account page
   function handleNodeClick(n: typeof nodes[0]) {
     if (n.isRisk && riskCard)         return router.push(`/insights/${riskCard.card_id}`);
+    if (n.isExec && execCard)         return router.push(`/insights/${execCard.card_id}`);
     if (n.isCoord && coordCard)       return router.push(`/insights/${coordCard.card_id}`);
     if (n.isSystemic && systemicCard) return router.push(`/insights/${systemicCard.card_id}`);
     router.push(`/accounts/${n.account_id}`);
@@ -141,8 +150,9 @@ export default function Constellation({ accounts, cards }: Props) {
       <div style={{ display: "flex", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
         {(
           [
-            { key: "all",     label: "All patterns", color: null },
+            { key: "all",     label: "All patterns",       color: null },
             { key: "risk",    label: "Hidden churn",        color: "var(--atlas-risk)" },
+            { key: "exec",    label: "Exec friction",       color: "var(--atlas-exec)" },
             { key: "coord",   label: "Coordination risk",   color: "var(--atlas-coord)" },
             { key: "product", label: "Systemic · collab",   color: "var(--atlas-warn)" },
           ] as const
@@ -257,6 +267,7 @@ export default function Constellation({ accounts, cards }: Props) {
           {nodes.map((n, i) => {
             const dim = isDimmed(n);
             const fill = n.isRisk     ? "var(--atlas-risk)"
+                       : n.isExec     ? "var(--atlas-exec)"
                        : n.isCoord    ? "var(--atlas-coord)"
                        : n.isSystemic ? "var(--atlas-warn)"
                        : "var(--atlas-z-700)";
@@ -281,6 +292,12 @@ export default function Constellation({ accounts, cards }: Props) {
               className="halo halo-risk pulse" cx={n.x} cy={n.y} r={n.r + 12} strokeWidth="1.5" />
           ))}
 
+          {/* Single halo per exec account */}
+          {showExec && execNodes.map((n) => (
+            <circle key={`halo-exec-${n.account_id}`}
+              className="halo halo-exec pulse" cx={n.x} cy={n.y} r={n.r + 12} strokeWidth="1.5" />
+          ))}
+
           {/* Single halo per coord account */}
           {showCoord && coordNodes.map((n) => (
             <circle key={`halo-coord-${n.account_id}`}
@@ -295,6 +312,15 @@ export default function Constellation({ accounts, cards }: Props) {
                 riskNodes[0].x, riskNodes[0].y - riskNodes[0].r - 4
               )}
               className="const-leader risk"
+            />
+          )}
+          {showExec && execNodes[0] && (
+            <path
+              d={leaderPath(
+                (ANNOT_POS.exec.cx / 100) * W, (ANNOT_POS.exec.cy / 100) * H + 28,
+                execNodes[0].x, execNodes[0].y - execNodes[0].r - 4
+              )}
+              className="const-leader exec"
             />
           )}
           {showCoord && coordNodes[0] && (
@@ -349,6 +375,27 @@ export default function Constellation({ accounts, cards }: Props) {
             </div>
             <div style={{ fontFamily: "var(--font-geist-mono)", fontSize: 11, color: "var(--atlas-z-500)", marginTop: 4 }}>
               {riskCard.account_name ? "Looks healthy · isn't" : `$${(riskCard.affected_accounts.reduce((s,a) => s+a.arr,0)/1e6).toFixed(1)}M ARR`}
+            </div>
+          </div>
+        )}
+
+        {showExec && execCard && execNodes[0] && (
+          <div
+            className="const-html-annot exec"
+            style={{ left: `${ANNOT_POS.exec.cx}%`, top: `${ANNOT_POS.exec.cy}%` }}
+            onClick={() => router.push(`/insights/${execCard.card_id}`)}
+          >
+            <div style={{
+              fontFamily: "var(--font-geist-mono)", fontSize: 10, textTransform: "uppercase",
+              letterSpacing: "0.08em", fontWeight: 500, color: "var(--atlas-exec)", marginBottom: 4,
+            }}>
+              Exec Friction · {Math.round(execCard.confidence * 100)}%
+            </div>
+            <div style={{ fontSize: 15, fontWeight: 600, letterSpacing: "-0.01em", lineHeight: 1.2 }}>
+              {execCard.account_name ?? `${execCard.affected_accounts.length} accounts`}
+            </div>
+            <div style={{ fontFamily: "var(--font-geist-mono)", fontSize: 11, color: "var(--atlas-z-500)", marginTop: 4 }}>
+              New exec · renewal at risk
             </div>
           </div>
         )}
@@ -414,6 +461,9 @@ export default function Constellation({ accounts, cards }: Props) {
         </span>
         <span className="const-legend-item">
           <span className="const-legend-swatch risk" /> Hidden churn risk
+        </span>
+        <span className="const-legend-item">
+          <span className="const-legend-swatch exec" /> Exec friction
         </span>
         <span className="const-legend-item">
           <span className="const-legend-swatch coord" /> Coordination risk
