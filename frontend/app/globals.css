@@ -523,6 +523,8 @@
   background: rgba(15, 118, 110, 0.05);
 }
 
+.motion-row:hover { background: var(--atlas-z-50); }
+
 /* Drilldown reasoning chain */
 .reasoning-step-line::before {
   content: "";

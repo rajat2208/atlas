@@ -3,6 +3,7 @@ import { getAccountDetail } from "@/lib/api";
 import type { AccountDetail, PatternKey, SignalDetection } from "@/lib/types";
 import { PATTERN_TONE, PATTERN_LABEL } from "@/lib/patterns";
 import accountsFixture from "@/lib/data/accounts_fixture.json";
+import signalDetectionsFixture from "@/lib/data/signal_detections_fixture.json";
 
 // ─────────────────────────────────────────────────────────
 // Helpers
@@ -264,7 +265,9 @@ export default async function AccountDetailPage({
         executive_sponsor: acct.executive_sponsor,
         health_score: acct.health_score,
       },
-      detections: [],
+      detections: (signalDetectionsFixture as SignalDetection[]).filter(
+        (d) => d.account_id === id
+      ),
     };
   }
 

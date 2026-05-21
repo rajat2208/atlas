@@ -112,19 +112,9 @@ export default function Constellation({ accounts, cards }: Props) {
   const showCoord    = filter === "all" || filter === "coord";
   const showSystemic = filter === "all" || filter === "product";
 
-  // Navigate to the relevant insight — prefer an account-specific card
+  // All nodes navigate to their account page — annotation cards handle pattern-level insight
   function handleNodeClick(n: typeof nodes[0]) {
-    if (!n.isPattern) return;
-    let card: InsightCard | undefined;
-    // First: exact account match
-    card = cards.find((c) => c.account_id === n.account_id);
-    // Fallback: pattern-type card
-    if (!card) {
-      if (n.isRisk)      card = riskCard;
-      else if (n.isCoord)     card = coordCard;
-      else if (n.isSystemic)  card = systemicCard;
-    }
-    if (card) router.push(`/insights/${card.card_id}`);
+    router.push(`/accounts/${n.account_id}`);
   }
 
   // % position helper for HTML overlays
@@ -274,7 +264,7 @@ export default function Constellation({ accounts, cards }: Props) {
                 onMouseEnter={() => setHovered(n)}
                 onMouseLeave={() => setHovered(null)}
                 onClick={() => handleNodeClick(n)}
-                style={{ cursor: n.isPattern ? "pointer" : "default", animationDelay: `${(i % 25) * 18}ms` }}
+                style={{ cursor: "pointer", animationDelay: `${(i % 25) * 18}ms` }}
               >
                 <circle cx={n.x} cy={n.y} r={n.r} fill={fill} className="dot" />
                 <circle cx={n.x} cy={n.y} r={n.r + 10} fill="transparent" />
