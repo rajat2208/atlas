@@ -1,76 +1,303 @@
 import { getBriefing } from "@/lib/api";
-import InsightCard from "@/components/atlas/InsightCard";
+import InsightStrip from "@/components/atlas/InsightStrip";
 import PortfolioPulse from "@/components/atlas/PortfolioPulse";
-import type { Briefing } from "@/lib/types";
+import type { Briefing, InsightCard } from "@/lib/types";
 import fixtureData from "@/lib/data/briefing_fixture.json";
 
-function formatDate(dateStr: string): string {
+// ─────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────
+
+const COUNT_WORDS: Record<number, string> = {
+  1: "One thing",
+  2: "Two things",
+  3: "Three things",
+  4: "Four things",
+  5: "Five things",
+};
+
+function heroSubject(cards: InsightCard[]): string {
+  // Prefer account-level card for the "X is the one" construction
+  const accountCard = cards.find((c) => c.tier === 1 && c.account_name);
+  if (accountCard?.account_name) return accountCard.account_name;
+  // Fall back to top card's first affected account
+  if (cards[0]?.affected_accounts[0]?.name) return cards[0].affected_accounts[0].name;
+  return "the top pattern";
+}
+
+function formatArr(arr: number): string {
+  if (arr >= 1_000_000) return `$${(arr / 1_000_000).toFixed(1)}M`;
+  return `$${arr}`;
+}
+
+function totalArrUnderWatch(cards: InsightCard[]): string {
+  const seen = new Set<string>();
+  let total = 0;
+  for (const card of cards) {
+    for (const acct of card.affected_accounts) {
+      if (!seen.has(acct.id)) {
+        seen.add(acct.id);
+        total += acct.arr;
+      }
+    }
+  }
+  return formatArr(total);
+}
+
+function formatBriefingDate(dateStr: string): string {
   try {
-    return new Intl.DateTimeFormat("en-US", {
+    const d = new Date(dateStr);
+    return d.toLocaleDateString("en-US", {
       weekday: "long",
-      year: "numeric",
-      month: "long",
+      month: "short",
       day: "numeric",
-    }).format(new Date(dateStr));
+    });
   } catch {
     return dateStr;
   }
 }
+
+// ─────────────────────────────────────────────────────────
+// Hero
+// ─────────────────────────────────────────────────────────
+
+function BriefingHero({ briefing }: { briefing: Briefing }) {
+  const { cards, portfolio_pulse, briefing_date } = briefing;
+  const countWord = COUNT_WORDS[cards.length] ?? `${cards.length} things`;
+  const subject = heroSubject(cards);
+  const arrWatch = totalArrUnderWatch(cards);
+  const dateLabel = briefing_date ? formatBriefingDate(briefing_date) : "Today";
+
+  return (
+    <div style={{ margin: "8px 0 28px" }}>
+      {/* Live stamp */}
+      <div
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: 10,
+          fontFamily: "var(--font-geist-mono)",
+          fontSize: 11,
+          textTransform: "uppercase",
+          letterSpacing: "0.08em",
+          color: "var(--atlas-z-500)",
+          marginBottom: 18,
+        }}
+      >
+        <span
+          className="live-dot"
+          style={{
+            width: 6,
+            height: 6,
+            borderRadius: "50%",
+            background: "var(--atlas-opp)",
+            flexShrink: 0,
+          }}
+        />
+        Atlas · {dateLabel} · live
+      </div>
+
+      {/* Main headline */}
+      <h1
+        style={{
+          fontSize: 36,
+          fontWeight: 500,
+          letterSpacing: "-0.028em",
+          lineHeight: 1.08,
+          margin: "0 0 10px",
+          maxWidth: "22ch",
+        }}
+      >
+        {countWord}, Sarah.
+        <br />
+        <span className="hero-emph">{subject} is the one</span> I&apos;d
+        start with.
+      </h1>
+
+      {/* Sub copy */}
+      <p
+        style={{
+          fontSize: 15,
+          color: "var(--atlas-z-600)",
+          margin: 0,
+          maxWidth: "64ch",
+          lineHeight: 1.6,
+        }}
+      >
+        I scored events across your five data sources.{" "}
+        {cards.length} pattern{cards.length !== 1 ? "s" : ""} cleared the
+        threshold —{" "}
+        {cards.filter((c) => c.tier === 1).length > 0 &&
+          `${cards.filter((c) => c.tier === 1).length} account-level, `}
+        {cards.filter((c) => c.tier === 2).length > 0 &&
+          `${cards.filter((c) => c.tier === 2).length} portfolio-wide`}
+        . The top pattern doesn&apos;t show on the standard health model.
+      </p>
+
+      {/* Meta stats row */}
+      <div
+        style={{
+          display: "flex",
+          gap: 24,
+          flexWrap: "wrap",
+          marginTop: 20,
+          paddingTop: 20,
+          borderTop: "1px solid var(--atlas-z-200)",
+          alignItems: "flex-start",
+        }}
+      >
+        <MetaStat
+          label="Patterns this week"
+          value={`${cards.length} surfaced`}
+        />
+        <MetaStat
+          label="ARR under watch"
+          value={`${arrWatch} of $48.6M`}
+        />
+        <MetaStat
+          label="Last sync"
+          value="7 min ago · 5 sources"
+        />
+        <MetaStat
+          label="Accounts with patterns"
+          value={`${portfolio_pulse.accounts_with_patterns} of ${portfolio_pulse.total_accounts}`}
+        />
+      </div>
+    </div>
+  );
+}
+
+function MetaStat({ label, value }: { label: string; value: string }) {
+  return (
+    <div>
+      <div
+        style={{
+          fontFamily: "var(--font-geist-mono)",
+          fontSize: 11,
+          color: "var(--atlas-z-500)",
+          textTransform: "uppercase",
+          letterSpacing: "0.06em",
+          marginBottom: 4,
+        }}
+      >
+        {label}
+      </div>
+      <div
+        style={{
+          fontSize: 18,
+          fontWeight: 500,
+          letterSpacing: "-0.005em",
+          color: "var(--atlas-z-900)",
+        }}
+      >
+        {value}
+      </div>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────
+// Page
+// ─────────────────────────────────────────────────────────
 
 export default async function BriefingPage() {
   let briefing: Briefing;
   try {
     briefing = await getBriefing();
   } catch {
-    // Backend unreachable — fall back to bundled fixture so the page renders
-    // on Vercel without a running backend. Replaced by a real synthesis run locally.
     briefing = fixtureData as Briefing;
   }
 
-  const { cards, portfolio_pulse, briefing_date } = briefing;
+  const { cards, portfolio_pulse } = briefing;
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8">
-      {/* Greeting */}
-      <div className="mb-6">
-        <h1 className="text-2xl font-semibold text-zinc-900 mb-1">
-          Good morning, Sarah.
-        </h1>
-        <p className="text-sm text-zinc-500">
-          {briefing_date ? formatDate(briefing_date) : "Your weekly briefing"}
-          {" · "}
-          {cards.length} insight{cards.length !== 1 ? "s" : ""} surfaced
-        </p>
+    <div>
+      <BriefingHero briefing={briefing} />
+
+      {/* Today's reading */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "baseline",
+          justifyContent: "space-between",
+          margin: "40px 0 0",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: 14,
+            fontWeight: 600,
+            letterSpacing: "-0.005em",
+            margin: 0,
+          }}
+        >
+          Today&apos;s reading
+        </h2>
+        <span
+          style={{
+            fontFamily: "var(--font-geist-mono)",
+            fontSize: 11,
+            textTransform: "uppercase",
+            letterSpacing: "0.08em",
+            color: "var(--atlas-z-500)",
+          }}
+        >
+          {cards.length} insights · ordered by relevance
+        </span>
       </div>
 
-      {/* Portfolio pulse */}
-      <div className="mb-8">
-        <PortfolioPulse pulse={portfolio_pulse} />
-      </div>
-
-      {/* Insight cards */}
       {cards.length === 0 ? (
-        <div className="rounded-lg border border-zinc-200 bg-white px-6 py-12 text-center">
-          <p className="text-sm text-zinc-500">
-            No patterns detected in the current signal run.
-          </p>
+        <div
+          style={{
+            padding: "48px 0",
+            textAlign: "center",
+            color: "var(--atlas-z-500)",
+            fontSize: 14,
+          }}
+        >
+          No patterns detected in the current signal run.
         </div>
       ) : (
-        <div className="space-y-4">
-          {cards.map((card) => (
-            <InsightCard key={card.card_id} card={card} />
+        <div className="insight-strips" style={{ marginTop: 0 }}>
+          {cards.map((card, i) => (
+            <InsightStrip key={card.card_id} card={card} index={i} />
           ))}
         </div>
       )}
 
-      {/* Footer */}
-      <div className="mt-10 pt-6 border-t border-zinc-200 text-xs text-zinc-400 flex items-center justify-between">
-        <span>
-          Signal run · {portfolio_pulse.total_accounts} accounts ·{" "}
-          {portfolio_pulse.accounts_with_patterns} with active patterns
+      {/* Portfolio pulse */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "baseline",
+          justifyContent: "space-between",
+          margin: "40px 0 16px",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: 14,
+            fontWeight: 600,
+            letterSpacing: "-0.005em",
+            margin: 0,
+          }}
+        >
+          Portfolio pulse
+        </h2>
+        <span
+          style={{
+            fontFamily: "var(--font-geist-mono)",
+            fontSize: 11,
+            textTransform: "uppercase",
+            letterSpacing: "0.08em",
+            color: "var(--atlas-z-500)",
+          }}
+        >
+          {portfolio_pulse.total_accounts} accounts
         </span>
-        <span>Atlas v0.1</span>
       </div>
+
+      <PortfolioPulse pulse={portfolio_pulse} />
     </div>
   );
 }
