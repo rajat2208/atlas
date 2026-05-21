@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { getPortfolio } from "@/lib/api";
 import type { AccountSummary, PatternKey, PortfolioResponse } from "@/lib/types";
-import { cn } from "@/lib/utils";
 import portfolioFixture from "@/lib/data/portfolio_fixture.json";
 
-// ---------------------------------------------------------------------------
-// Formatting helpers
-// ---------------------------------------------------------------------------
+// ─────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────
+
+const NOW = new Date("2026-05-20");
 
 function formatArr(arr: number): string {
   if (arr >= 1_000_000) return `$${(arr / 1_000_000).toFixed(1)}M`;
@@ -14,78 +15,64 @@ function formatArr(arr: number): string {
   return `$${arr}`;
 }
 
-// Reference date matches the synthetic data
-const NOW = new Date("2026-05-20");
-
-function contractEndLabel(dateStr: string): { text: string; urgent: boolean } {
+function contractLabel(dateStr: string): { text: string; urgent: boolean } {
   const end = new Date(dateStr);
-  const daysLeft = Math.round((end.getTime() - NOW.getTime()) / 86_400_000);
-  if (daysLeft < 0) return { text: "Expired", urgent: true };
-  if (daysLeft <= 90) return { text: `${daysLeft}d left`, urgent: true };
+  const days = Math.round((end.getTime() - NOW.getTime()) / 86_400_000);
+  if (days < 0) return { text: "Expired", urgent: true };
+  if (days <= 90) return { text: `${days}d`, urgent: true };
   return {
     text: end.toLocaleDateString("en-US", { month: "short", year: "numeric" }),
     urgent: false,
   };
 }
 
-const PATTERN_SHORT: Partial<Record<PatternKey, string>> = {
-  hidden_churn_risk: "Churn Risk",
-  expansion_ready: "Expansion",
-  executive_friction: "Exec Friction",
-  cross_functional_blind_spot: "Blind Spot",
-  systemic_product_signal: "Product Signal",
-  support_load_concentration: "Support Load",
+function healthBarColor(score: number): string {
+  if (score >= 85) return "#059669";
+  if (score >= 75) return "#0d9488";
+  if (score >= 60) return "#d97706";
+  return "#dc2626";
+}
+
+// Pattern → design tone
+const PATTERN_TONE: Partial<Record<PatternKey, "risk" | "opp" | "coord" | "product">> = {
+  hidden_churn_risk:              "risk",
+  executive_friction:             "risk",
+  expansion_ready:                "opp",
+  win_reference_opportunity:      "opp",
+  cross_functional_blind_spot:    "coord",
+  systemic_product_signal:        "product",
+  support_load_concentration:     "product",
+  feedback_to_roadmap_disconnect: "product",
+};
+
+const PATTERN_LABEL: Partial<Record<PatternKey, string>> = {
+  hidden_churn_risk:              "Churn Risk",
+  executive_friction:             "Exec Friction",
+  expansion_ready:                "Expansion Ready",
+  win_reference_opportunity:      "Win / Ref",
+  cross_functional_blind_spot:    "Blind Spot",
+  systemic_product_signal:        "Product Signal",
+  support_load_concentration:     "Support Load",
   feedback_to_roadmap_disconnect: "Roadmap Gap",
-  win_reference_opportunity: "Win / Ref",
 };
 
-const PATTERN_CHIP_CLASS: Partial<Record<PatternKey, string>> = {
-  hidden_churn_risk: "bg-red-50 text-red-700 border-red-200",
-  expansion_ready: "bg-emerald-50 text-emerald-700 border-emerald-200",
-  executive_friction: "bg-orange-50 text-orange-700 border-orange-200",
-  cross_functional_blind_spot: "bg-purple-50 text-purple-700 border-purple-200",
-  systemic_product_signal: "bg-blue-50 text-blue-700 border-blue-200",
-  support_load_concentration: "bg-amber-50 text-amber-700 border-amber-200",
-  feedback_to_roadmap_disconnect: "bg-zinc-100 text-zinc-600 border-zinc-200",
-  win_reference_opportunity: "bg-teal-50 text-teal-700 border-teal-200",
+// Tone priority for picking the "loudest" tag
+const TONE_RANK: Record<string, number> = {
+  risk: 0, coord: 1, product: 2, opp: 3,
 };
 
-// ---------------------------------------------------------------------------
-// Sub-components (server-renderable)
-// ---------------------------------------------------------------------------
-
-function StatusDot({ status }: { status: AccountSummary["status"] }) {
-  const cls = {
-    at_risk: "bg-red-500",
-    opportunity: "bg-emerald-500",
-    healthy: "bg-zinc-300",
-  }[status];
-  return (
-    <span
-      className={cn("inline-block w-2 h-2 rounded-full flex-shrink-0 mt-0.5", cls)}
-      aria-hidden
-    />
-  );
+function topPattern(patterns: PatternKey[]): PatternKey | null {
+  if (patterns.length === 0) return null;
+  return [...patterns].sort(
+    (a, b) =>
+      (TONE_RANK[PATTERN_TONE[a] ?? ""] ?? 9) -
+      (TONE_RANK[PATTERN_TONE[b] ?? ""] ?? 9)
+  )[0];
 }
 
-function HealthBadge({ score }: { score: number }) {
-  const cls =
-    score >= 75
-      ? "text-emerald-700 bg-emerald-50 border-emerald-200"
-      : score >= 50
-      ? "text-amber-700 bg-amber-50 border-amber-200"
-      : "text-red-700 bg-red-50 border-red-200";
-  return (
-    <span
-      className={cn(
-        "inline-flex items-center px-2 py-0.5 rounded border text-xs font-semibold tabular-nums",
-        cls
-      )}
-    >
-      {score}
-    </span>
-  );
-}
+// ─────────────────────────────────────────────────────────
+// Filter tabs
+// ─────────────────────────────────────────────────────────
 
 type FilterStatus = "all" | "at_risk" | "opportunity" | "healthy";
 
@@ -97,39 +84,44 @@ function FilterTabs({
   counts: Record<FilterStatus, number>;
 }) {
   const tabs: { label: string; value: FilterStatus; href: string }[] = [
-    { label: "All", value: "all", href: "/portfolio" },
-    { label: "At Risk", value: "at_risk", href: "/portfolio?status=at_risk" },
-    {
-      label: "Opportunity",
-      value: "opportunity",
-      href: "/portfolio?status=opportunity",
-    },
-    { label: "Healthy", value: "healthy", href: "/portfolio?status=healthy" },
+    { label: "All",         value: "all",         href: "/portfolio" },
+    { label: "At Risk",     value: "at_risk",     href: "/portfolio?status=at_risk" },
+    { label: "Opportunity", value: "opportunity", href: "/portfolio?status=opportunity" },
+    { label: "Healthy",     value: "healthy",     href: "/portfolio?status=healthy" },
   ];
 
   return (
-    <div className="flex gap-1">
+    <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
       {tabs.map((tab) => {
         const active = current === tab.value;
         return (
           <Link
             key={tab.value}
             href={tab.href}
-            className={cn(
-              "flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors",
-              active
-                ? "bg-zinc-900 text-white"
-                : "text-zinc-500 hover:text-zinc-900 hover:bg-zinc-100"
-            )}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6,
+              padding: "5px 10px",
+              borderRadius: 6,
+              fontSize: 13,
+              fontWeight: active ? 500 : 400,
+              background: active ? "var(--atlas-z-900)" : "transparent",
+              color: active ? "#ffffff" : "var(--atlas-z-500)",
+              textDecoration: "none",
+              transition: "background .12s, color .12s",
+            }}
           >
             {tab.label}
             <span
-              className={cn(
-                "text-xs px-1.5 rounded-full font-semibold tabular-nums",
-                active
-                  ? "bg-zinc-700 text-zinc-300"
-                  : "bg-zinc-100 text-zinc-500"
-              )}
+              style={{
+                fontFamily: "var(--font-geist-mono)",
+                fontSize: 11,
+                padding: "1px 5px",
+                borderRadius: 4,
+                background: active ? "rgba(255,255,255,0.15)" : "var(--atlas-z-100)",
+                color: active ? "rgba(255,255,255,0.8)" : "var(--atlas-z-500)",
+              }}
             >
               {counts[tab.value]}
             </span>
@@ -140,9 +132,141 @@ function FilterTabs({
   );
 }
 
-// ---------------------------------------------------------------------------
+// ─────────────────────────────────────────────────────────
+// Table row
+// ─────────────────────────────────────────────────────────
+
+function AccountRow({ account }: { account: AccountSummary }) {
+  const contract = contractLabel(account.contract_end);
+  const top = topPattern(account.patterns as PatternKey[]);
+  const tone = top ? PATTERN_TONE[top] : null;
+  const label = top ? PATTERN_LABEL[top] : null;
+  const fill = healthBarColor(account.health_score);
+  const extraCount = account.patterns.length - 1;
+
+  return (
+    <tr style={{ position: "relative", cursor: "pointer" }}>
+      <td style={{ padding: "12px 12px 12px 16px", verticalAlign: "middle" }}>
+        <Link
+          href={`/accounts/${account.account_id}`}
+          style={{
+            position: "absolute",
+            inset: 0,
+            zIndex: 1,
+          }}
+          aria-label={`View ${account.name}`}
+        />
+        <div style={{ fontWeight: 500, fontSize: 13, color: "var(--atlas-z-900)" }}>
+          {account.name}
+        </div>
+        <div
+          style={{
+            fontFamily: "var(--font-geist-mono)",
+            fontSize: 11,
+            color: "var(--atlas-z-500)",
+            marginTop: 2,
+          }}
+        >
+          CSM {account.assigned_csm}
+        </div>
+      </td>
+
+      <td
+        style={{
+          padding: "12px",
+          verticalAlign: "middle",
+          fontFamily: "var(--font-geist-mono)",
+          fontSize: 13,
+          color: "var(--atlas-z-600)",
+          textAlign: "right",
+          fontVariantNumeric: "tabular-nums",
+        }}
+      >
+        {formatArr(account.arr)}
+      </td>
+
+      <td style={{ padding: "12px", verticalAlign: "middle" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <div className="bar-mini">
+            <div
+              className="bar-mini-fill"
+              style={{ width: `${account.health_score}%`, background: fill }}
+            />
+          </div>
+          <span
+            style={{
+              fontFamily: "var(--font-geist-mono)",
+              fontSize: 12,
+              color: "var(--atlas-z-600)",
+              minWidth: 22,
+              fontVariantNumeric: "tabular-nums",
+            }}
+          >
+            {account.health_score}
+          </span>
+        </div>
+      </td>
+
+      <td
+        style={{
+          padding: "12px",
+          verticalAlign: "middle",
+          fontFamily: "var(--font-geist-mono)",
+          fontSize: 12,
+          color: contract.urgent ? "var(--atlas-risk)" : "var(--atlas-z-500)",
+          fontWeight: contract.urgent ? 500 : 400,
+          whiteSpace: "nowrap",
+        }}
+      >
+        {contract.text}
+      </td>
+
+      <td style={{ padding: "12px 16px 12px 12px", verticalAlign: "middle" }}>
+        {tone && label ? (
+          <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+            <span className={`pattern-tag ${tone}`}>
+              <span className="dot" />
+              {label}
+            </span>
+            {extraCount > 0 && (
+              <span
+                style={{
+                  fontFamily: "var(--font-geist-mono)",
+                  fontSize: 10,
+                  color: "var(--atlas-z-500)",
+                  background: "var(--atlas-z-100)",
+                  border: "1px solid var(--atlas-z-200)",
+                  borderRadius: 4,
+                  padding: "1px 5px",
+                }}
+              >
+                +{extraCount}
+              </span>
+            )}
+          </div>
+        ) : (
+          <span
+            style={{
+              fontFamily: "var(--font-geist-mono)",
+              fontSize: 11,
+              color: "var(--atlas-z-400)",
+            }}
+          >
+            —
+          </span>
+        )}
+      </td>
+    </tr>
+  );
+}
+
+// ─────────────────────────────────────────────────────────
 // Page
-// ---------------------------------------------------------------------------
+// ─────────────────────────────────────────────────────────
+
+const ORDER: Record<AccountSummary["status"], number> = {
+  at_risk: 0, opportunity: 1, healthy: 2,
+};
 
 export default async function PortfolioPage({
   searchParams,
@@ -166,11 +290,6 @@ export default async function PortfolioPage({
       ? portfolio.accounts
       : portfolio.accounts.filter((a) => a.status === status);
 
-  const ORDER: Record<AccountSummary["status"], number> = {
-    at_risk: 0,
-    opportunity: 1,
-    healthy: 2,
-  };
   const sorted = [...filtered].sort((a, b) => {
     const od = ORDER[a.status] - ORDER[b.status];
     return od !== 0 ? od : b.arr - a.arr;
@@ -179,121 +298,109 @@ export default async function PortfolioPage({
   const { summary } = portfolio;
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-8">
+    <div>
       {/* Page header */}
-      <div className="mb-6">
-        <h1 className="text-2xl font-semibold text-zinc-900 mb-1">Portfolio</h1>
-        <p className="text-sm text-zinc-500">
-          {summary.total} accounts &middot; {summary.at_risk} at risk &middot;{" "}
-          {summary.opportunity} opportunity &middot; {summary.healthy} healthy
+      <div style={{ marginBottom: 24 }}>
+        <h1
+          style={{
+            fontSize: 24,
+            fontWeight: 600,
+            letterSpacing: "-0.018em",
+            margin: "0 0 6px",
+          }}
+        >
+          Portfolio
+        </h1>
+        <p
+          style={{
+            fontFamily: "var(--font-geist-mono)",
+            fontSize: 12,
+            color: "var(--atlas-z-500)",
+            margin: 0,
+            textTransform: "uppercase",
+            letterSpacing: "0.06em",
+          }}
+        >
+          {summary.total} accounts · {summary.at_risk} at risk · {summary.opportunity} opportunity
         </p>
       </div>
 
       {/* Filter tabs */}
-      <div className="mb-5">
+      <div style={{ marginBottom: 20 }}>
         <FilterTabs
           current={status}
           counts={{
-            all: summary.total,
-            at_risk: summary.at_risk,
+            all:         summary.total,
+            at_risk:     summary.at_risk,
             opportunity: summary.opportunity,
-            healthy: summary.healthy,
+            healthy:     summary.healthy,
           }}
         />
       </div>
 
-      {/* Account list */}
+      {/* Table */}
       {sorted.length === 0 ? (
-        <div className="rounded-lg border border-zinc-200 bg-white px-6 py-12 text-center">
-          <p className="text-sm text-zinc-500">No accounts match this filter.</p>
+        <div
+          style={{
+            padding: "48px 0",
+            textAlign: "center",
+            color: "var(--atlas-z-500)",
+            fontSize: 14,
+          }}
+        >
+          No accounts match this filter.
         </div>
       ) : (
-        <div className="rounded-lg border border-zinc-200 bg-white overflow-hidden shadow-sm">
-          {/* Column headers */}
-          <div className="grid grid-cols-[2rem_1fr_5rem_3.5rem_6rem_7rem] items-center px-5 py-2.5 bg-zinc-50 border-b border-zinc-200 text-xs font-medium text-zinc-500 uppercase tracking-wide">
-            <span />
-            <span>Account</span>
-            <span className="text-right">ARR</span>
-            <span className="text-center">Health</span>
-            <span className="text-right">Contract</span>
-            <span className="text-right">CSM</span>
-          </div>
-
-          {/* Rows */}
-          <div className="divide-y divide-zinc-100">
-            {sorted.map((account) => {
-              const contract = contractEndLabel(account.contract_end);
-              return (
-                <div
-                  key={account.account_id}
-                  className="relative group hover:bg-zinc-50 transition-colors"
-                >
-                  {/* Invisible overlay makes full row clickable */}
-                  <Link
-                    href={`/accounts/${account.account_id}`}
-                    className="absolute inset-0 z-10"
-                    aria-label={`View ${account.name}`}
-                  />
-                  <div className="grid grid-cols-[2rem_1fr_5rem_3.5rem_6rem_7rem] items-start px-5 py-3.5 gap-x-1">
-                    {/* Status dot */}
-                    <div className="flex items-center justify-center pt-1">
-                      <StatusDot status={account.status} />
-                    </div>
-
-                    {/* Name + pattern chips */}
-                    <div>
-                      <span className="text-sm font-medium text-zinc-900 group-hover:text-teal-700 transition-colors">
-                        {account.name}
-                      </span>
-                      {account.patterns.length > 0 && (
-                        <div className="flex flex-wrap gap-1 mt-1.5">
-                          {account.patterns.map((p) => (
-                            <span
-                              key={p}
-                              className={cn(
-                                "inline-flex items-center px-1.5 py-px rounded border text-xs leading-tight",
-                                PATTERN_CHIP_CLASS[p as PatternKey] ??
-                                  "bg-zinc-100 text-zinc-600 border-zinc-200"
-                              )}
-                            >
-                              {PATTERN_SHORT[p as PatternKey] ?? p}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-
-                    {/* ARR */}
-                    <span className="text-sm text-zinc-600 tabular-nums text-right pt-px">
-                      {formatArr(account.arr)}
-                    </span>
-
-                    {/* Health score */}
-                    <div className="flex justify-center pt-px">
-                      <HealthBadge score={account.health_score} />
-                    </div>
-
-                    {/* Contract end */}
-                    <span
-                      className={cn(
-                        "text-xs text-right pt-1",
-                        contract.urgent
-                          ? "text-red-600 font-medium"
-                          : "text-zinc-500"
-                      )}
-                    >
-                      {contract.text}
-                    </span>
-
-                    {/* CSM */}
-                    <span className="text-xs text-zinc-500 text-right truncate pt-1">
-                      {account.assigned_csm}
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+        <div
+          style={{
+            background: "#ffffff",
+            border: "1px solid var(--atlas-z-200)",
+            borderRadius: 10,
+            overflow: "hidden",
+          }}
+        >
+          <table
+            style={{
+              width: "100%",
+              borderCollapse: "collapse",
+              fontSize: 13,
+            }}
+          >
+            <thead>
+              <tr>
+                {[
+                  { label: "Account",  align: "left"  },
+                  { label: "ARR",      align: "right" },
+                  { label: "Health",   align: "left"  },
+                  { label: "Contract", align: "left"  },
+                  { label: "Atlas tag",align: "left"  },
+                ].map((col) => (
+                  <th
+                    key={col.label}
+                    style={{
+                      textAlign: col.align as "left" | "right",
+                      fontWeight: 500,
+                      fontSize: 11,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.06em",
+                      color: "var(--atlas-z-500)",
+                      padding: col.label === "Account" ? "10px 12px 10px 16px" : "10px 12px",
+                      borderBottom: "1px solid var(--atlas-z-200)",
+                      fontFamily: "var(--font-geist-mono)",
+                      background: "var(--atlas-z-50)",
+                    }}
+                  >
+                    {col.label}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {sorted.map((account, i) => (
+                <AccountRow key={account.account_id} account={account} />
+              ))}
+            </tbody>
+          </table>
         </div>
       )}
     </div>

@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { getAccountDetail } from "@/lib/api";
 import type { AccountDetail, PatternKey, SignalDetection } from "@/lib/types";
-import { cn } from "@/lib/utils";
 import accountsFixture from "@/lib/data/accounts_fixture.json";
 
-// ---------------------------------------------------------------------------
-// Formatting helpers
-// ---------------------------------------------------------------------------
+// ─────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────
 
 function formatArr(arr: number): string {
   if (arr >= 1_000_000) return `$${(arr / 1_000_000).toFixed(1)}M`;
@@ -21,135 +20,230 @@ function formatDate(dateStr: string): string {
   });
 }
 
-// ---------------------------------------------------------------------------
-// Pattern display config
-// ---------------------------------------------------------------------------
+function healthBarColor(score: number): string {
+  if (score >= 85) return "#059669";
+  if (score >= 75) return "#0d9488";
+  if (score >= 60) return "#d97706";
+  return "#dc2626";
+}
 
-const PATTERN_LABELS: Partial<Record<PatternKey, string>> = {
-  hidden_churn_risk: "Hidden Churn Risk",
-  expansion_ready: "Expansion Ready",
-  executive_friction: "Executive Friction",
-  cross_functional_blind_spot: "Cross-Functional Blind Spot",
-  systemic_product_signal: "Systemic Product Signal",
-  support_load_concentration: "Support Load Concentration",
+const PATTERN_TONE: Partial<Record<PatternKey, "risk" | "opp" | "coord" | "product">> = {
+  hidden_churn_risk:              "risk",
+  executive_friction:             "risk",
+  expansion_ready:                "opp",
+  win_reference_opportunity:      "opp",
+  cross_functional_blind_spot:    "coord",
+  systemic_product_signal:        "product",
+  support_load_concentration:     "product",
+  feedback_to_roadmap_disconnect: "product",
+};
+
+const PATTERN_LABEL: Partial<Record<PatternKey, string>> = {
+  hidden_churn_risk:              "Hidden Churn Risk",
+  executive_friction:             "Executive Friction",
+  expansion_ready:                "Expansion Ready",
+  win_reference_opportunity:      "Win / Reference Opportunity",
+  cross_functional_blind_spot:    "Cross-Functional Blind Spot",
+  systemic_product_signal:        "Systemic Product Signal",
+  support_load_concentration:     "Support Load Concentration",
   feedback_to_roadmap_disconnect: "Feedback-Roadmap Disconnect",
-  win_reference_opportunity: "Win / Reference Opportunity",
 };
 
-const PATTERN_DETECTED_CLASS: Partial<Record<PatternKey, string>> = {
-  hidden_churn_risk: "border-l-red-500",
-  expansion_ready: "border-l-emerald-500",
-  executive_friction: "border-l-orange-400",
-  cross_functional_blind_spot: "border-l-purple-400",
-  systemic_product_signal: "border-l-blue-400",
-  support_load_concentration: "border-l-amber-400",
-  feedback_to_roadmap_disconnect: "border-l-zinc-400",
-  win_reference_opportunity: "border-l-teal-500",
-};
+// ─────────────────────────────────────────────────────────
+// Detection card
+// ─────────────────────────────────────────────────────────
 
-// ---------------------------------------------------------------------------
-// Sub-components
-// ---------------------------------------------------------------------------
-
-function MetaItem({ label, value }: { label: string; value: React.ReactNode }) {
-  return (
-    <div>
-      <p className="text-xs font-medium text-zinc-500 uppercase tracking-wide mb-0.5">
-        {label}
-      </p>
-      <p className="text-sm text-zinc-800">{value}</p>
-    </div>
-  );
-}
-
-function HealthBadge({ score }: { score: number }) {
-  const cls =
-    score >= 75
-      ? "text-emerald-700 bg-emerald-50 border-emerald-200"
-      : score >= 50
-      ? "text-amber-700 bg-amber-50 border-amber-200"
-      : "text-red-700 bg-red-50 border-red-200";
-  return (
-    <span
-      className={cn(
-        "inline-flex items-center gap-1 px-2 py-0.5 rounded border text-sm font-semibold tabular-nums",
-        cls
-      )}
-    >
-      {score}
-      <span className="text-xs font-normal opacity-70">/ 100</span>
-    </span>
-  );
-}
-
-function ConfidenceBar({ value }: { value: number }) {
-  const pct = Math.round(value * 100);
-  const barClass =
-    pct >= 75
-      ? "bg-red-400"
-      : pct >= 50
-      ? "bg-amber-400"
-      : "bg-zinc-300";
-  return (
-    <div className="flex items-center gap-2">
-      <div className="w-16 h-1.5 rounded-full bg-zinc-100 overflow-hidden">
-        <div
-          className={cn("h-full rounded-full", barClass)}
-          style={{ width: `${pct}%` }}
-        />
-      </div>
-      <span className="text-xs tabular-nums text-zinc-500">{pct}%</span>
-    </div>
-  );
-}
-
-function DetectionRow({ detection }: { detection: SignalDetection }) {
-  const { pattern, detected, confidence, reasoning } = detection;
-  const patternLabel = PATTERN_LABELS[pattern] ?? pattern;
-  const borderClass = detected
-    ? (PATTERN_DETECTED_CLASS[pattern] ?? "border-l-zinc-400")
-    : "border-l-zinc-200";
-
-  // Show just the first sentence of reasoning for a clean preview
-  const reasoningPreview = reasoning
-    ? reasoning.split(/\.\s+/)[0]?.trim() + "."
+function DetectionCard({ d }: { d: SignalDetection }) {
+  const tone = PATTERN_TONE[d.pattern] ?? "product";
+  const conf = Math.round(d.confidence * 100);
+  const label = PATTERN_LABEL[d.pattern] ?? d.pattern;
+  const reasoning = d.reasoning
+    ? d.reasoning.split(/\.\s+/)[0]?.trim() + "."
     : null;
+
+  // Confidence bar color
+  const barColor =
+    conf >= 75 ? "var(--atlas-risk)" :
+    conf >= 50 ? "var(--atlas-warn)" :
+    "var(--atlas-z-300)";
+
+  // Left border color per tone
+  const borderLeft =
+    tone === "risk"    ? "3px solid var(--atlas-risk)" :
+    tone === "opp"     ? "3px solid var(--atlas-opp)" :
+    tone === "coord"   ? "3px solid var(--atlas-coord)" :
+                         "3px solid var(--atlas-warn)";
 
   return (
     <div
-      className={cn(
-        "rounded-lg border border-zinc-200 border-l-4 bg-white px-5 py-4",
-        borderClass
-      )}
+      style={{
+        background: "#ffffff",
+        border: "1px solid var(--atlas-z-200)",
+        borderLeft,
+        borderRadius: 8,
+        padding: "16px 18px",
+      }}
     >
-      <div className="flex items-start justify-between gap-4 mb-2">
-        <div>
-          <span className="text-sm font-medium text-zinc-900">{patternLabel}</span>
+      <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 16, marginBottom: 8 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+          <span className={`pattern-tag ${tone}`}>
+            <span className="dot" />
+            {label}
+          </span>
         </div>
-        <div className="flex items-center gap-3 flex-shrink-0">
-          <ConfidenceBar value={confidence} />
-          {detected ? (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium bg-red-50 text-red-700 border border-red-200">
+
+        <div style={{ display: "flex", alignItems: "center", gap: 12, flexShrink: 0 }}>
+          {/* Confidence bar */}
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <div
+              style={{
+                width: 64,
+                height: 4,
+                background: "var(--atlas-z-150)",
+                borderRadius: 2,
+                overflow: "hidden",
+              }}
+            >
+              <div
+                style={{
+                  height: "100%",
+                  width: `${conf}%`,
+                  background: barColor,
+                  borderRadius: 2,
+                }}
+              />
+            </div>
+            <span
+              style={{
+                fontFamily: "var(--font-geist-mono)",
+                fontSize: 11,
+                color: "var(--atlas-z-600)",
+                fontVariantNumeric: "tabular-nums",
+              }}
+            >
+              {conf}%
+            </span>
+          </div>
+
+          {/* Detected / clear badge */}
+          {d.detected ? (
+            <span
+              style={{
+                fontFamily: "var(--font-geist-mono)",
+                fontSize: 11,
+                fontWeight: 500,
+                padding: "2px 8px",
+                borderRadius: 4,
+                background: "var(--atlas-risk-bg)",
+                color: "var(--atlas-risk)",
+                border: "1px solid #fecaca",
+              }}
+            >
               Detected
             </span>
           ) : (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium bg-zinc-50 text-zinc-500 border border-zinc-200">
+            <span
+              style={{
+                fontFamily: "var(--font-geist-mono)",
+                fontSize: 11,
+                padding: "2px 8px",
+                borderRadius: 4,
+                background: "var(--atlas-z-100)",
+                color: "var(--atlas-z-500)",
+                border: "1px solid var(--atlas-z-200)",
+              }}
+            >
               Clear
             </span>
           )}
         </div>
       </div>
 
-      {reasoningPreview && (
-        <p className="text-xs text-zinc-600 leading-relaxed">{reasoningPreview}</p>
+      {reasoning && (
+        <p
+          style={{
+            fontSize: 12.5,
+            color: "var(--atlas-z-600)",
+            lineHeight: 1.55,
+            margin: 0,
+          }}
+        >
+          {reasoning}
+        </p>
       )}
     </div>
   );
 }
 
-// ---------------------------------------------------------------------------
+// ─────────────────────────────────────────────────────────
+// Sidebar metadata card
+// ─────────────────────────────────────────────────────────
+
+function SidebarCard({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div
+      style={{
+        background: "#ffffff",
+        border: "1px solid var(--atlas-z-200)",
+        borderRadius: 10,
+        overflow: "hidden",
+        marginBottom: 16,
+      }}
+    >
+      <div
+        style={{
+          padding: "12px 16px",
+          borderBottom: "1px solid var(--atlas-z-200)",
+          fontSize: 12,
+          fontWeight: 600,
+          color: "var(--atlas-z-900)",
+        }}
+      >
+        {title}
+      </div>
+      <div style={{ padding: "14px 16px" }}>{children}</div>
+    </div>
+  );
+}
+
+function MetaRow({ label, value }: { label: string; value: React.ReactNode }) {
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        gap: 12,
+        padding: "6px 0",
+        borderBottom: "1px solid var(--atlas-z-100)",
+        fontSize: 12.5,
+      }}
+    >
+      <span
+        style={{
+          fontFamily: "var(--font-geist-mono)",
+          fontSize: 10.5,
+          textTransform: "uppercase",
+          letterSpacing: "0.06em",
+          color: "var(--atlas-z-500)",
+          paddingTop: 1,
+        }}
+      >
+        {label}
+      </span>
+      <span style={{ color: "var(--atlas-z-800)", textAlign: "right" }}>{value}</span>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────
 // Page
-// ---------------------------------------------------------------------------
+// ─────────────────────────────────────────────────────────
 
 export default async function AccountDetailPage({
   params,
@@ -162,26 +256,17 @@ export default async function AccountDetailPage({
   try {
     data = await getAccountDetail(id);
   } catch {
-    // Backend unavailable — serve account metadata from bundled fixture.
-    // Detections are empty; signal checks only show when backend is running locally.
     const acct = (accountsFixture as typeof accountsFixture).find(
       (a) => a.account_id === id
     );
     if (!acct) {
       return (
-        <div className="max-w-3xl mx-auto px-6 py-16 text-center">
-          <p className="text-sm text-zinc-500 mb-4">
-            Account{" "}
-            <code className="font-mono bg-zinc-100 px-1 py-0.5 rounded text-xs">
-              {id}
-            </code>{" "}
-            not found.
+        <div style={{ padding: "64px 0", textAlign: "center" }}>
+          <p style={{ fontSize: 14, color: "var(--atlas-z-500)", marginBottom: 16 }}>
+            Account <code style={{ fontFamily: "var(--font-geist-mono)", fontSize: 12, background: "var(--atlas-z-100)", padding: "1px 6px", borderRadius: 4 }}>{id}</code> not found.
           </p>
-          <Link
-            href="/portfolio"
-            className="text-sm text-teal-700 hover:text-teal-900 transition-colors"
-          >
-            ← Back to Portfolio
+          <Link href="/portfolio" style={{ fontSize: 13, color: "var(--atlas-accent)", textDecoration: "none" }}>
+            ← Portfolio
           </Link>
         </div>
       );
@@ -206,74 +291,244 @@ export default async function AccountDetailPage({
 
   const { account, detections } = data;
 
-  // Sort detections: detected first, then by confidence desc
-  const sortedDetections = [...detections].sort((a, b) => {
+  const sorted = [...detections].sort((a, b) => {
     if (a.detected !== b.detected) return a.detected ? -1 : 1;
     return b.confidence - a.confidence;
   });
 
   const detectedCount = detections.filter((d) => d.detected).length;
+  const healthFill = healthBarColor(account.health_score);
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8">
-      {/* Back link */}
-      <Link
-        href="/portfolio"
-        className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:text-zinc-900 transition-colors mb-6"
+    <div>
+      {/* Breadcrumb */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 6,
+          fontFamily: "var(--font-geist-mono)",
+          fontSize: 11,
+          textTransform: "uppercase",
+          letterSpacing: "0.06em",
+          color: "var(--atlas-z-500)",
+          marginBottom: 20,
+        }}
       >
-        <span aria-hidden>←</span> Portfolio
-      </Link>
+        <Link
+          href="/portfolio"
+          style={{ color: "var(--atlas-z-500)", textDecoration: "none" }}
+        >
+          Portfolio
+        </Link>
+        <span style={{ color: "var(--atlas-z-300)" }}>›</span>
+        <span style={{ color: "var(--atlas-z-900)" }}>{account.name}</span>
+      </div>
 
-      {/* Account header */}
-      <div className="mb-6">
-        <div className="flex items-start justify-between gap-4">
-          <h1 className="text-2xl font-semibold text-zinc-900">{account.name}</h1>
-          <HealthBadge score={account.health_score} />
+      {/* Page header */}
+      <div style={{ marginBottom: 24 }}>
+        <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 16, marginBottom: 6 }}>
+          <h1 style={{ fontSize: 28, fontWeight: 600, letterSpacing: "-0.02em", margin: 0 }}>
+            {account.name}
+          </h1>
+
+          {/* Health score badge */}
+          <div
+            style={{
+              background: "#ffffff",
+              border: "1px solid var(--atlas-z-200)",
+              borderRadius: 8,
+              padding: "8px 14px",
+              textAlign: "center",
+              flexShrink: 0,
+            }}
+          >
+            <div
+              style={{
+                fontFamily: "var(--font-geist-mono)",
+                fontSize: 22,
+                fontWeight: 600,
+                color: healthFill,
+                fontVariantNumeric: "tabular-nums",
+                lineHeight: 1,
+              }}
+            >
+              {account.health_score}
+            </div>
+            <div
+              style={{
+                fontFamily: "var(--font-geist-mono)",
+                fontSize: 9,
+                textTransform: "uppercase",
+                letterSpacing: "0.08em",
+                color: "var(--atlas-z-500)",
+                marginTop: 3,
+              }}
+            >
+              health
+            </div>
+          </div>
         </div>
-        <p className="text-sm text-zinc-500 mt-1">
-          {account.industry} &middot; {formatArr(account.arr)} ARR &middot;{" "}
-          {account.employee_count.toLocaleString()} employees
+        <p
+          style={{
+            fontFamily: "var(--font-geist-mono)",
+            fontSize: 12,
+            color: "var(--atlas-z-500)",
+            margin: 0,
+            textTransform: "uppercase",
+            letterSpacing: "0.06em",
+          }}
+        >
+          {account.industry} · {formatArr(account.arr)} ARR · {account.employee_count.toLocaleString()} employees
         </p>
       </div>
 
-      {/* Metadata grid */}
-      <div className="rounded-lg border border-zinc-200 bg-white px-6 py-5 mb-8 grid grid-cols-2 gap-y-4 gap-x-8 sm:grid-cols-3">
-        <MetaItem
-          label="Contract"
-          value={`${formatDate(account.contract_start)} – ${formatDate(account.contract_end)}`}
-        />
-        <MetaItem label="CSM" value={account.assigned_csm} />
-        <MetaItem label="Account Executive" value={account.assigned_ae} />
-        <MetaItem label="Executive Sponsor" value={account.executive_sponsor} />
-        <MetaItem label="Account ID" value={
-          <code className="font-mono text-xs text-zinc-500">{account.account_id}</code>
-        } />
-      </div>
+      {/* Two-column drilldown layout */}
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "1fr 300px",
+          gap: 32,
+          alignItems: "start",
+        }}
+      >
+        {/* Main column — signal detections */}
+        <div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "baseline",
+              justifyContent: "space-between",
+              marginBottom: 16,
+            }}
+          >
+            <h2 style={{ fontSize: 14, fontWeight: 600, margin: 0 }}>
+              Signal detections
+            </h2>
+            <span
+              style={{
+                fontFamily: "var(--font-geist-mono)",
+                fontSize: 11,
+                color:
+                  detectedCount > 0
+                    ? "var(--atlas-risk)"
+                    : "var(--atlas-opp)",
+                textTransform: "uppercase",
+                letterSpacing: "0.06em",
+                fontWeight: 500,
+              }}
+            >
+              {detectedCount > 0
+                ? `${detectedCount} active · ${detections.length} checked`
+                : detections.length > 0
+                ? `All clear · ${detections.length} checked`
+                : "No checks run"}
+            </span>
+          </div>
 
-      {/* Signal detections */}
-      <section>
-        <div className="flex items-baseline justify-between mb-4">
-          <h2 className="text-base font-semibold text-zinc-900">Signal Detections</h2>
-          <span className="text-sm text-zinc-500">
-            {detectedCount > 0 ? (
-              <span className="text-red-600 font-medium">{detectedCount} active</span>
-            ) : (
-              <span className="text-emerald-600 font-medium">All clear</span>
-            )}{" "}
-            &middot; {detections.length} patterns checked
-          </span>
+          {sorted.length === 0 ? (
+            <p style={{ fontSize: 13, color: "var(--atlas-z-500)", marginTop: 8 }}>
+              No signal checks have been run for this account yet.
+            </p>
+          ) : (
+            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              {sorted.map((d) => (
+                <DetectionCard key={d.pattern} d={d} />
+              ))}
+            </div>
+          )}
         </div>
 
-        {sortedDetections.length === 0 ? (
-          <p className="text-sm text-zinc-500">No signal checks run for this account yet.</p>
-        ) : (
-          <div className="space-y-3">
-            {sortedDetections.map((detection) => (
-              <DetectionRow key={detection.pattern} detection={detection} />
-            ))}
-          </div>
-        )}
-      </section>
+        {/* Sidebar */}
+        <div>
+          <SidebarCard title="Account">
+            <MetaRow label="ARR" value={formatArr(account.arr)} />
+            <MetaRow
+              label="Contract"
+              value={`${formatDate(account.contract_start)} – ${formatDate(account.contract_end)}`}
+            />
+            <MetaRow
+              label="Health"
+              value={
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <div className="bar-mini" style={{ width: 56 }}>
+                    <div
+                      className="bar-mini-fill"
+                      style={{
+                        width: `${account.health_score}%`,
+                        background: healthFill,
+                      }}
+                    />
+                  </div>
+                  <span
+                    style={{
+                      fontFamily: "var(--font-geist-mono)",
+                      fontSize: 12,
+                      fontVariantNumeric: "tabular-nums",
+                    }}
+                  >
+                    {account.health_score}
+                  </span>
+                </div>
+              }
+            />
+            <MetaRow label="Industry" value={account.industry} />
+            <MetaRow label="Employees" value={account.employee_count.toLocaleString()} />
+          </SidebarCard>
+
+          <SidebarCard title="Team">
+            <MetaRow label="CSM" value={account.assigned_csm} />
+            <MetaRow label="AE" value={account.assigned_ae} />
+            <MetaRow label="Exec Sponsor" value={account.executive_sponsor} />
+          </SidebarCard>
+
+          {detectedCount > 0 && (
+            <div
+              style={{
+                background: "var(--atlas-z-900)",
+                color: "white",
+                borderRadius: 10,
+                padding: "16px 18px",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "var(--font-geist-mono)",
+                  fontSize: 10,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.08em",
+                  color: "rgba(255,255,255,0.5)",
+                  marginBottom: 6,
+                }}
+              >
+                Recommended action
+              </div>
+              <p style={{ fontSize: 13, margin: "0 0 12px", lineHeight: 1.5 }}>
+                Review the {detectedCount} active signal{detectedCount > 1 ? "s" : ""} and
+                align with {account.assigned_csm} on next steps before the renewal window.
+              </p>
+              <Link
+                href="/briefing"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 6,
+                  fontSize: 12,
+                  fontWeight: 500,
+                  color: "white",
+                  background: "rgba(255,255,255,0.12)",
+                  border: "1px solid rgba(255,255,255,0.15)",
+                  borderRadius: 4,
+                  padding: "6px 10px",
+                  textDecoration: "none",
+                }}
+              >
+                View in briefing →
+              </Link>
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
