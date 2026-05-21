@@ -39,7 +39,10 @@ export default function QueryPage() {
     try {
       const res = await fetch("/api/query", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "x-demo-secret": process.env.NEXT_PUBLIC_DEMO_SECRET ?? "",
+        },
         body: JSON.stringify({ message: text.trim(), history }),
       });
 

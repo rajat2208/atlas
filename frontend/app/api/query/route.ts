@@ -23,6 +23,11 @@ ${buildContext()}
 Answer questions concisely and factually based on this briefing data. If asked about something not in the data, say so clearly. Use numbers and account names where relevant. Keep responses under 200 words unless the question demands more detail.`;
 
 export async function POST(req: Request) {
+  const secret = process.env.DEMO_SECRET;
+  if (secret && req.headers.get("x-demo-secret") !== secret) {
+    return new Response("Unauthorized", { status: 401 });
+  }
+
   const { message, history = [] } = await req.json();
 
   const messages = [
