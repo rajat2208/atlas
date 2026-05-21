@@ -4191,5 +4191,3839 @@
         ]
       }
     ]
+  },
+  {
+    "account_id": "acc_001",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_002",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_003",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_004",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_008",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_009",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_010",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_011",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_012",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_013",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_014",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_015",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_016",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_019",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_020",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_021",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_022",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_023",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_024",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_025",
+    "pattern": "feedback_to_roadmap_disconnect",
+    "detected": true,
+    "confidence": 0.92,
+    "high_demand_feature": "Granular permissions (per-row, per-folder, workspace-level, external collaborator controls)",
+    "roadmap_status": "absent",
+    "low_demand_funded_feature": "AI meeting summaries",
+    "evidence": [
+      {
+        "source": "call_summaries",
+        "claim": "Granular permissions and permissions model topics mentioned 26 times combined (10 + 8 + 8) in customer calls over 180 days, indicating sustained high demand.",
+        "support_refs": [
+          "feature request: granular permissions",
+          "granular permissions",
+          "permissions model"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "29 of 38 feature-request tickets (76%) explicitly request granular permissions in various forms (per-row, per-folder, workspace-level, external collaborators), across 20 distinct accounts.",
+        "support_refs": [
+          "tkt_00003",
+          "tkt_00015",
+          "tkt_00028",
+          "tkt_00051",
+          "tkt_00053",
+          "tkt_00072",
+          "tkt_00162",
+          "tkt_00163",
+          "tkt_00165",
+          "tkt_00169",
+          "tkt_00212",
+          "tkt_00239",
+          "tkt_00241",
+          "tkt_00263",
+          "tkt_00267",
+          "tkt_00271",
+          "tkt_00298",
+          "tkt_00360",
+          "tkt_00364",
+          "tkt_00401",
+          "tkt_00477",
+          "tkt_00495",
+          "tkt_00500",
+          "tkt_00501",
+          "tkt_00502",
+          "tkt_00504",
+          "tkt_00506",
+          "tkt_00507",
+          "tkt_00510"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "No roadmap item exists for granular permissions capability despite being the highest-demand feature by convergent signal (call mentions + ticket volume).",
+        "support_refs": [
+          "rm_001 through rm_015: no permissions feature"
+        ]
+      },
+      {
+        "source": "roadmap",
+        "claim": "AI meeting summaries (rm_001) has high investment level and in_progress status, but only 2 feature-request tickets and low call demand (implied from topic list).",
+        "support_refs": [
+          "rm_001",
+          "tkt_00514",
+          "tkt_00515"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "API usage and integration scoping topics mentioned 12 times each, suggesting demand for deeper integration/API access capabilities, partially reflected in feature-request tickets for API access to IdP integrations.",
+        "support_refs": [
+          "API usage",
+          "integration scoping",
+          "tkt_00013",
+          "tkt_00189",
+          "tkt_00201",
+          "tkt_00394"
+        ]
+      }
+    ],
+    "reasoning": "Granular permissions is overwhelmingly the highest-demand capability across the portfolio, appearing in 26 call mentions and 29 feature-request tickets spanning 20 accounts. Yet the roadmap contains no item addressing this need—it is completely absent. Conversely, AI meeting summaries is receiving high investment (rm_001, in_progress) despite minimal customer request volume (only 2 tickets, no significant call demand). This represents a clear misalignment between portfolio demand signal and product roadmap prioritization, with critical customer requirements under-resourced while lower-demand capabilities receive substantial engineering capacity.",
+    "recommended_action": "Product leadership should immediately evaluate granular permissions as a roadmap priority for Q3–Q4 2026 and reassess investment allocation, potentially descoping or deferring lower-demand items like AI meeting summaries to create engineering capacity for the high-demand permissions capability."
+  },
+  {
+    "account_id": "acc_012",
+    "pattern": "support_load_concentration",
+    "detected": true,
+    "confidence": 0.78,
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "acc_012 (91 days old) has 1.62 tickets/user vs. portfolio avg of 0.64 — 2.5× elevated rate within onboarding window",
+        "support_refs": [
+          "acc_012"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "acc_017 (130 days old) has 1.25 tickets/user vs. portfolio avg of 0.64 — 1.95× elevated rate within onboarding window",
+        "support_refs": [
+          "acc_017"
+        ]
+      },
+      {
+        "source": "account",
+        "claim": "Both acc_012 and acc_017 are among the 4 newest accounts (<150 days) and rank #1 and #3 highest in tickets/user across the entire portfolio",
+        "support_refs": [
+          "acc_012",
+          "acc_017"
+        ]
+      }
+    ],
+    "reasoning": "Two recently-onboarded accounts (acc_012 at 91 days and acc_017 at 130 days) exhibit ticket rates 1.95–2.5× above the portfolio average of 0.64, while all other accounts under 180 days show rates of 1.0 or below. This concentration of elevated support load in the newest cohort is a clear signal that early-stage onboarding is generating disproportionate friction. The pattern is concentrated (not distributed across all tenure bands) and meets the 2+ account threshold.",
+    "recommended_action": "VP of Customer Success or Head of Onboarding should review the onboarding workflows and product friction points for acc_012 and acc_017 to identify systemic gaps before this pattern scales to newer customers."
+  },
+  {
+    "account_id": "acc_017",
+    "pattern": "support_load_concentration",
+    "detected": true,
+    "confidence": 0.78,
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "acc_012 (91 days old) has 1.62 tickets/user vs. portfolio avg of 0.64 — 2.5× elevated rate within onboarding window",
+        "support_refs": [
+          "acc_012"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "acc_017 (130 days old) has 1.25 tickets/user vs. portfolio avg of 0.64 — 1.95× elevated rate within onboarding window",
+        "support_refs": [
+          "acc_017"
+        ]
+      },
+      {
+        "source": "account",
+        "claim": "Both acc_012 and acc_017 are among the 4 newest accounts (<150 days) and rank #1 and #3 highest in tickets/user across the entire portfolio",
+        "support_refs": [
+          "acc_012",
+          "acc_017"
+        ]
+      }
+    ],
+    "reasoning": "Two recently-onboarded accounts (acc_012 at 91 days and acc_017 at 130 days) exhibit ticket rates 1.95–2.5× above the portfolio average of 0.64, while all other accounts under 180 days show rates of 1.0 or below. This concentration of elevated support load in the newest cohort is a clear signal that early-stage onboarding is generating disproportionate friction. The pattern is concentrated (not distributed across all tenure bands) and meets the 2+ account threshold.",
+    "recommended_action": "VP of Customer Success or Head of Onboarding should review the onboarding workflows and product friction points for acc_012 and acc_017 to identify systemic gaps before this pattern scales to newer customers."
+  },
+  {
+    "account_id": "acc_002",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_003",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_005",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_006",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_007",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_014",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_015",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_016",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_017",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_019",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_020",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_021",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_024",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_025",
+    "pattern": "systemic_product_signal",
+    "detected": true,
+    "confidence": 0.92,
+    "identified_feature_or_issue": "Admin console reliability and data integrity issues",
+    "evidence": [
+      {
+        "source": "support_tickets",
+        "claim": "11 distinct accounts filed bugs on 'Admin console reports do not match underlying usage' with negative sentiment ranging from -0.24 to -0.83",
+        "support_refs": [
+          "tkt_00032",
+          "tkt_00094",
+          "tkt_00107",
+          "tkt_00122",
+          "tkt_00254",
+          "tkt_00259",
+          "tkt_00289",
+          "tkt_00291",
+          "tkt_00426",
+          "tkt_00470",
+          "tkt_00489",
+          "tkt_00490"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Admin console role updates take >30 minutes to propagate' with consistent negative sentiment (-0.20 to -0.84)",
+        "support_refs": [
+          "tkt_00109",
+          "tkt_00124",
+          "tkt_00244",
+          "tkt_00260",
+          "tkt_00264",
+          "tkt_00290",
+          "tkt_00370",
+          "tkt_00373",
+          "tkt_00389",
+          "tkt_00392",
+          "tkt_00457",
+          "tkt_00492",
+          "tkt_00493",
+          "tkt_00494"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "6 distinct accounts filed bugs on 'Admin console logs missing entries for the last 48h' and 'Admin console exports return empty CSV files'",
+        "support_refs": [
+          "tkt_00108",
+          "tkt_00257",
+          "tkt_00258",
+          "tkt_00288",
+          "tkt_00354",
+          "tkt_00355",
+          "tkt_00369",
+          "tkt_00371",
+          "tkt_00372",
+          "tkt_00379",
+          "tkt_00491"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "7 accounts showing significant admin_console feature usage decline (>20%): acc_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025",
+        "support_refs": [
+          "admin_console"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "9 distinct accounts filed bugs on 'Documents intermittently fail to load on first open' and 'Mobile app crashes when opening large spreadsheets' with highly negative sentiment (-0.19 to -0.64)",
+        "support_refs": [
+          "tkt_00033",
+          "tkt_00037",
+          "tkt_00059",
+          "tkt_00060",
+          "tkt_00095",
+          "tkt_00200",
+          "tkt_00245",
+          "tkt_00252",
+          "tkt_00255",
+          "tkt_00262",
+          "tkt_00292",
+          "tkt_00293",
+          "tkt_00303",
+          "tkt_00376",
+          "tkt_00476",
+          "tkt_00488",
+          "acc_016_tkt_00292"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "10 distinct accounts filed bugs on 'Workflow trigger fires twice for the same event' with consistent negative sentiment (-0.12 to -0.64)",
+        "support_refs": [
+          "tkt_00034",
+          "tkt_00043",
+          "tkt_00125",
+          "tkt_00133",
+          "tkt_00282",
+          "tkt_00306",
+          "tkt_00328",
+          "tkt_00415",
+          "tkt_00422",
+          "tkt_00436",
+          "tkt_00446",
+          "tkt_00450",
+          "tkt_00486"
+        ]
+      },
+      {
+        "source": "support_tickets",
+        "claim": "8 distinct accounts filed bugs on 'Search results miss documents shared in the last week' with highly negative sentiment (-0.23 to -0.83)",
+        "support_refs": [
+          "tkt_00112",
+          "tkt_00126",
+          "tkt_00127",
+          "tkt_00128",
+          "tkt_00129",
+          "tkt_00131",
+          "tkt_00388",
+          "tkt_00390",
+          "tkt_00447",
+          "tkt_00452",
+          "tkt_00453",
+          "tkt_00455",
+          "tkt_00462",
+          "tkt_00464"
+        ]
+      },
+      {
+        "source": "usage_events",
+        "claim": "5 accounts showing significant docs feature usage decline correlating with document loading complaints",
+        "support_refs": [
+          "docs"
+        ]
+      }
+    ],
+    "reasoning": "Multiple systemic product signals detected across the portfolio. Primary signal: Admin console reliability issues (data mismatch, slow role propagation, missing logs, empty exports) filed by 11+ accounts with strong negative sentiment and corroborating 7-account usage decline. Secondary signals: (1) Document loading failures and mobile app crashes affecting 9 accounts with 5-account usage decline on docs feature; (2) Workflow double-trigger bug filed by 10 accounts; (3) Search indexing failures affecting 8 accounts. These patterns are not account-specific complaints but rather clustering on core platform features, indicating genuine product defects requiring immediate engineering review.",
+    "recommended_action": "Escalate to Product and Engineering: (1) Immediate investigation of admin console data consistency and role propagation delays affecting 11+ accounts; (2) Debug document loading intermittency and mobile app crashes impacting user adoption; (3) Fix workflow trigger duplication and search indexing gaps. Notify account leads of accounts_005, acc_006, acc_015, acc_019, acc_020, acc_024, acc_025 with proactive communication on known issues."
+  },
+  {
+    "account_id": "acc_010",
+    "pattern": "win_reference_opportunity",
+    "detected": true,
+    "confidence": 0.78,
+    "evidence": [
+      {
+        "source": "account",
+        "claim": "acc_010 (Delta Pharma) has strong positive sentiment (0.6), no risk notes, recent sponsor login (2026-05-16), and explicit advocacy signals including reference and case study mentions",
+        "support_refs": [
+          "acc_010",
+          "call_00074"
+        ]
+      },
+      {
+        "source": "account",
+        "claim": "acc_001 (Acme Industries) demonstrates sustained success (752 days tenure), positive relationship notes, recent sponsor engagement (2026-05-18), and explicit reference/case study/sponsor advocacy signals",
+        "support_refs": [
+          "acc_001",
+          "call_00009"
+        ]
+      },
+      {
+        "source": "cs_notes",
+        "claim": "acc_010 has zero risk notes over 180 days with 1 relationship category, indicating healthy account status",
+        "support_refs": [
+          "acc_010"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "acc_001 shows multiple explicit advocacy signals: reference, case study, expansion, and sponsor advocacy across call_00009",
+        "support_refs": [
+          "acc_001",
+          "call_00009"
+        ]
+      }
+    ],
+    "reasoning": "acc_010 (Delta Pharma, $910K ARR) qualifies as a strong reference candidate with 0.6 sentiment, no risk notes, recent sponsor engagement, and explicit reference/case study signals in call data. acc_001 (Acme Industries, $557K ARR) is a mature account (752 days) with clean relationship history, very recent sponsor login, and strong advocacy signals mentioning references and case studies. Both meet 4-5 of the five core criteria. No other accounts combine positive sentiment (≥0.5), clean risk profile, recent sponsor engagement, and explicit advocacy signals simultaneously.",
+    "recommended_action": "Marketing should initiate reference conversation with Delta Pharma (Iris Lehmann) and Acme Industries (Aanya Iyer) within the next 2 weeks to capture explicit case study and reference opportunities before engagement window closes."
+  },
+  {
+    "account_id": "acc_001",
+    "pattern": "win_reference_opportunity",
+    "detected": true,
+    "confidence": 0.78,
+    "evidence": [
+      {
+        "source": "account",
+        "claim": "acc_010 (Delta Pharma) has strong positive sentiment (0.6), no risk notes, recent sponsor login (2026-05-16), and explicit advocacy signals including reference and case study mentions",
+        "support_refs": [
+          "acc_010",
+          "call_00074"
+        ]
+      },
+      {
+        "source": "account",
+        "claim": "acc_001 (Acme Industries) demonstrates sustained success (752 days tenure), positive relationship notes, recent sponsor engagement (2026-05-18), and explicit reference/case study/sponsor advocacy signals",
+        "support_refs": [
+          "acc_001",
+          "call_00009"
+        ]
+      },
+      {
+        "source": "cs_notes",
+        "claim": "acc_010 has zero risk notes over 180 days with 1 relationship category, indicating healthy account status",
+        "support_refs": [
+          "acc_010"
+        ]
+      },
+      {
+        "source": "call_summaries",
+        "claim": "acc_001 shows multiple explicit advocacy signals: reference, case study, expansion, and sponsor advocacy across call_00009",
+        "support_refs": [
+          "acc_001",
+          "call_00009"
+        ]
+      }
+    ],
+    "reasoning": "acc_010 (Delta Pharma, $910K ARR) qualifies as a strong reference candidate with 0.6 sentiment, no risk notes, recent sponsor engagement, and explicit reference/case study signals in call data. acc_001 (Acme Industries, $557K ARR) is a mature account (752 days) with clean relationship history, very recent sponsor login, and strong advocacy signals mentioning references and case studies. Both meet 4-5 of the five core criteria. No other accounts combine positive sentiment (≥0.5), clean risk profile, recent sponsor engagement, and explicit advocacy signals simultaneously.",
+    "recommended_action": "Marketing should initiate reference conversation with Delta Pharma (Iris Lehmann) and Acme Industries (Aanya Iyer) within the next 2 weeks to capture explicit case study and reference opportunities before engagement window closes."
   }
 ]
