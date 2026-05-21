@@ -124,9 +124,23 @@ _OPPORTUNITY_PATTERNS = {"expansion_ready", "win_reference_opportunity"}
 
 @app.get("/portfolio")
 def get_portfolio() -> dict:
-    """Return all accounts with detected pattern tags."""
+    """Return all accounts with detected pattern tags.
+
+    Falls back to the committed portfolio_fixture.json when no signal outputs
+    are present (e.g. on Railway / Vercel without a local agent run).
+    """
     all_accounts = accounts()
     detections = _all_signal_detections()
+
+    # No signal data available — serve the pre-built fixture
+    if not detections:
+        fixture = AGENT_OUTPUTS / "portfolio_fixture.json"
+        if fixture.exists():
+            return _load_json(fixture)
+        raise HTTPException(
+            status_code=404,
+            detail="No signal data found. Run run_signal.py + run_portfolio.py first.",
+        )
 
     # Build per-account pattern map from detections
     flagged: dict[str, list[str]] = defaultdict(list)
@@ -204,6 +218,8 @@ def get_account_detail(account_id: str) -> dict:
         if d.get("account_id") == account_id
     ]
 
+    # No signal data — still return account metadata with empty detections
+    # so the account detail page renders on Railway/Vercel without local files.
     return {
         "account": {k: v for k, v in acct.items() if k != "tags"},
         "detections": account_detections,
