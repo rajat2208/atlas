@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getPortfolio } from "@/lib/api";
 import type { AccountSummary, PatternKey, PortfolioResponse } from "@/lib/types";
+import { PATTERN_TONE, PATTERN_LABEL } from "@/lib/patterns";
 import portfolioFixture from "@/lib/data/portfolio_fixture.json";
 
 // ─────────────────────────────────────────────────────────
@@ -32,29 +33,6 @@ function healthBarColor(score: number): string {
   if (score >= 60) return "#d97706";
   return "#dc2626";
 }
-
-// Pattern → design tone
-const PATTERN_TONE: Partial<Record<PatternKey, "risk" | "opp" | "coord" | "product">> = {
-  hidden_churn_risk:              "risk",
-  executive_friction:             "risk",
-  expansion_ready:                "opp",
-  win_reference_opportunity:      "opp",
-  cross_functional_blind_spot:    "coord",
-  systemic_product_signal:        "product",
-  support_load_concentration:     "product",
-  feedback_to_roadmap_disconnect: "product",
-};
-
-const PATTERN_LABEL: Partial<Record<PatternKey, string>> = {
-  hidden_churn_risk:              "Churn Risk",
-  executive_friction:             "Exec Friction",
-  expansion_ready:                "Expansion Ready",
-  win_reference_opportunity:      "Win / Ref",
-  cross_functional_blind_spot:    "Blind Spot",
-  systemic_product_signal:        "Product Signal",
-  support_load_concentration:     "Support Load",
-  feedback_to_roadmap_disconnect: "Roadmap Gap",
-};
 
 // Tone priority for picking the "loudest" tag
 const TONE_RANK: Record<string, number> = {

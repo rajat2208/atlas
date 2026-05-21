@@ -494,6 +494,35 @@
 .autonomy-pill.hitl   { background: #fef3c7; color: #92400e; }
 .autonomy-pill.manual { background: var(--atlas-z-100); color: var(--atlas-z-700); }
 
+/* ═══════════════════════════════════════════════════════════════
+   Synthesis + Provenance linking
+═══════════════════════════════════════════════════════════════ */
+
+.synthesis-text mark {
+  background: transparent;
+  border-radius: 2px;
+  padding: 2px 0;
+  cursor: default;
+  transition: background 0.15s;
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 118, 110, 0.3);
+  text-underline-offset: 3px;
+}
+
+.synthesis-text mark:hover,
+.synthesis-text mark.active {
+  background: rgba(15, 118, 110, 0.1);
+  text-decoration-color: var(--atlas-accent);
+}
+
+.provenance-item {
+  transition: background 0.15s;
+}
+
+.provenance-item.active {
+  background: rgba(15, 118, 110, 0.05);
+}
+
 /* Drilldown reasoning chain */
 .reasoning-step-line::before {
   content: "";

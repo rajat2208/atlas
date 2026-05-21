@@ -7,10 +7,12 @@ import type { AccountSummary, InsightCard, PatternKey } from "@/lib/types";
 const W = 1180, H = 520;
 const PAD = { l: 90, r: 90, t: 50, b: 70 };
 
-// Map ARR (raw dollars) to x position
+// Log scale for ARR: spreads the typical $250K–$4M range evenly
+const LOG_MIN = Math.log10(0.18); // just below $200K so smallest accounts aren't clipped
+const LOG_MAX = Math.log10(5.0);
 function xScale(arr: number) {
-  const arrM = arr / 1_000_000;
-  return PAD.l + ((arrM - 0.4) / 4.6) * (W - PAD.l - PAD.r);
+  const arrM = Math.max(arr / 1_000_000, 0.18);
+  return PAD.l + ((Math.log10(arrM) - LOG_MIN) / (LOG_MAX - LOG_MIN)) * (W - PAD.l - PAD.r);
 }
 // Map health_score to y position (higher = top)
 function yScale(hp: number) {
@@ -61,14 +63,18 @@ export default function Constellation({ accounts, cards }: Props) {
   // Build nodes with pattern classification
   const nodes = accounts.map((a) => {
     const [jx, jy] = jitter(a.account_id);
+    const r = nodeRadius(a.arr);
     const isRisk     = hasAny(a.patterns, RISK_PATTERNS);
     const isCoord    = hasAny(a.patterns, COORD_PATTERNS);
     const isSystemic = hasAny(a.patterns, SYSTEMIC_PATTERNS);
+    // Clamp so jitter never pushes a node outside the axis box
+    const rawX = xScale(a.arr) + jx;
+    const rawY = yScale(a.health_score) + jy;
     return {
       ...a,
-      x: xScale(a.arr) + jx,
-      y: yScale(a.health_score) + jy,
-      r: nodeRadius(a.arr),
+      x: Math.max(PAD.l + r + 2, Math.min(W - PAD.r - r - 2, rawX)),
+      y: Math.max(PAD.t + r + 2, Math.min(H - PAD.b - r - 2, rawY)),
+      r,
       isRisk,
       isCoord,
       isSystemic,
@@ -106,12 +112,18 @@ export default function Constellation({ accounts, cards }: Props) {
   const showCoord    = filter === "all" || filter === "coord";
   const showSystemic = filter === "all" || filter === "product";
 
-  // Navigate to the relevant insight on node/annotation click
+  // Navigate to the relevant insight — prefer an account-specific card
   function handleNodeClick(n: typeof nodes[0]) {
+    if (!n.isPattern) return;
     let card: InsightCard | undefined;
-    if (n.isRisk)     card = riskCard;
-    else if (n.isCoord)    card = coordCard;
-    else if (n.isSystemic) card = systemicCard;
+    // First: exact account match
+    card = cards.find((c) => c.account_id === n.account_id);
+    // Fallback: pattern-type card
+    if (!card) {
+      if (n.isRisk)      card = riskCard;
+      else if (n.isCoord)     card = coordCard;
+      else if (n.isSystemic)  card = systemicCard;
+    }
     if (card) router.push(`/insights/${card.card_id}`);
   }
 
@@ -207,14 +219,15 @@ export default function Constellation({ accounts, cards }: Props) {
                 x2={PAD.l + (W - PAD.l - PAD.r) / 2} y2={H - PAD.b}
                 stroke="#e4e4e7" strokeWidth={1} strokeDasharray="4 5" />
 
-          {/* X-axis ticks + labels */}
-          {([1, 2, 3, 4] as const).map((v) => {
-            const tx = PAD.l + ((v - 0.4) / 4.6) * (W - PAD.l - PAD.r);
+          {/* X-axis ticks + labels (log-spaced) */}
+          {([0.25, 0.5, 1, 2, 4] as const).map((v) => {
+            const tx = PAD.l + ((Math.log10(v) - LOG_MIN) / (LOG_MAX - LOG_MIN)) * (W - PAD.l - PAD.r);
+            const label = v < 1 ? `$${v * 1000}K` : `$${v}M`;
             return (
               <g key={`xt-${v}`}>
                 <line x1={tx} y1={H - PAD.b} x2={tx} y2={H - PAD.b + 5} stroke="#a1a1aa" strokeWidth={1} />
                 <text x={tx} y={H - PAD.b + 17} textAnchor="middle" fontSize={10} fill="#71717a"
-                      fontFamily="ui-monospace, monospace">${v}M</text>
+                      fontFamily="ui-monospace, monospace">{label}</text>
               </g>
             );
           })}

@@ -1,34 +1,7 @@
 import Link from "next/link";
-import type { InsightCard, PatternKey } from "@/lib/types";
+import type { InsightCard } from "@/lib/types";
+import { PATTERN_TONE, PATTERN_LABEL, TIER_LABEL } from "@/lib/patterns";
 import StripActionButton from "./StripActionButton";
-
-const PATTERN_TONE: Record<PatternKey, "risk" | "opp" | "coord" | "product"> = {
-  hidden_churn_risk:            "risk",
-  executive_friction:           "risk",
-  expansion_ready:              "opp",
-  win_reference_opportunity:    "opp",
-  cross_functional_blind_spot:  "coord",
-  systemic_product_signal:      "product",
-  support_load_concentration:   "product",
-  feedback_to_roadmap_disconnect: "product",
-};
-
-const PATTERN_LABEL: Record<PatternKey, string> = {
-  hidden_churn_risk:              "Hidden Churn Risk",
-  executive_friction:             "Executive Friction",
-  expansion_ready:                "Expansion Ready",
-  win_reference_opportunity:      "Win / Reference",
-  cross_functional_blind_spot:    "Cross-Functional Blind Spot",
-  systemic_product_signal:        "Systemic Product Signal",
-  support_load_concentration:     "Support Load",
-  feedback_to_roadmap_disconnect: "Roadmap Disconnect",
-};
-
-const TIER_LABEL: Record<1 | 2 | 3, string> = {
-  1: "Account",
-  2: "Portfolio",
-  3: "Org",
-};
 
 function formatArr(arr: number) {
   if (arr >= 1_000_000) return `$${(arr / 1_000_000).toFixed(1)}M`;

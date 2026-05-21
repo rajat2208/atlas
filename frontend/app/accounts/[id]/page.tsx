@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAccountDetail } from "@/lib/api";
 import type { AccountDetail, PatternKey, SignalDetection } from "@/lib/types";
+import { PATTERN_TONE, PATTERN_LABEL } from "@/lib/patterns";
 import accountsFixture from "@/lib/data/accounts_fixture.json";
 
 // ─────────────────────────────────────────────────────────
@@ -26,28 +27,6 @@ function healthBarColor(score: number): string {
   if (score >= 60) return "#d97706";
   return "#dc2626";
 }
-
-const PATTERN_TONE: Partial<Record<PatternKey, "risk" | "opp" | "coord" | "product">> = {
-  hidden_churn_risk:              "risk",
-  executive_friction:             "risk",
-  expansion_ready:                "opp",
-  win_reference_opportunity:      "opp",
-  cross_functional_blind_spot:    "coord",
-  systemic_product_signal:        "product",
-  support_load_concentration:     "product",
-  feedback_to_roadmap_disconnect: "product",
-};
-
-const PATTERN_LABEL: Partial<Record<PatternKey, string>> = {
-  hidden_churn_risk:              "Hidden Churn Risk",
-  executive_friction:             "Executive Friction",
-  expansion_ready:                "Expansion Ready",
-  win_reference_opportunity:      "Win / Reference Opportunity",
-  cross_functional_blind_spot:    "Cross-Functional Blind Spot",
-  systemic_product_signal:        "Systemic Product Signal",
-  support_load_concentration:     "Support Load Concentration",
-  feedback_to_roadmap_disconnect: "Feedback-Roadmap Disconnect",
-};
 
 // ─────────────────────────────────────────────────────────
 // Detection card
