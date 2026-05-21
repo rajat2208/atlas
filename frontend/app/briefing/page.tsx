@@ -65,7 +65,7 @@ function formatBriefingDate(dateStr: string): string {
 // Hero
 // ─────────────────────────────────────────────────────────
 
-function BriefingHero({ briefing }: { briefing: Briefing }) {
+function BriefingHero({ briefing, totalPortfolioArr }: { briefing: Briefing; totalPortfolioArr: number }) {
   const { cards, portfolio_pulse, briefing_date } = briefing;
   const countWord = COUNT_WORDS[cards.length] ?? `${cards.length} things`;
   const subject = heroSubject(cards);
@@ -156,7 +156,7 @@ function BriefingHero({ briefing }: { briefing: Briefing }) {
         />
         <MetaStat
           label="ARR under watch"
-          value={`${arrWatch} of $48.6M`}
+          value={`${arrWatch} of ${formatArr(totalPortfolioArr)}`}
         />
         <MetaStat
           label="Last sync"
@@ -229,7 +229,7 @@ function MetaStat({ label, value }: { label: string; value: string }) {
 // ─────────────────────────────────────────────────────────
 
 const MEMORY_ITEMS = [
-  { tone: "risk",    text: "Horizon Travel and Onyx Mining elevated: admin console cluster grew to 8 accounts, $7.9M ARR at risk." },
+  { tone: "risk",    text: "Admin console cluster now spans 14 accounts — Horizon Travel, Onyx Mining, and Solstice Hospitality added this cycle. $14.1M ARR at risk." },
   { tone: "risk",    text: "Beta Analytics: new VP Engineering evaluated Google Workspace on May 19 call — churn signal now 72%." },
   { tone: "opp",     text: "Acme Industries health improved 81→85 after CSM touch. Expansion signal remains active." },
   { tone: "product", text: "Apex Foods renewal in 129 days with hidden churn active — escalation window opening." },
@@ -392,7 +392,10 @@ export default async function BriefingPage() {
 
   return (
     <div>
-      <BriefingHero briefing={briefing} />
+      <BriefingHero
+        briefing={briefing}
+        totalPortfolioArr={portfolio.accounts.reduce((s, a) => s + a.arr, 0)}
+      />
 
       <SinceLastVisit />
 
