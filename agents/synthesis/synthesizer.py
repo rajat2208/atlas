@@ -24,6 +24,12 @@ _PROMPT_PATH = Path(__file__).parent / "prompts" / "synthesize_briefing.md"
 
 _JSON_FENCE = re.compile(r"^```(?:json)?\s*|\s*```$", re.MULTILINE)
 
+# Minimum confidence for a Tier 1/3 (per-account) detection to be surfaced.
+# Signal Agent over-flags: TPs consistently score ≥0.75 while most FPs score
+# below this threshold. Tier 2 portfolio patterns are excluded — they have no
+# per-account confidence score.
+_CONFIDENCE_THRESHOLD = 0.75
+
 # Tier assignment by pattern key
 _PATTERN_TIERS: dict[str, int] = {
     "hidden_churn_risk": 1,
@@ -69,6 +75,10 @@ def _enrich(detections: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
         pattern = d.get("pattern", "")
         tier = _PATTERN_TIERS.get(pattern, 1)
+
+        # Gate: skip low-confidence per-account detections before synthesis.
+        if tier in (1, 3) and d.get("confidence", 0) < _CONFIDENCE_THRESHOLD:
+            continue
         d = dict(d)  # shallow copy — don't mutate caller's data
         d["tier"] = tier
 
@@ -116,6 +126,11 @@ def _portfolio_pulse(all_detections: list[dict[str, Any]]) -> dict[str, Any]:
         tier = _PATTERN_TIERS.get(pattern, 1)
 
         if not d.get("detected"):
+            continue
+
+        # Mirror the same confidence gate used in _enrich so pulse counts
+        # match the cards shown in the briefing.
+        if tier in (1, 3) and d.get("confidence", 0) < _CONFIDENCE_THRESHOLD:
             continue
 
         if tier in (1, 3):
