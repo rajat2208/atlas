@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { InsightCard, PatternKey } from "@/lib/types";
+import StripActionButton from "./StripActionButton";
 
 const PATTERN_TONE: Record<PatternKey, "risk" | "opp" | "coord" | "product"> = {
   hidden_churn_risk:            "risk",
@@ -54,7 +56,13 @@ export default function InsightStrip({ card, index }: Props) {
     .slice(0, 38);
 
   return (
-    <article className="insight-strip">
+    <article className="insight-strip" style={{ position: "relative" }}>
+      {/* Full-row link to drilldown — behind the action button */}
+      <Link
+        href={`/insights/${card.card_id}`}
+        style={{ position: "absolute", inset: 0, zIndex: 0 }}
+        aria-label={`View insight: ${card.title}`}
+      />
       {/* 01, 02, 03 … */}
       <div
         style={{
@@ -212,25 +220,9 @@ export default function InsightStrip({ card, index }: Props) {
           </div>
         </div>
 
-        <button
-          style={{
-            background: "var(--atlas-z-900)",
-            color: "white",
-            border: "none",
-            padding: "7px 12px",
-            borderRadius: 4,
-            fontSize: 12,
-            fontWeight: 500,
-            cursor: "pointer",
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 6,
-            whiteSpace: "nowrap",
-          }}
-        >
-          {actionLabel}
-          <span style={{ fontSize: 10, opacity: 0.7 }}>→</span>
-        </button>
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <StripActionButton card={card} label={actionLabel} />
+        </div>
       </div>
     </article>
   );

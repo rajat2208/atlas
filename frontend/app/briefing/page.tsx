@@ -1,8 +1,11 @@
-import { getBriefing } from "@/lib/api";
+import Link from "next/link";
+import { getBriefing, getPortfolio } from "@/lib/api";
 import InsightStrip from "@/components/atlas/InsightStrip";
 import PortfolioPulse from "@/components/atlas/PortfolioPulse";
-import type { Briefing, InsightCard } from "@/lib/types";
+import Constellation from "@/components/atlas/Constellation";
+import type { Briefing, InsightCard, PortfolioResponse } from "@/lib/types";
 import fixtureData from "@/lib/data/briefing_fixture.json";
+import portfolioFixture from "@/lib/data/portfolio_fixture.json";
 
 // ─────────────────────────────────────────────────────────
 // Helpers
@@ -162,6 +165,30 @@ function BriefingHero({ briefing }: { briefing: Briefing }) {
           label="Accounts with patterns"
           value={`${portfolio_pulse.accounts_with_patterns} of ${portfolio_pulse.total_accounts}`}
         />
+        <div style={{ marginLeft: "auto", display: "flex", gap: 8, alignSelf: "flex-end" }}>
+          <Link
+            href="/eval"
+            style={{
+              display: "inline-flex", alignItems: "center", gap: 6,
+              padding: "7px 12px", borderRadius: 6, fontSize: 13, fontWeight: 500,
+              border: "1px solid var(--atlas-z-200)", background: "transparent",
+              color: "var(--atlas-z-600)", textDecoration: "none",
+            }}
+          >
+            Eval mode
+          </Link>
+          <Link
+            href="/query"
+            style={{
+              display: "inline-flex", alignItems: "center", gap: 6,
+              padding: "7px 12px", borderRadius: 6, fontSize: 13, fontWeight: 500,
+              border: "none", background: "var(--atlas-z-900)",
+              color: "white", textDecoration: "none",
+            }}
+          >
+            Ask Atlas <span style={{ fontFamily: "var(--font-geist-mono)", fontSize: 10, background: "rgba(255,255,255,0.15)", borderRadius: 3, padding: "1px 5px" }}>⌘K</span>
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -208,11 +235,35 @@ export default async function BriefingPage() {
     briefing = fixtureData as Briefing;
   }
 
+  let portfolio: PortfolioResponse;
+  try {
+    portfolio = await getPortfolio();
+  } catch {
+    portfolio = portfolioFixture as PortfolioResponse;
+  }
+
   const { cards, portfolio_pulse } = briefing;
 
   return (
     <div>
       <BriefingHero briefing={briefing} />
+
+      {/* Portfolio constellation */}
+      <div style={{
+        display: "flex", alignItems: "baseline", justifyContent: "space-between",
+        margin: "40px 0 16px",
+      }}>
+        <h2 style={{ fontSize: 14, fontWeight: 600, letterSpacing: "-0.005em", margin: 0 }}>
+          Portfolio constellation
+        </h2>
+        <span style={{
+          fontFamily: "var(--font-geist-mono)", fontSize: 11,
+          textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--atlas-z-500)",
+        }}>
+          {portfolio.accounts.length} accounts · ARR × health · click any pattern
+        </span>
+      </div>
+      <Constellation accounts={portfolio.accounts} cards={cards} />
 
       {/* Today's reading */}
       <div

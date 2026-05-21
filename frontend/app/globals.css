@@ -306,3 +306,199 @@
   height: 100%;
   border-radius: 3px;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Constellation
+═══════════════════════════════════════════════════════════════ */
+
+.constellation {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid var(--atlas-z-200);
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 1180 / 520;
+  width: 100%;
+}
+
+.constellation svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cnode { cursor: pointer; }
+.cnode circle.dot { transition: r 0.15s; }
+
+@keyframes haloPulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%       { opacity: 0.15; transform: scale(1.35); }
+}
+
+.halo {
+  fill: none;
+  pointer-events: none;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.halo-risk  { stroke: var(--atlas-risk); }
+.halo-coord { stroke: var(--atlas-coord); }
+.halo.pulse      { animation: haloPulse 2.6s ease-in-out infinite; }
+.halo.pulse-slow { animation: haloPulse 3.6s ease-in-out infinite; }
+
+@keyframes fieldBreathe {
+  0%, 100% { opacity: 0.28; }
+  50%       { opacity: 0.42; }
+}
+.field-systemic { animation: fieldBreathe 4.5s ease-in-out infinite; }
+
+.const-leader {
+  fill: none;
+  stroke-width: 1;
+  stroke-dasharray: 2 3;
+  opacity: 0.55;
+  pointer-events: none;
+}
+.const-leader.risk    { stroke: var(--atlas-risk); }
+.const-leader.coord   { stroke: var(--atlas-coord); }
+.const-leader.product { stroke: var(--atlas-warn); }
+
+.const-html-annot {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid var(--atlas-z-300);
+  border-left-width: 3px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(9,9,11,0.06);
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  min-width: 200px;
+  max-width: 260px;
+  transition: box-shadow 0.15s;
+}
+.const-html-annot:hover { box-shadow: 0 6px 20px rgba(9,9,11,0.12); }
+.const-html-annot.risk    { border-left-color: var(--atlas-risk); }
+.const-html-annot.coord   { border-left-color: var(--atlas-coord); }
+.const-html-annot.product { border-left-color: var(--atlas-warn); }
+
+.const-html-axis {
+  position: absolute;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--atlas-z-500);
+  pointer-events: none;
+  z-index: 2;
+}
+.const-html-axis.top-left  { top: 10px;    left: 18px; }
+.const-html-axis.bot-right { bottom: 10px; right: 18px; }
+.const-html-axis.q-tr      { top: 10px;    right: 18px; }
+
+.const-html-label {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--atlas-z-600);
+  pointer-events: none;
+  white-space: nowrap;
+  transform: translate(-50%, calc(-100% - 14px));
+  z-index: 2;
+}
+.const-html-label.below { transform: translate(-50%, 14px); }
+
+.cnode-tooltip {
+  position: absolute;
+  background: var(--atlas-z-900);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 11.5px;
+  line-height: 1.4;
+  pointer-events: none;
+  transform: translate(-50%, calc(-100% - 10px));
+  z-index: 5;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+
+.const-legend {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 20px;
+  border-top: 1px solid var(--atlas-z-200);
+  background: var(--atlas-z-50);
+  font-size: 11px;
+  color: var(--atlas-z-500);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-wrap: wrap;
+}
+.const-legend-item { display: inline-flex; align-items: center; gap: 6px; }
+.const-legend-swatch {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  border: 1.5px solid;
+  flex-shrink: 0;
+}
+.const-legend-swatch.risk    { border-color: var(--atlas-risk); }
+.const-legend-swatch.coord   { border-color: var(--atlas-coord); }
+.const-legend-swatch.product { border-color: var(--atlas-warn); background: rgba(217,119,6,0.12); }
+.const-legend-swatch.node    { background: var(--atlas-z-700); border: 0; width: 6px; height: 6px; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Action Flow Modal
+═══════════════════════════════════════════════════════════════ */
+
+.atlas-scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(9,9,11,0.4);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 40px 20px;
+  animation: scrimIn .2s ease-out;
+}
+@keyframes scrimIn { from { opacity: 0; } to { opacity: 1; } }
+
+.atlas-modal {
+  background: #ffffff;
+  width: min(860px, 100%);
+  max-height: 90vh;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.05);
+  animation: modalIn .25s cubic-bezier(.2,.7,.3,1);
+}
+@keyframes modalIn {
+  from { transform: translateY(10px) scale(0.985); opacity: 0; }
+  to   { transform: none; opacity: 1; }
+}
+
+.autonomy-pill {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.autonomy-pill.auto   { background: #e0f2fe; color: #075985; }
+.autonomy-pill.hitl   { background: #fef3c7; color: #92400e; }
+.autonomy-pill.manual { background: var(--atlas-z-100); color: var(--atlas-z-700); }
+
+/* Drilldown reasoning chain */
+.reasoning-step-line::before {
+  content: "";
+  position: absolute;
+  left: 13px; top: 28px; bottom: -6px;
+  width: 1px;
+  background: var(--atlas-z-200);
+}

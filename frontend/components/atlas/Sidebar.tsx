@@ -8,11 +8,15 @@ import {
   Database,
   Clock,
   Layers,
+  MessageSquare,
+  FlaskConical,
 } from "lucide-react";
 
 const NAV = [
-  { href: "/briefing",  label: "Briefing",   Icon: LayoutDashboard, count: 3 },
-  { href: "/portfolio", label: "Portfolio",  Icon: Building2,       count: 25 },
+  { href: "/briefing",  label: "Briefing",   Icon: LayoutDashboard, badge: "3" },
+  { href: "/portfolio", label: "Portfolio",  Icon: Building2,       badge: "25" },
+  { href: "/query",     label: "Ask Atlas",  Icon: MessageSquare,   badge: "⌘K" },
+  { href: "/eval",      label: "Eval Mode",  Icon: FlaskConical,    badge: "DEMO" },
 ];
 
 export default function Sidebar() {
@@ -92,7 +96,7 @@ export default function Sidebar() {
         Workspace
       </div>
 
-      {NAV.map(({ href, label, Icon, count }) => {
+      {NAV.map(({ href, label, Icon, badge }) => {
         const active = pathname === href || pathname.startsWith(href + "/");
         return (
           <Link
@@ -137,7 +141,7 @@ export default function Sidebar() {
                 padding: "1px 6px",
               }}
             >
-              {count}
+              {badge}
             </span>
           </Link>
         );
