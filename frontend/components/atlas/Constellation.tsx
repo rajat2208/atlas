@@ -112,8 +112,11 @@ export default function Constellation({ accounts, cards }: Props) {
   const showCoord    = filter === "all" || filter === "coord";
   const showSystemic = filter === "all" || filter === "product";
 
-  // All nodes navigate to their account page — annotation cards handle pattern-level insight
+  // Pattern nodes → insight drilldown; plain nodes → account page
   function handleNodeClick(n: typeof nodes[0]) {
+    if (n.isRisk && riskCard)         return router.push(`/insights/${riskCard.card_id}`);
+    if (n.isCoord && coordCard)       return router.push(`/insights/${coordCard.card_id}`);
+    if (n.isSystemic && systemicCard) return router.push(`/insights/${systemicCard.card_id}`);
     router.push(`/accounts/${n.account_id}`);
   }
 
