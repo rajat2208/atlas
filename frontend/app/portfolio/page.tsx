@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { getPortfolio } from "@/lib/api";
-import type { AccountSummary, PatternKey } from "@/lib/types";
+import type { AccountSummary, PatternKey, PortfolioResponse } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import portfolioFixture from "@/lib/data/portfolio_fixture.json";
 
 // ---------------------------------------------------------------------------
 // Formatting helpers
@@ -148,21 +149,11 @@ export default async function PortfolioPage({
 }: {
   searchParams: Promise<{ status?: string }>;
 }) {
-  let portfolio;
+  let portfolio: PortfolioResponse;
   try {
     portfolio = await getPortfolio();
   } catch {
-    return (
-      <div className="max-w-5xl mx-auto px-6 py-16 text-center">
-        <p className="text-sm text-zinc-500">
-          Could not connect to the Atlas backend. Make sure{" "}
-          <code className="font-mono bg-zinc-100 px-1 py-0.5 rounded text-xs">
-            uvicorn backend.main:app
-          </code>{" "}
-          is running on port 8000.
-        </p>
-      </div>
-    );
+    portfolio = portfolioFixture as PortfolioResponse;
   }
 
   const { status: rawStatus = "all" } = await searchParams;

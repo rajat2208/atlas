@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { getAccountDetail } from "@/lib/api";
-import type { PatternKey, SignalDetection } from "@/lib/types";
+import type { AccountDetail, PatternKey, SignalDetection } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import accountsFixture from "@/lib/data/accounts_fixture.json";
 
 // ---------------------------------------------------------------------------
 // Formatting helpers
@@ -157,24 +158,50 @@ export default async function AccountDetailPage({
 }) {
   const { id } = await params;
 
-  let data;
+  let data: AccountDetail;
   try {
     data = await getAccountDetail(id);
   } catch {
-    return (
-      <div className="max-w-3xl mx-auto px-6 py-16 text-center">
-        <p className="text-sm text-zinc-500 mb-4">
-          Account <code className="font-mono bg-zinc-100 px-1 py-0.5 rounded text-xs">{id}</code>{" "}
-          not found or backend unavailable.
-        </p>
-        <Link
-          href="/portfolio"
-          className="text-sm text-teal-700 hover:text-teal-900 transition-colors"
-        >
-          ← Back to Portfolio
-        </Link>
-      </div>
+    // Backend unavailable — serve account metadata from bundled fixture.
+    // Detections are empty; signal checks only show when backend is running locally.
+    const acct = (accountsFixture as typeof accountsFixture).find(
+      (a) => a.account_id === id
     );
+    if (!acct) {
+      return (
+        <div className="max-w-3xl mx-auto px-6 py-16 text-center">
+          <p className="text-sm text-zinc-500 mb-4">
+            Account{" "}
+            <code className="font-mono bg-zinc-100 px-1 py-0.5 rounded text-xs">
+              {id}
+            </code>{" "}
+            not found.
+          </p>
+          <Link
+            href="/portfolio"
+            className="text-sm text-teal-700 hover:text-teal-900 transition-colors"
+          >
+            ← Back to Portfolio
+          </Link>
+        </div>
+      );
+    }
+    data = {
+      account: {
+        account_id: acct.account_id,
+        name: acct.name,
+        industry: acct.industry,
+        employee_count: acct.employee_count,
+        arr: acct.arr,
+        contract_start: acct.contract_start,
+        contract_end: acct.contract_end,
+        assigned_csm: acct.assigned_csm,
+        assigned_ae: acct.assigned_ae,
+        executive_sponsor: acct.executive_sponsor,
+        health_score: acct.health_score,
+      },
+      detections: [],
+    };
   }
 
   const { account, detections } = data;

@@ -1,0 +1,363 @@
+{
+  "accounts": [
+    {
+      "account_id": "acc_001",
+      "name": "Acme Industries",
+      "arr": 557000,
+      "health_score": 85,
+      "contract_end": "2026-08-31",
+      "assigned_csm": "Maya Chen",
+      "patterns": [
+        "expansion_ready",
+        "feedback_to_roadmap_disconnect",
+        "win_reference_opportunity"
+      ],
+      "status": "opportunity"
+    },
+    {
+      "account_id": "acc_002",
+      "name": "Beta Analytics",
+      "arr": 267000,
+      "health_score": 71,
+      "contract_end": "2026-08-29",
+      "assigned_csm": "Diego Alvarez",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "executive_friction",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_003",
+      "name": "Helios Robotics",
+      "arr": 1040000,
+      "health_score": 82,
+      "contract_end": "2026-08-30",
+      "assigned_csm": "Priya Iyer",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "executive_friction",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_004",
+      "name": "Nimbus Logistics",
+      "arr": 303000,
+      "health_score": 78,
+      "contract_end": "2027-01-11",
+      "assigned_csm": "Owen Brennan",
+      "patterns": [
+        "expansion_ready",
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "opportunity"
+    },
+    {
+      "account_id": "acc_005",
+      "name": "Orbit Health",
+      "arr": 261000,
+      "health_score": 77,
+      "contract_end": "2026-08-27",
+      "assigned_csm": "Mei Zhang",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_006",
+      "name": "Vertex Capital",
+      "arr": 2322000,
+      "health_score": 80,
+      "contract_end": "2027-06-12",
+      "assigned_csm": "Lucas Reyes",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_007",
+      "name": "Apex Foods",
+      "arr": 1519000,
+      "health_score": 70,
+      "contract_end": "2026-09-27",
+      "assigned_csm": "Lucas Reyes",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_008",
+      "name": "Borealis Energy",
+      "arr": 799000,
+      "health_score": 90,
+      "contract_end": "2027-05-20",
+      "assigned_csm": "Diego Alvarez",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_009",
+      "name": "Cinder Media",
+      "arr": 215000,
+      "health_score": 61,
+      "contract_end": "2027-01-18",
+      "assigned_csm": "Diego Alvarez",
+      "patterns": [
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "healthy"
+    },
+    {
+      "account_id": "acc_010",
+      "name": "Delta Pharma",
+      "arr": 910000,
+      "health_score": 86,
+      "contract_end": "2026-11-06",
+      "assigned_csm": "Hannah Okafor",
+      "patterns": [
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "win_reference_opportunity"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_011",
+      "name": "Ember Telecom",
+      "arr": 405000,
+      "health_score": 61,
+      "contract_end": "2027-03-25",
+      "assigned_csm": "Lucas Reyes",
+      "patterns": [
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_012",
+      "name": "Fjord Insurance",
+      "arr": 109000,
+      "health_score": 65,
+      "contract_end": "2027-02-17",
+      "assigned_csm": "Lucas Reyes",
+      "patterns": [
+        "expansion_ready",
+        "feedback_to_roadmap_disconnect",
+        "support_load_concentration"
+      ],
+      "status": "opportunity"
+    },
+    {
+      "account_id": "acc_013",
+      "name": "Granite Manufacturing",
+      "arr": 339000,
+      "health_score": 66,
+      "contract_end": "2026-12-26",
+      "assigned_csm": "Hannah Okafor",
+      "patterns": [
+        "feedback_to_roadmap_disconnect",
+        "support_load_concentration"
+      ],
+      "status": "healthy"
+    },
+    {
+      "account_id": "acc_014",
+      "name": "Horizon Travel",
+      "arr": 907000,
+      "health_score": 72,
+      "contract_end": "2027-05-13",
+      "assigned_csm": "Diego Alvarez",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "executive_friction",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_015",
+      "name": "Indigo Retail",
+      "arr": 395000,
+      "health_score": 73,
+      "contract_end": "2027-09-04",
+      "assigned_csm": "Lucas Reyes",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_016",
+      "name": "Juniper Biotech",
+      "arr": 477000,
+      "health_score": 88,
+      "contract_end": "2027-02-21",
+      "assigned_csm": "Tomas Bergstrom",
+      "patterns": [
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "healthy"
+    },
+    {
+      "account_id": "acc_017",
+      "name": "Keystone Construction",
+      "arr": 238000,
+      "health_score": 59,
+      "contract_end": "2027-01-09",
+      "assigned_csm": "Owen Brennan",
+      "patterns": [
+        "support_load_concentration"
+      ],
+      "status": "healthy"
+    },
+    {
+      "account_id": "acc_018",
+      "name": "Lyra Aerospace",
+      "arr": 979000,
+      "health_score": 54,
+      "contract_end": "2026-10-02",
+      "assigned_csm": "Diego Alvarez",
+      "patterns": [
+        "expansion_ready"
+      ],
+      "status": "opportunity"
+    },
+    {
+      "account_id": "acc_019",
+      "name": "Meridian Banking",
+      "arr": 1807000,
+      "health_score": 63,
+      "contract_end": "2027-01-27",
+      "assigned_csm": "Owen Brennan",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_020",
+      "name": "Northstar Logistics",
+      "arr": 938000,
+      "health_score": 64,
+      "contract_end": "2027-01-23",
+      "assigned_csm": "Owen Brennan",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_021",
+      "name": "Onyx Mining",
+      "arr": 654000,
+      "health_score": 83,
+      "contract_end": "2026-12-11",
+      "assigned_csm": "Lucas Reyes",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_022",
+      "name": "Pinnacle Consulting",
+      "arr": 554000,
+      "health_score": 63,
+      "contract_end": "2027-08-18",
+      "assigned_csm": "Diego Alvarez",
+      "patterns": [
+        "expansion_ready",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_023",
+      "name": "Quartz Semiconductors",
+      "arr": 440000,
+      "health_score": 92,
+      "contract_end": "2026-09-15",
+      "assigned_csm": "Maya Chen",
+      "patterns": [
+        "expansion_ready",
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "opportunity"
+    },
+    {
+      "account_id": "acc_024",
+      "name": "Rhea Education",
+      "arr": 324000,
+      "health_score": 78,
+      "contract_end": "2026-11-14",
+      "assigned_csm": "Lucas Reyes",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect"
+      ],
+      "status": "at_risk"
+    },
+    {
+      "account_id": "acc_025",
+      "name": "Solstice Hospitality",
+      "arr": 1435000,
+      "health_score": 83,
+      "contract_end": "2027-06-13",
+      "assigned_csm": "Owen Brennan",
+      "patterns": [
+        "cross_functional_blind_spot",
+        "executive_friction",
+        "hidden_churn_risk",
+        "feedback_to_roadmap_disconnect",
+        "systemic_product_signal"
+      ],
+      "status": "at_risk"
+    }
+  ],
+  "summary": {
+    "total": 25,
+    "at_risk": 16,
+    "opportunity": 5,
+    "healthy": 4,
+    "portfolio_patterns": [
+      "feedback_to_roadmap_disconnect",
+      "support_load_concentration",
+      "systemic_product_signal",
+      "win_reference_opportunity"
+    ]
+  }
+}
