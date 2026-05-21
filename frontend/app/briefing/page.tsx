@@ -1,6 +1,8 @@
 import { getBriefing } from "@/lib/api";
 import InsightCard from "@/components/atlas/InsightCard";
 import PortfolioPulse from "@/components/atlas/PortfolioPulse";
+import type { Briefing } from "@/lib/types";
+import fixtureData from "@/lib/data/briefing_fixture.json";
 
 function formatDate(dateStr: string): string {
   try {
@@ -16,21 +18,13 @@ function formatDate(dateStr: string): string {
 }
 
 export default async function BriefingPage() {
-  let briefing;
+  let briefing: Briefing;
   try {
     briefing = await getBriefing();
   } catch {
-    return (
-      <div className="max-w-3xl mx-auto px-6 py-16 text-center">
-        <p className="text-sm text-zinc-500">
-          Could not connect to the Atlas backend. Make sure{" "}
-          <code className="font-mono bg-zinc-100 px-1 py-0.5 rounded text-xs">
-            uvicorn backend.main:app
-          </code>{" "}
-          is running on port 8000.
-        </p>
-      </div>
-    );
+    // Backend unreachable — fall back to bundled fixture so the page renders
+    // on Vercel without a running backend. Replaced by a real synthesis run locally.
+    briefing = fixtureData as Briefing;
   }
 
   const { cards, portfolio_pulse, briefing_date } = briefing;
